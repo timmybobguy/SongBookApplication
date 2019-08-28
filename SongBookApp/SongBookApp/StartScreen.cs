@@ -22,5 +22,10 @@ namespace SongBookApp
             MessageBox.Show("quit command recieved");
             Application.Exit();
         }
+
+        private void StartScreen_Load(object sender, EventArgs e)
+        {
+            testTextBox.Text = "hi";
+        }
     }
 }
