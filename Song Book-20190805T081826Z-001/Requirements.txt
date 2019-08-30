@@ -1,0 +1,11 @@
+-Same functionality 
+-Password login
+-Seperate online + offline
+-PHP that writes the HTML, SQL
+-Database system
+-Export XML songlist from online to offline
+
+- Dont worry about key of song
+
+-copy/download song list
+-update songlist

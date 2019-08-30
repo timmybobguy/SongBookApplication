@@ -1,0 +1,103 @@
+[Root]
+Most Recent Package=Grace Song Book Install
+
+
+[Package|Grace Song Book Install|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Grace Tabernacle\Song Book\Package
+
+[Package|Grace Song Book Install|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Grace Song Book Install|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Grace Song Book Install|Files Found]
+
+[Package|Grace Song Book Install|Files Released]
+
+[Package|Grace Song Book Install|Missing Dependency Information]
+
+[Package|Grace Song Book Install|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\TABCTL32.OCX=
+
+[Package|Grace Song Book Install|Files Added]
+c:\grace tabernacle\song book\songs.xml=
+C:\Grace Tabernacle\Song Book\songs1.xml=
+
+[Package|Grace Song Book Install|Files Removed]
+c:\grace tabernacle\song book\songs.xml=
+
+[Package|Grace Song Book Install|Files In Project]
+C:\Grace Tabernacle\Song Book\Grace Tabernacle Song Book.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Grace Tabernacle\Song Book\Songs.xml=No
+C:\Grace Tabernacle\Song Book\songs1.xml=Yes
+
+[Package|Grace Song Book Install|Configure Registry Files]
+Applicable=No
+
+[Package|Grace Song Book Install|Configure Remote Servers]
+Applicable=No
+
+[Package|Grace Song Book Install|Install Locations]
+C:\Grace Tabernacle\Song Book\Grace Tabernacle Song Book.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Grace Tabernacle\Song Book\Songs.xml=$(AppPath)
+C:\Grace Tabernacle\Song Book\songs1.xml=$(AppPath)
+
+[Package|Grace Song Book Install|Configure Shared Files]
+Applicable=Yes
+C:\Grace Tabernacle\Song Book\Grace Tabernacle Song Book.exe=No
+C:\Grace Tabernacle\Song Book\Songs.xml=No
+C:\Grace Tabernacle\Song Book\songs1.xml=No
+
+[Package|Grace Song Book Install|Distribution]
+Type=single
+Size=
+Title=pSongBook
+
+[Package|Grace Song Book Install|Package]
+PackageFolder=C:\Grace Tabernacle\Song Book\Package
+ProjectFolder=C:\Grace Tabernacle\Song Book
+ServerSideCab=
+File1=C:\Grace Tabernacle\Song Book\Package\setup.exe
+File2=C:\Grace Tabernacle\Song Book\Package\Setup.Lst
+File3=C:\Grace Tabernacle\Song Book\Package\Grace Tabernacle Song Book.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Grace Song Book Install|IconGroups]
+Group0=pSongBook
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Grace Song Book Install|pSongBook]
+Icon1="Grace Tabernacle Song Book.exe"
+Title1=pSongBook
+StartIn1=$(AppPath)
+Key1=Icon1

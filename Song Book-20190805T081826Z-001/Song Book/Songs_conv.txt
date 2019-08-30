@@ -1,0 +1,2867 @@
+﻿SongID	BookID	SongNum	Title	Key	Body	Modified	Search	Author
+1	1	0	Oh Yes I Love that Man of Galilee		Oh I love that Man from Galilee,
+For He's done so very much for me.
+He's forgiven all my sins, 
+Placed the Holy Ghost within;
+Oh I love that man from Galilee.
+
+Down on my knees, I found my Jesus,
+Down on my knees, I found the Lord.
+Not on a mountain, nor in a valley, 
+But on my knees, I found the Lord.			
+2	1	1	Can't you See Why I'm Happy		Can't you see why I'm happy? 
+I've accepted the word of the Lord
+The revealed word that was spoken
+By the prophet of Malachi four
+
+I saw love, mercy and grace
+I saw love, mercy and grace
+I envisioned his beauty 
+I looked on his face
+I saw love, mercy and grace			
+3	1	2	He is Lord		He is Lord, He is Lord,
+He has risen from the dead
+And He is Lord,
+Every knee shall bow, 
+Every tongue confess,
+That Jesus Christ is Lord
+
+You are Lord; you are Lord,
+you have risen from the dead
+And you are Lord,
+Every knee shall bow, 
+Every tongue confess,
+That Jesus Christ is Lord
+
+
+He's my Lord; He's my Lord,
+He has risen from the dead
+And He's my Lord,
+Every knee shall bow, 
+Every tongue confess,
+That Jesus Christ is Lord			
+4	1	3	God is not a Man that he Should Lie.		God is not a man, that he should lie;
+Neither the son of man, that he should repent:
+Hath he said, and shall he not do it?
+Or hath he spoken,
+And shall he not make it good?
+
+Behold I have received commandment to bless:
+And he hath blessed;
+And I cannot reverse it.
+For God is not a man, that he should lie,
+Neither the son of man that he should repent			
+5	1	4	Teach Me Lord to Wait		Teach me, Lord, to wait 
+Down on my knees,
+Till in Your own good time 
+You answer my pleas;
+Teach me not to rely 
+On what others do,
+But to wait in prayer 
+For an answer from you.
+
+CHORUS
+They that wait upon the Lord,
+Shall renew their strength,
+They shall mount up with wings as eagles,
+They shall run and not be weary, 
+They shall walk and not faint;
+Teach me, Lord, Teach me, Lord, to wait.
+
+Teach me, Lord, to wait 
+While hearts are aflame,
+Help me humble my pride 
+And call on Your Name;
+Keep my faith renewed, 
+Keep my eyes on thee,
+Help me be on this earth 
+What you want me to be.			
+6	1	5	His Name is Wonderful		His Name is Wonderful;
+His Name is Wonderful;
+His Name is Wonderful, 
+Jesus my Lord.
+He is the mighty King,
+Master of everything,
+His Name is Wonderful, 
+Jesus my Lord.
+
+He's the great Shepherd,
+The Rock of all ages,
+Almighty God is He.
+Bow down before Him,
+Love and adore Him,
+His Name is Wonderful, 
+Jesus my Lord.			
+7	1	6	He's Able, he's Able		He's able, He's able,
+I know my Lord is able.
+I know my Lord is able
+To carry me through.
+He's able, He's able,
+I know my Lord is able,
+I know my Lord is able
+To carry me through.
+
+He heals the broken hearted
+And sets the captive free
+He makes the lame to walk again
+And causes the blind to see.
+He's able, He's able,
+I know my Lord is able,
+I know my Lord is able
+To carry me through.			
+8	1	7	God is so Good		God is so good,
+God is so good,
+God is so good,
+He's so good to me.
+
+He died for my sin
+He died for my sin
+He died for my sin
+He's so good to me.
+
+He set me free 
+He set me free
+He set me free
+He is so good to me.
+
+God is so good 
+He died for my sin
+He set me free
+He is so good to me.			
+9	1	8	Tis Burning in My Soul.		Tis burning in my soul, 
+tis burning in my soul;
+The fire of heavenly love 
+is burning in my soul,
+The Holy Spirit came,  
+all glory to His name!
+The fire of heavenly love 
+is burning in my soul.
+
+Let the fire burn hallelujah
+Let the fire burn
+In this heart of mine
+In this heart of mine
+Let the fire burn hallelujah
+Let the fire burn 
+Bringing joy joy joy	2005-03-13T10:17:13	TIS BURNING IN MY SOUL. TIS BURNING IN MY SOUL,
+LET THE FIRE BURN HALLELUJAH	
+10	1	9	Softly and Tenderly		Softly and tenderly 
+Jesus is calling,
+Calling for you and for me;
+See, on the portals 
+He's waiting and watching,
+Watching for you and for me.
+
+CHORUS
+Come home, come home,
+Ye who are weary, come home;
+Earnestly, tenderly, 
+Jesus is calling,
+Calling, O sinner, come home!
+
+Why should we tarry 
+When Jesus is pleading,
+Pleading for you and for me?
+Why should we linger 
+And heed not His mercies,
+Mercies for you and for me?
+
+Time is now fleeting, 
+The moments are passing,
+Passing from you and from me;
+Shadows are gathering, 
+Jesus is coming,
+Coming for you and for me.
+
+Oh! for the wonderful love 
+He has promised,
+Promised for you and for me;
+Though we have sinned, 
+He has mercy and pardon,
+Pardon for you and for me.	2005-03-13T10:15:45	SOFTLY AND TENDERLY SOFTLY AND TENDERLY
+COME HOME, COME HOME,
+WHY SHOULD WE TARRY
+TIME IS NOW FLEETING,
+OH! FOR THE WONDERFUL LOVE	
+11	1	10	Mine Eyes Have Seen the Glory		Mine eyes have seen the glory
+of the coming of the Lord;
+He is trampling out the vintage 
+Where the grapes of wrath are stored;
+He hath loosed the fateful lightning
+of His terrible swift sword;
+His truth is marching on.
+
+CHORUS
+Glory! Glory, hallelujah!
+Glory! Glory, hallelujah!
+Glory! Glory, hallelujah!
+His Truth is marching on.
+
+I have seen Him in the watchfires
+of a hundred circling camps;
+They have builded Him an altar
+in the evening dews and damps;
+I can read His righteous sentence
+by the dim and flaring lamps;
+His day is marching on.
+
+He has sounded forth the trumpet
+that shall never sound retreat;
+He is sifting out the hearts of men
+before His judgment seat;
+Oh be swift, my soul, to answer Him!
+be jubilant, my feet!
+Our God is marching on.
+
+In the beauty of the lilies
+Christ was born across the sea,
+With a glory in His bosom
+that transfigures you and me;
+As He died to make men holy,
+let us die to make men free;
+While God is marching on.	2005-03-13T10:13:54	MINE EYES HAVE SEEN THE GLORY MINE EYES HAVE SEEN THE GLORY
+GLORY! GLORY, HALLELUJAH!
+I HAVE SEEN HIM IN THE WATCHFIRES
+HE HAS SOUNDED FORTH THE TRUMPET
+IN THE BEAUTY OF THE LILIES	
+12	1	11	I am not Ashamed to Own my Lord,		I am not ashamed to own my Lord,
+Or to defend His cause;
+Maintain the Honour of His Word,
+The glory of His cross.
+
+CHORUS
+At the cross, at the cross
+Where I first saw the light,
+And the burdens of my heart, rolled away,
+It was there by faith, 
+I received my sight
+And now I am happy all the day.
+
+Jesus my Lord, I know His name
+His name is all my trust,
+Nor will He put my soul to shame,
+Nor let my hope be lost.
+
+Firm as His throne, His promise stands,
+And He can well secure
+What I've commited to His hands,
+Till the decisive hour.
+
+Then will He own my worthless name
+Before His Father's face;
+And in the New Jerusalem.
+Appoint my soul a place.	2005-03-13T10:10:10	I AM NOT ASHAMED TO OWN MY LORD, I AM NOT ASHAMED TO OWN MY LORD,
+AT THE CROSS, AT THE CROSS
+JESUS MY LORD, I KNOW HIS NAME
+FIRM AS HIS THRONE, HIS PROMISE STANDS,
+THEN WILL HE OWN MY WORTHLESS NAME	
+13	1	12	Magnify the Lord with me.		Oh magnify the Lord with me,
+Blessed Lamb of Calvary,
+For His grace so rich and free,
+Magnify the Lord with me.
+Magnify the Lord with me,
+Blessed Lamb of Calvary,
+Jesus gives the victory
+Oh magnify the Lord with me.	2005-03-13T10:13:44	MAGNIFY THE LORD WITH ME. OH MAGNIFY THE LORD WITH ME,	
+14	1	13	As I Journey Through the Land		As I journey through the land
+Singing as I go,
+Pointing souls to Calvary 
+To the crimson flow,
+Many arrows pierce my soul
+From without, within;
+But my Lord leads me on,
+Through Him I must win.
+
+CHORUS
+Oh I want to see Him, look upon His face,
+There to sing forever, of His saving Grace;
+On the streets of Glory let my lift my voice;
+Cares all past, home at last, ever to rejoice.
+
+When in service for my lord,
+Dark may be the night,
+But i'll cling more close to him,
+He will give me light,
+Satans snares may vex my soul,
+Turn my thoughts aside,
+But my Lord goes ahead,
+Leads whate'er betide.
+
+When in valleys low I look,
+Tward the mountain hieght,
+And behold my saviour there,
+Leading in the fight,
+With a tender hand outstreched,
+Tward the valley low,
+Guiding me I can see as I onward go.
+
+When before me billows rise,
+From the mighty deep,
+Then my Lord directs my barque,
+He doth safely keep,
+And He leads me gently on,
+Through this world below,
+He's a real friend to me,
+O I love Him so.	2005-07-24T19:38:30	AS I JOURNEY THROUGH THE LAND AS I JOURNEY THROUGH THE LAND
+OH I WANT TO SEE HIM, LOOK UPON HIS FACE,
+WHEN IN SERVICE FOR MY LORD,
+WHEN IN VALLEYS LOW I LOOK,
+WHEN BEFORE ME BILLOWS RISE,	
+16	1	14	When the Trumpet of the Lord Shall Sound		When the trumpet of the Lord shall sound
+And time shall be no more,
+And the morning breaks eternal,
+Bright and fair;
+When the saved of earth shall gather
+Over on the other shore,
+And the roll is called up yonder,
+I'll be there.
+
+CHORUS
+When the roll is called up yonder,
+When the roll is called up yonder,
+When the roll is called up yonder,
+When the roll is called up yonder,
+I'll be there.
+
+On that bright and cloudless morning
+When the dead in Christ shall rise,
+And the glory of His resurrection share;
+When His chosen ones shall gather
+To their home beyond the skies,
+And the roll is called up yonder,
+I'll be there.
+
+Let us labor for the Master 
+From the dawn till setting sun,
+Let us talk of all His wondrous 
+Love and care;
+Then when all of life is over, 
+And our work on earth is done,
+And the roll is called up yonder,
+I'll be there.	2005-03-13T10:18:04	WHEN THE TRUMPET OF THE LORD SHALL SOUND WHEN THE TRUMPET OF THE LORD SHALL SOUND
+WHEN THE ROLL IS CALLED UP YONDER,
+ON THAT BRIGHT AND CLOUDLESS MORNING
+LET US LABOR FOR THE MASTER	
+17	1	15	Jesus is Alive		Jesus is alive, Jesus is alive.
+Sin and death must go,
+They are conquered foe,
+For Jesus is alive.	2005-03-13T10:12:48	JESUS IS ALIVE JESUS IS ALIVE, JESUS IS ALIVE.	
+18	1	16	On a Hill far Away		On a hill far away
+Stood an old rugged cross
+The emblem of suffering and shame
+And I love that old cross 
+Where the dearest and best
+For a world of lost sinners was slain
+
+CHORUS
+So I'll cherish the old rugged cross 
+Till my trophies at last I lay down 
+I will cling to the old rugged cross
+And exchange it some day for a crown
+
+Oh that old rugged cross 
+So despised by the world
+Has a wondrous attraction for me
+For the dear Lamb of God
+Left his glory above 
+To bear it to dark Calvary
+
+In that old rugged cross
+Stained with blood so divine
+A wondrous beauty I see 
+For 'twas on that old cross
+Jesus suffered and died
+To pardon and sanctify me 
+
+To the old rugged cross
+I will ever be true
+It's shame and reproach gladly bear
+Then he'll call me some day
+To my home far away
+Where his glory forever I'll share	2005-03-13T10:14:52	ON A HILL FAR AWAY ON A HILL FAR AWAY
+SO I'LL CHERISH THE OLD RUGGED CROSS
+OH THAT OLD RUGGED CROSS
+IN THAT OLD RUGGED CROSS
+TO THE OLD RUGGED CROSS	
+19	1	17	I Thirsted in a Barren Land of Sin and Shame		I thirsted in a barren land of sin and shame
+And nothing satisfying there I found
+But to the blessed cross of Christ
+One day I came  
+Where springs of living water did abound
+
+CHORUS
+Drinking at the springs of living water 
+Happy now am I my soul is satisfied
+Drinking at the springs of living water 
+O wonderful and bountifully supply
+
+How sweet the living water 
+From the hills of god 
+It makes me glad and happy all the way
+Now glory, grace and blessing
+Mark the path I've trod
+I'm shouting hallelujah every day  
+
+O sinner won't you come today to Calvary
+A fountain there is flowing deep and wide
+The savior now invites you
+To the water free
+Where thirsting spirits can be satisfied	2005-03-13T10:11:18	I THIRSTED IN A BARREN LAND OF SIN AND SHAME I THIRSTED IN A BARREN LAND OF SIN AND SHAME
+DRINKING AT THE SPRINGS OF LIVING WATER
+HOW SWEET THE LIVING WATER
+O SINNER WON'T YOU COME TODAY TO CALVARY	
+20	1	18	Burn Burn Holy Spirt		Burn, burn Holy Spirit, burn in me,
+Set my heart on fire.
+Fill me with the Holy Ghost,
+And Gods' full desire,
+Make me like the Christ of old, 
+Healing and raising the dead,
+Give me the power that Jesus had,
+Through the blood that was shed.	2005-03-13T10:07:22	BURN BURN HOLY SPIRT BURN, BURN HOLY SPIRIT, BURN IN ME,	
+21	1	19	Redeemed how I Love to Proclaim it		Redeemed how I love to proclaim it,
+Redeemed by the blood of the lamb;
+Redeemed through his infinite mercy,
+His child, and forever, I am.
+
+CHORUS
+Redeemed, redeemed!
+Redeemed by the blood of the lamb;
+Redeemed, redeemed!
+His child, and forever, I am.
+
+Redeemed and so happy in Jesus,
+No language my rapture can tell;
+I know that the light of his presence,
+With me doth continually dwell.
+
+I think of my blessed redeemer,
+I think of him all the day long;
+I sing for I cannot be silent;
+His love is the theme of my song.
+
+I know I shall see in his beauty,
+The king in whose law I delight;
+Who lovingly guardeth my footsteps,
+And giveth me songs in the night.	2005-03-13T10:15:27	REDEEMED HOW I LOVE TO PROCLAIM IT REDEEMED HOW I LOVE TO PROCLAIM IT,
+REDEEMED, REDEEMED!
+REDEEMED AND SO HAPPY IN JESUS,
+I THINK OF MY BLESSED REDEEMER,
+I KNOW I SHALL SEE IN HIS BEAUTY,	
+22	1	20	I Believe God I Believe God		I believe God, I believe God,
+Ask what you will and it shall be done;
+Trust and obey, believe it and say:
+I believe, I believe God
+
+And if you want salvation now,
+And the Holy Ghost and power,
+Trust and obey, believe it and say:
+I believe, I believe God.	2005-03-13T10:10:26	I BELIEVE GOD I BELIEVE GOD I BELIEVE GOD, I BELIEVE GOD,
+AND IF YOU WANT SALVATION NOW,	
+23	1	21	Let me Walk, Blessed Lord,		Let me walk, blessed Lord, 
+In the way Thou hast gone,
+Leading straight to the land above;
+Giving cheer everywhere, 
+To the sad and the lone,
+Fill my way every day with love.
+
+CHORUS
+Fill my way every day with love,
+As I walk with the heavenly Dove;
+Let me go all the while, with 
+A song and a smile,
+Fill my way every day with love.
+
+Keep me close to the side of 
+My Saviour and Guide,
+Let me never in darkness rove;
+Keep my path free from wrath, 
+And my soul satisfied,
+Fill my way every day with love.
+
+Soon the race will be o'er, and 
+I'll travel no more,
+But abide in my home above;
+Let me sing, blessed King, 
+All the way to the shore,
+Fill my way every day with love.	2005-03-13T10:13:16	LET ME WALK, BLESSED LORD, LET ME WALK, BLESSED LORD,
+FILL MY WAY EVERY DAY WITH LOVE,
+KEEP ME CLOSE TO THE SIDE OF
+SOON THE RACE WILL BE O'ER, AND	
+24	1	22	Somewhere Beyond the Blue		Somewhere beyond the blue,
+There's a mansion for me,
+Somewhere beyond the blue,
+I am longing to be,
+I'll see my savior's face,
+ And sing of saving grace,
+Somewhere beyond the blue some day.	2005-03-13T10:15:51	SOMEWHERE BEYOND THE BLUE SOMEWHERE BEYOND THE BLUE,	
+25	1	23	Peter and John Went to Pray,		Peter and John went to pray,
+They met a lame man on the way,
+He held out his palms,
+And he asked for alms,
+And this is what peter did say:
+
+Silver and gold have I none,
+But such as I have give I thee,
+In the name of Jesus Christ,
+Of Nazareth rise up and walk.
+
+Walking and leaping and praising God,
+Walking and leaping and praising God,
+In the name of Jesus Christ,
+Of Nazareth rise up and walk.	2005-03-13T10:15:21	PETER AND JOHN WENT TO PRAY, PETER AND JOHN WENT TO PRAY,
+SILVER AND GOLD HAVE I NONE,
+WALKING AND LEAPING AND PRAISING GOD,	
+26	1	24	I've Got a Home in Glory Land		I've got a home in glory land,
+That outshines the sun.
+I've got a home in glory land,
+That outshines the sun.
+I've got a home in glory land,
+That outshines the sun.
+Way beyond the blue.
+
+Do Lord, O do Lord, O do remember me,
+Do Lord, O do Lord, O do remember me,
+Do Lord, O do Lord, O do remember me,
+Way beyond the blue.
+
+I took Jesus as my Savior, 
+you take him too, 
+I took Jesus as my Savior, 
+you take him too, 
+I took Jesus as my Savior, 
+you take him too, 
+While He's calling you.	2005-03-13T10:12:36	I'VE GOT A HOME IN GLORY LAND I'VE GOT A HOME IN GLORY LAND,
+DO LORD, O DO LORD, O DO REMEMBER ME,
+I TOOK JESUS AS MY SAVIOR,	
+27	1	25	That God Should Love a Sinner Such as I,		That God should love a sinner such as I,
+Should yearn to turn my sorrow into bliss,
+Nor rest till He had planned to draw me nigh,
+How wonderful is love like this.
+
+CHORUS
+Such love, such wondrous love,
+Such love, such wondrous love,
+That God should love a sinner such as I,
+How wonderful is love like this.
+
+That Christ should join so freely in the scheme,
+Although it meant His death on Calvary,
+Did ever human tongue find nobler theme,
+Than love divine that ransomed me?
+
+That for a willful outcast such as I,
+The Father planned, the Savoir bled and died;
+Redemption for a worthless slave to buy,
+Who long had law and grace defied.
+
+And now He calls me to His heart, a son,
+He asks me not to fill a servants place,
+The far off country wanderings are all done,
+Wide open are His arms of grace.	2005-03-13T10:16:09	THAT GOD SHOULD LOVE A SINNER SUCH AS I, THAT GOD SHOULD LOVE A SINNER SUCH AS I,
+SUCH LOVE, SUCH WONDROUS LOVE,
+THAT CHRIST SHOULD JOIN SO FREELY IN THE SCHEME,
+THAT FOR A WILLFUL OUTCAST SUCH AS I,
+AND NOW HE CALLS ME TO HIS HEART, A SON,	
+28	1	26	I am Redeemed		I am redeemed,
+By the blood of the Lamb,
+I am redeemed, and I know I am.
+I am redeemed by the blood of the Lamb,
+Saved from sin and I know I am,
+All my sins are taken away, 
+Praise the Lord.	2005-03-13T10:10:14	I AM REDEEMED I AM REDEEMED,	
+29	1	27	Down at the Cross		Down at the cross where my Saviour died, 
+Down where for cleansing from sin I cried,
+There to my heart was the blood applied,
+Glory to His Name.
+
+CHORUS
+Glory to His Name,
+Glory to His Name,
+There to my heart was the blood applied,
+Glory to His Name.
+
+I am so wondrously saved from sin,
+Jesus so sweetly abides within,
+There at the cross where He took me in,
+Glory to His Name.
+
+Oh precious fountain that saves from sin,
+I am so glad I have entered in,
+There Jesus saves me and keeps me clean,
+Glory to His Name.
+
+Come to this fountain so rich and sweet,
+Cast thy poor soul at the Saviours' feet, 
+Plunge in today and be made complete,
+Glory to His Name.	2005-03-13T10:07:42	DOWN AT THE CROSS DOWN AT THE CROSS WHERE MY SAVIOUR DIED,
+GLORY TO HIS NAME,
+I AM SO WONDROUSLY SAVED FROM SIN,
+OH PRECIOUS FOUNTAIN THAT SAVES FROM SIN,
+COME TO THIS FOUNTAIN SO RICH AND SWEET,	
+30	1	28	Faith Turns the Night Into the Day		Faith turns the night into the day,
+Love drives the doubts and fears away;
+And my heart is singing,
+With the joy bells ringing.
+List to the pealing of its chimes;
+Faith wins the victory every time,
+Hallelujah, what a saviour,
+And just to know that he is mine.	2005-03-13T10:08:09	FAITH TURNS THE NIGHT INTO THE DAY FAITH TURNS THE NIGHT INTO THE DAY,	
+31	1	29	Onward Christian Soldiers		Onward, Christian soldiers! 
+Marching as to war,
+Looking unto Jesus,
+Who has gone before,
+Christ, the royal Master, 
+Leads against the foe,
+Forward into battle, 
+See His banners go!
+
+CHORUS
+Onward, Christian soldiers!
+Marching as to war,
+With the cross of Jesus 
+Going on before.
+
+At the name of Jesus,
+Satans host doth flee,
+On then christian soildiers,
+On to victory,
+Hells foundations quiver,
+At the shout of praise,
+Brothers lift your voices,
+Loud your anthems raise.
+
+Like a mighty army 
+Moves the Church of God;
+Brothers, we are treading 
+Where the saints have trod;
+We are not divided, 
+All one body we;
+One in hope and doctrine, 
+One in charity.
+
+Crowns and thrones may perish,
+Kingdoms rise and wane,
+But the Church of Jesus 
+Constant will remain;
+Gates of hell can never 
+'Gainst that Church prevail;
+We have Christ's own promise, 
+that can never fail.
+
+Onward, then ye people! 
+Join our happy throng;
+Blend with ours your voices 
+In the triumph song;
+Glory, praise, and honour, 
+Unto Christ the King;
+This thro' countless ages 
+Men and angels sing.	2005-07-03T11:59:58	ONWARD CHRISTIAN SOLDIERS ONWARD, CHRISTIAN SOLDIERS!
+ONWARD, CHRISTIAN SOLDIERS!
+AT THE NAME OF JESUS,
+LIKE A MIGHTY ARMY
+CROWNS AND THRONES MAY PERISH,
+ONWARD, THEN YE PEOPLE!	
+32	1	30	We'll Give the Glory to Jesus		We'll give the glory to Jesus,
+And tell of His love, 
+And tell of His love, 
+We'll give the glory to Jesus,
+And tell of His wonderful love.	2005-08-07T12:05:12	WE'LL GIVE THE GLORY TO JESUS WE'LL GIVE THE GLORY TO JESUS,	
+33	1	31	Have you Been to Jesus		Have you been to Jesus 
+For the cleansing power?
+Are you washed in the blood 
+Of the Lamb?
+Are you fully trusting 
+In His grace this hour?
+Are you washed in the blood 
+Of the Lamb?
+
+CHORUS
+Are you washed in the blood,
+In the soul-cleansing blood 
+Of the Lamb?
+Are your garments spotless?
+Are they white as snow?
+Are you washed in the blood 
+Of the Lamb?
+
+Are you walking daily 
+By the Savior's side?
+Are you washed in the blood 
+Of the Lamb?
+Do you rest each 
+Moment in the Crucified?
+Are you washed in the blood 
+Of the Lamb?
+
+When the Bridegroom cometh
+Will your robes be white?
+Pure and white in the blood 
+Of the Lamb?
+Will your soul be ready 
+For the mansions bright,
+Are you washed in the blood 
+Of the Lamb?
+
+Lay aside the garments 
+That are stained by sin,
+And be washed in the blood 
+Of the Lamb?
+There's a fountain flowing 
+For the soul unclean,
+Oh be washed in the blood 
+Of the Lamb.	2005-06-26T21:08:25	HAVE YOU BEEN TO JESUS HAVE YOU BEEN TO JESUS
+ARE YOU WASHED IN THE BLOOD,
+ARE YOU WALKING DAILY
+WHEN THE BRIDEGROOM COMETH
+LAY ASIDE THE GARMENTS	
+34	1	32	I love Him Better Every day		I love Him better every day
+I love Him better every day.
+Close by His side, I will abide,
+I love Him better every day.	2005-03-13T10:10:52	I LOVE HIM BETTER EVERY DAY I LOVE HIM BETTER EVERY DAY	
+35	1	33	King of my Life I Crown Thee Now,		King of my life I crown Thee now,
+Thine shall the glory be;
+Lest I forget Thy thorn-crowned brow,
+Lead me to Calvary.
+
+CHORUS
+Lest I forget Gethsemane,
+Lest I forget Thine agony,
+Lest I forget Thy love for me,
+Lead me to Calvary.
+
+Show me the tomb where Thou wast laid,
+Tenderly mourned and wept:
+Angels in robes of light arrayed,
+Guarded Thee whilst Thou slept.
+
+Let me, like Mary, through the gloom,
+Come with a gift to Thee:
+Show to me now the empty tomb,
+Lead me to Calvary.
+
+May I be willing, Lord, to bear,
+Daily my cross for Thee:
+Even Thy cup of grief to share,
+Thou hast borne all for me.
+
+Fill me, Oh Lord, with Thy desire,
+For all who know not Thee:
+Then touch my lips with holy fire,
+To speak of Calvary.	2005-03-13T10:13:13	KING OF MY LIFE I CROWN THEE NOW, KING OF MY LIFE I CROWN THEE NOW,
+LEST I FORGET GETHSEMANE,
+SHOW ME THE TOMB WHERE THOU WAST LAID,
+LET ME, LIKE MARY, THROUGH THE GLOOM,
+MAY I BE WILLING, LORD, TO BEAR,
+FILL ME, OH LORD, WITH THY DESIRE,	
+36	1	34	Oh Lord my God!		Oh Lord my God!  
+When I in awesome wonder,
+Consider all the works 
+Thy hands have made;
+I see the stars, 
+I hear the rolling thunder,
+Thy pow'r throughout 
+The universe displayed.
+
+CHORUS
+Then sings my soul, 
+My Saviour God to Thee;
+How great Thou art, 
+How great Thou art!
+Then sings my soul, 
+My Saviour God to Thee;
+How great Thou art, 
+How great Thou art!
+
+When through the woods,
+And forest glades I wander
+And hear the birds, 
+Sing sweetly in the trees;
+When I look down,
+From lofty mountain grandeur
+And hear the brook 
+And feel the gentle breeze.
+
+And when I think that God, 
+His Son not sparing,
+Sent Him to die, 
+I scarce can take it in;
+That on the cross, 
+My burden gladly bearing,
+He bled and died, 
+To take away my sin.
+
+When Christ shall come, 
+With shout of acclamation
+And take me home, 
+What joy shall fill my heart!
+Then I shall bow, 
+In humble adoration
+And there proclaim, 
+My God, how great
+Thou art!	2010-01-03T12:45:48	OH LORD MY GOD! OH LORD MY GOD!
+THEN SINGS MY SOUL,
+WHEN THROUGH THE WOODS,
+AND WHEN I THINK THAT GOD,
+WHEN CHRIST SHALL COME,	
+37	1	35	For By Grace		For by grace are ye saved,
+Through faith,
+And that not of yourselves,
+It is the gift of god, not of works,
+Lest any man should boast,
+For by grace are ye saved, 
+Through  faith.	2005-03-13T10:08:12	FOR BY GRACE FOR BY GRACE ARE YE SAVED,	
+38	1	36	My Faith Looks up to Thee		My faith looks up to Thee,
+Thou Lamb of Calvary,
+Savior divine!
+Now hear me while I pray,
+Take all my guilt away,
+O let me from this day
+Be wholly Thine!
+
+by Thy rich grace impart
+Strength to my fainting heart,
+My zeal inspire;
+As Thou hast died for me,
+O may my love to Thee
+Pure, warm, and changeless be,
+A living fire!
+
+While life's dark maze I tread,
+And griefs around me spread,
+Be Thou my Guide;
+Bid darkness turn to day,
+Wipe sorrow's tears away,
+Nor let me ever stray
+From Thee aside.
+
+When Jesus comes for me,
+In power and majesty,
+To take me home.
+Blest saviour, then in love,
+Fear and distrust remove,
+O bear me safe above,
+A ransomed soul.	2005-03-13T10:14:00	MY FAITH LOOKS UP TO THEE MY FAITH LOOKS UP TO THEE,
+BY THY RICH GRACE IMPART
+WHILE LIFE'S DARK MAZE I TREAD,
+WHEN JESUS COMES FOR ME,	
+39	1	37	Sing the Wondrous Love of Jesus,		Sing the wondrous love of Jesus,
+Sing His mercy and His grace;
+In the mansions bright and blessed,
+He'll prepare for us a place.
+
+CHORUS
+When we all get to heaven,
+What a day of rejoicing that will be!
+When we all see Jesus,
+We'll sing and shout the victory.
+
+While we walk the pilgrim pathway,
+Clouds will over-spread the sky;
+But when trav'ling days are over,
+Not a shadow, not a sigh.
+
+Let us then be true and faithful,
+Trusting, serving ev'ry day;
+Just one glimpse of Him in glory
+Will the toils of life repay.
+
+Onward to the prize before us!
+Soon His beauty we'll behold;
+Soon the pearly gates will open,
+We shall tread the streets of gold.	2005-03-13T10:15:39	SING THE WONDROUS LOVE OF JESUS, SING THE WONDROUS LOVE OF JESUS,
+WHEN WE ALL GET TO HEAVEN,
+WHILE WE WALK THE PILGRIM PATHWAY,
+LET US THEN BE TRUE AND FAITHFUL,
+ONWARD TO THE PRIZE BEFORE US!	
+40	1	38	In the Name of Jesus		In the Name of Jesus, 
+In the Name of Jesus
+We have the victory,
+In the Name of Jesus, 
+In the Name of Jesus
+Demons will have to flee.
+
+When we stand, 
+In the Name of Jesus,
+Tell me who can stand before,
+In the precious Name of Jesus,
+We have the victory.	2005-03-13T10:12:09	IN THE NAME OF JESUS IN THE NAME OF JESUS,
+WHEN WE STAND,	
+41	1	39	Blessed Assurace		Blessed assurance, 
+Jesus is mine!
+Oh, what a foretaste 
+Of glory divine!
+Heir of salvation, 
+Purchase of God,
+Born of His Spirit, 
+Washed in His Blood.
+
+CHORUS
+This is my story, 
+This is my song.
+Praising my Savior, 
+All the day long;
+This is my story, 
+This is my song.
+Praising my Savior, 
+All the day long.
+
+Perfect submission, 
+Perfect delight!
+Visions of rapture 
+Now burst on my sight;
+Angels, descending, 
+Bring from above,
+Echoes of mercy, 
+Whispers of love.
+
+Perfect submission, 
+All is at rest!
+I, in my Savior, 
+Am happy and blest;
+Watching and waiting, 
+Looking above,
+Filled with His goodness, 
+Lost in His love.	2005-03-13T10:07:12	BLESSED ASSURACE BLESSED ASSURANCE,
+THIS IS MY STORY,
+PERFECT SUBMISSION,
+PERFECT SUBMISSION,	
+42	1	40	There's Never Been a Day		There's never been a day
+Like this day to me,
+There's never been a day
+Like this day I see,
+There's never been a light
+That shines so bright
+As this day, this glorious day.
+
+For Christ is revealing himself to me,
+He opened my eyes and now I can see.
+His word is becoming a reality,
+In this day, this glorious day.	2005-03-13T10:16:52	THERE'S NEVER BEEN A DAY THERE'S NEVER BEEN A DAY
+FOR CHRIST IS REVEALING HIMSELF TO ME,	
+43	1	41	O Glory be to God		O glory be to god, he lifted me up,
+He lifted me up I know.
+He reached down his hand, 
+And he lifted me up,
+And that is why I love him so.
+
+I love him more and more,
+I love him more and more.
+And when I stand apon the other shore,
+I'll praise Him more and more.	2005-04-03T12:43:54	O GLORY BE TO GOD O GLORY BE TO GOD, HE LIFTED ME UP,
+I LOVE HIM MORE AND MORE,	
+44	1	42	Search Me, O God		Search me, Oh God, 
+And know my heart today;
+Try me, Oh Savior, 
+Know my thoughts, I pray:
+See if there be some wicked 
+Way in me:
+Cleanse me from every sin, 
+And set me free.
+
+I praise Thee, Lord, for cleansing 
+Me from sin:
+Fulfill Thy Word, and make me 
+Pure within:
+Fill me with fire where once 
+I burned with shame:
+Grant my desire to magnify 
+Thy name.
+
+Lord take my life, and make it 
+Wholly Thine:
+Fill my poor heart with 
+Thy great love divine;
+Take all my will, my passion, 
+Self and pride;
+I now surrender: Lord in me abide.
+
+Oh, Holy Ghost, revival comes 
+From Thee:
+Send a revival, 
+Start the work in me:
+Thy Word declares, 
+Thou wilt supply our need:
+For blessing now, Oh Lord, 
+I humbly plead.	2005-03-13T10:15:33	SEARCH ME, O GOD SEARCH ME, OH GOD,
+I PRAISE THEE, LORD, FOR CLEANSING
+LORD TAKE MY LIFE, AND MAKE IT
+OH, HOLY GHOST, REVIVAL COMES	
+45	1	43	I'm Rejoicing Night and Day,		I'm rejoicing night and day,
+As I walk the pilgrim way,
+For the hand of God in all my life I see,
+And the reason of my bliss,
+Yes, the secret all is this:
+That the Comforter abides with me.
+
+CHORUS
+He abides, He abides,
+Hallelujah, He abides with me
+I'm rejoicing night and day,
+As I walk the narrow way,
+For the Comforter abides with me.
+
+Once my heart was full of sin,
+Once I had no peace within,
+Till I heard how Jesus died upon the tree;
+Then I fell down at His feet,
+And there came a peace so sweet,
+Now the Comforter abides with me.
+
+He is with me everywhere,
+And He knows my every care
+I'm as happy as a bird and just as free;
+For the Spirit has control,
+Jesus satisfies my soul,
+Since the Comforter abides with me!
+
+There's no thirsting for the things
+Of the world, they've taken wings;
+Long ago I gave them up, and instantly
+All my night was turned to day,
+All my burdens rolled away,
+Now the Comforter abides with me!	2005-03-13T10:12:02	I'M REJOICING NIGHT AND DAY, I'M REJOICING NIGHT AND DAY,
+HE ABIDES, HE ABIDES,
+ONCE MY HEART WAS FULL OF SIN,
+HE IS WITH ME EVERYWHERE,
+THERE'S NO THIRSTING FOR THE THINGS	
+46	1	44	Come, ye That Love the Lord,		Come, ye that love the Lord,
+And let our joys be known,
+Join in a song with sweet accord,
+Join in a song with sweet accord,
+And thus surround the throne,
+And thus surround the throne.
+
+CHORUS
+We're marching to Zion,
+Beautiful, beautiful Zion;
+We're marching upward to Zion,
+The beautiful city of God.
+
+Let those refuse to sing
+Who never knew our God:
+But children of the heav'nly King,
+But children of the heav'nly King,
+Shall speak their joys abroad,
+Shall speak their joys abroad.
+
+The hill of Zion yields
+A thousand sacred sweets
+Before we reach the heav'nly fields,
+Before we reach the heav'nly fields,
+Or walk the golden streets,
+Or walk the golden streets.
+
+Then let our songs abound,
+And ev'ry tear be dry;
+We're marching thro' Immanuel's ground,
+We're marching thro' Immanuel's ground,
+To fairer worlds on high,
+To fairer worlds on high.	2005-06-12T12:12:24	COME, YE THAT LOVE THE LORD, COME, YE THAT LOVE THE LORD,
+WE'RE MARCHING TO ZION,
+LET THOSE REFUSE TO SING
+THE HILL OF ZION YIELDS
+THEN LET OUR SONGS ABOUND,	
+212	1	207	Standing on the Promises of God		Standing on the promises of Christ my king,
+Thru eternal ages let his praises ring,
+Glory in the highest I will shout and sing,
+Standing on the promises of god.
+
+CHORUS
+Standing, Standing,
+Standing on the promises of God my savior,
+Standing, Standing,
+I'm standing on the promises of God.
+
+Standing on the promises that cannot fail,
+When the howling storms of doubt and fear assail,
+By the living word of God I shall prevail,
+Standing on the promises of God.
+
+Standing on the promises I now can see,
+Perfect, present cleansing in the blood for me,
+Standing in the liberty where Christ makes free,
+Standing on the promises of God.
+
+Standing on the promises I cannot fall,
+Listening every moment to the spirits call,
+Resting in my savior as my all in all,
+Standing on the promises of God.	2005-07-10T17:40:20	STANDING ON THE PROMISES OF GOD STANDING ON THE PROMISES OF CHRIST MY KING,
+STANDING, STANDING,
+STANDING ON THE PROMISES THAT CANNOT FAIL,
+STANDING ON THE PROMISES I NOW CAN SEE,
+STANDING ON THE PROMISES I CANNOT FALL,	
+213	1	208	Majesty, worship His Majesty,		Majesty, worship His Majesty,
+Unto Jesus, be all glory, power
+and praise,
+Majesty, kingdom authority,
+Flow from His throne unto His own
+His anthem raise.
+
+So exalt, lift up the name of Jesus,
+Magnify, come glorify, Christ Jesus 
+the King.
+Majesty, worship His Majesty 
+Jesus who died, now glorified,
+King of all King's.	2005-07-23T21:27:12	MAJESTY, WORSHIP HIS MAJESTY, MAJESTY, WORSHIP HIS MAJESTY,
+SO EXALT, LIFT UP THE NAME OF JESUS,	
+214	1	209	Hold To God's Unchanging Hand		Time is filled with swift transition
+Naught of earth unmoved can stand
+Build your hopes on things eternal
+Hold to God's unchanging hand 
+
+CHORUS
+Hold to God's unchanging hand
+Hold to God's unchanging hand
+Build your hopes on things eternal
+Hold to God's unchanging hand
+
+Trust in Him who will not leave you
+Whatsoever years may bring
+If by earthly friends forsaken
+Still more closely to Him cling 
+
+Covet not this world's vain riches
+That so rapidly decay
+Seek to gain the heav'nly treasures
+They will never pass away
+ 
+When your journey is completed
+If to God you have been true
+Fair and bright the home in glory
+Your enraptured soul will view	2008-08-31T18:44:26	HOLD TO GOD'S UNCHANGING HAND TIME IS FILLED WITH SWIFT TRANSITION
+HOLD TO GOD'S UNCHANGING HAND
+TRUST IN HIM WHO WILL NOT LEAVE YOU
+COVET NOT THIS WORLD'S VAIN RICHES	
+215	1	210	Hold To God's Unchanging Hand		Time is filled with swift transition
+Naught of earth unmoved can stand
+Build your hopes on things eternal
+Hold to God's unchanging hand 
+
+CHORUS
+Hold to God's unchanging hand
+Hold to God's unchanging hand
+Build your hopes on things eternal
+Hold to God's unchanging hand
+
+Trust in Him who will not leave you
+Whatsoever years may bring
+If by earthly friends forsaken
+Still more closely to Him cling 
+
+Covet not this world's vain riches
+That so rapidly decay
+Seek to gain the heav'nly treasures
+They will never pass away
+
+When your journey is completed
+If to God you have been true
+Fair and bright the home in glory
+Your enraptured soul will view	2008-08-31T18:47:14	HOLD TO GOD'S UNCHANGING HAND TIME IS FILLED WITH SWIFT TRANSITION
+HOLD TO GOD'S UNCHANGING HAND
+TRUST IN HIM WHO WILL NOT LEAVE YOU
+COVET NOT THIS WORLD'S VAIN RICHES
+WHEN YOUR JOURNEY IS COMPLETED	
+216	1	211	I can trust Jesus		I can trust Jesus, 
+I can trust Jesus,
+He never once has failed to meet my needs, 
+He is my stronghold, 
+The strength in my weakest hour, 
+I can trust Jesus,
+He takes care of me
+
+He is my stronghold,
+The strength in my weakest hour, 
+I can trust Jesus, 
+He takes care of me, 
+He takes care of me.	2009-02-18T19:17:25	I CAN TRUST JESUS I CAN TRUST JESUS,
+HE IS MY STRONGHOLD,	
+217	1	212	this is my desire		This is my desire, to honour you
+Lord with all my heart i worship you
+all i have within me 
+I give you praise
+all that i adore is in you
+
+Lord i give you my heart
+I give you my soul
+I live for you alone
+Every breath that i take 
+Every moment im awake
+Lord have your way in me	2009-03-22T18:47:08	THIS IS MY DESIRE THIS IS MY DESIRE, TO HONOUR YOU
+LORD I GIVE YOU MY HEART	
+218	1	213	Here I am to worship		Light of the world, 
+You step down into darkness.
+Opened my eyes let me see 
+Beauty that made this heart adore you
+Hope of a life spent with you
+
+And here I am to worship 
+Here I am to bow down 
+Here I am to say that you're my God ,
+You're altogether lovely
+Altogether worthy
+Altogether wonderful to me
+
+King of all days 
+Oh so highly exalted 
+Glorious in heaven above
+Humbly you came to the earth you created
+All for loves sake became poor
+
+Here I am to worship 
+Here I am to bow down 
+Here I am to say that your my God 
+You're altogether lovely,
+All together worthy 
+Altogether wonderful to me
+
+I'll never know how much it cost
+To see my sin upon that cross
+I'll never know how much it cost
+To see my sin upon that cross
+And i'll never know how much it cost
+To see my sin upon that cross
+No I'll never know how much it cost 
+To see my sin upon that cross
+
+Here I am to worship
+Here I am to bow down
+Here I am to say that you;re my god
+You're altogether lovely
+Altogether worthy 
+Altogether wonderful to me
+So here i am to worship 
+Here I am to bow sown 
+Here I am to say that you're my God	2009-05-10T18:36:39	HERE I AM TO WORSHIP LIGHT OF THE WORLD,
+AND HERE I AM TO WORSHIP
+KING OF ALL DAYS
+HERE I AM TO WORSHIP
+I'LL NEVER KNOW HOW MUCH IT COST
+HERE I AM TO WORSHIP	
+219	1	214	There is none like you		There is none like you 
+No one else can touch my heart like you do
+I could search all eternity long, 
+and find there is none like you	2009-03-22T19:07:50	THERE IS NONE LIKE YOU THERE IS NONE LIKE YOU	
+220	1	215	Lord prepare me, to be a santuary		Lord prepare me, to be a sanctuary,
+pure and holy, tried and true 
+with thanksgiving I'll be a living,
+santuary for you	2009-03-22T19:10:02	LORD PREPARE ME, TO BE A SANTUARY LORD PREPARE ME, TO BE A SANCTUARY,	
+221	1	216	By the power of your love		Lord I come to you 
+Let my heart be changed, renewed
+Flowing from the grace 
+That i've found in you 
+And lord i've come to know 
+The weaknesses i see in me
+Will be stripped away 
+By the power of your love
+
+Hold me close
+Let your love surround me 
+Bring me near 
+Draw me to your side 
+And as I wait 
+I'll rise up like an eagle 
+And I will soar with you 
+Your spirit leads me on
+By the power of your love 
+
+Lord unveil my eyes 
+Let me see you face to face 
+The knowledge of your love 
+As you live in me 
+And Lord renew my mind 
+As your will unfolds in my life 
+In living everyday
+By the power of your love
+
+Hold me close 
+Let your love surround me 
+Bring me near 
+Draw me to your side 
+And as I wait 
+I'll rise up like an eagle 
+And I will soar with you 
+Your Spirit leads me on by the power of your love	2009-04-12T18:32:43	BY THE POWER OF YOUR LOVE LORD I COME TO YOU
+HOLD ME CLOSE
+LORD UNVEIL MY EYES
+HOLD ME CLOSE	
+222	1	217	Come fill my heart		Come fill this viod and emptiness
+shine your light on my darkness
+Satisfy and restore my soul
+I long for you to make me whole
+
+Come quench this thirsting, Lord i am ready
+here i am waiting, come fill my heart
+You are the only one who can fill me
+here i am waiting, come fill my heart
+
+come fill my life i am incomplete 
+let your love reign down on me
+i need you more Lord i confess
+more of you and nothing less
+
+Come quench this thirsting, Lord i am ready
+here i am waiting, come fill my heart
+You are the only one who can fill me
+here i am waiting, come fill my heart
+
+Come and fill me, I am thirsting 
+for you only, God so holy 
+come and fill me, I am thirsting
+For you only, God so holy
+
+Come quench this thirsting, Lord i am ready
+here i am waiting, come fill my heart
+You are the only one who can fill me
+here i am waiting, come fill my heart
+
+Come quench this thirsting, Lord i am ready
+here i am waiting, come fill my heart
+You are the only one who can fill me
+here i am waiting, come fill my heart	2009-03-22T20:05:36	COME FILL MY HEART COME FILL THIS VIOD AND EMPTINESS
+COME QUENCH THIS THIRSTING, LORD I AM READY
+COME FILL MY LIFE I AM INCOMPLETE
+COME QUENCH THIS THIRSTING, LORD I AM READY
+COME AND FILL ME, I AM THIRSTING
+COME QUENCH THIS THIRSTING, LORD I AM READY
+COME QUENCH THIS THIRSTING, LORD I AM READY	
+223	1	218	Beulah Land		I'm living on a mountain
+underneath a cloudless sky
+I'm drinking at the fountain
+that never shall run dry
+Oh yes I'm feasting on the manna
+from a bountiful supply 
+For I am dwelling in Beulah land	2009-03-29T13:25:30	BEULAH LAND I'M LIVING ON A MOUNTAIN	
+224	1	219	God Is Good To Me		God is good to me
+Oh what love I see
+Jesus as a lamb was slain
+He delivered me 
+Cleansed and set me free
+Lord of all He rose again
+Now I live, yet not I
+Jesus is alive in me
+Sending the Spirit's rain
+Showers of latter rain
+God has poured His love on me	2009-03-29T13:27:01	GOD IS GOOD TO ME GOD IS GOOD TO ME	
+225	1	220	Be Still My Soul		Be still, my soul:
+the Lord is on your side. 
+Bear patiently the 
+cross of grief or pain; 
+leave to your God 
+to order and provide; 
+in every change God 
+faithful will remain. 
+Be still, my soul: your best,
+your heavenly friend 
+through thorny ways 
+leads to a joyful end. 
+
+Be still, my soul: 
+your God will undertake 
+to guide the future, 
+as in ages past. 
+Your hope, your confidence 
+let nothing shake;
+all now mysterious 
+shall be bright at last. 
+Be still, my soul: the waves 
+and winds still know 
+the Christ who ruled them 
+while he dwelt below. 
+
+Be still, my soul: 
+the hour is hastening on 
+when we shall be 
+forever with the Lord, 
+when disappointment, 
+grief, and fear are gone, 
+sorrow forgot, love's 
+purest joys restored. 
+Be still, my soul: when 
+change and tears are past, 
+all safe and blessed 
+we shall meet at last.	2009-12-06T12:22:27	BE STILL MY SOUL BE STILL, MY SOUL:
+BE STILL, MY SOUL:
+BE STILL, MY SOUL:	
+226	1	221	Homesick		Your in a better place
+I've heard a thousand times
+And at least a thousand times
+I've rejoiced for you
+But the reason why im broken
+The reason Why I cry
+Is how long must I wait to be with you
+
+CHORUS
+I close my eyes and I see your face
+If home's where my heart is then i'm out of place
+Lord won't you give me strenght 
+To make it through somehow
+I've never been more homesick then now
+
+Help me Lord cause i don't understand your ways
+The reason why, i wonder if i'l ever know
+But even if you showed me the hurt would be the same
+Cause i'm still here so far away from home
+
+In christ there are no goodbyes
+And in christ there is no end
+So I hold on to Jesus with all that I have
+To see you again
+To see you again	2010-02-07T12:06:08	HOMESICK YOUR IN A BETTER PLACE
+I CLOSE MY EYES AND I SEE YOUR FACE
+HELP ME LORD CAUSE I DON'T UNDERSTAND YOUR WAYS
+IN CHRIST THERE ARE NO GOODBYES	Mercy Me
+227	1	222	In Christ Alone		In Christ alone my hope is found;
+He is my light, my strength, my song;
+This cornerstone, this solid ground,
+Firm through the fiercest drought and storm.
+What heights of love, what depths of peace,
+When fears are stilled, when strivings cease!
+My comforter, my all in all-
+Here in the love of Christ I stand.
+
+In Christ alone, Who took on flesh,
+Fullness of God in helpless babe!
+This gift of love and righteousness,
+Scorned by the ones He came to save.
+Till on that cross as Jesus died,
+The wrath of God was satisfied;
+For ev'ry sin on Him was laid-
+Here in the death of Christ I live.
+
+There in the ground His body lay,
+Light of the world by darkness slain;
+Then bursting forth in glorious day,
+Up from the grave He rose again!
+And as He stands in victory,
+Sin's curse has lost its grip on me;
+For I am His and He is mine-
+Bought with the precious blood of Christ.
+
+No guilt in life, no fear in death-
+This is the pow'r of Christ in me;
+From life's first cry to final breath,
+Jesus commands my destiny.
+No pow'r of hell, no scheme of man,
+Can ever pluck me from His hand;
+Till He returns or calls me home-
+Here in the pow'r of Christ I'll stand.	2009-04-15T18:47:09	IN CHRIST ALONE IN CHRIST ALONE MY HOPE IS FOUND;
+IN CHRIST ALONE, WHO TOOK ON FLESH,
+THERE IN THE GROUND HIS BODY LAY,
+NO GUILT IN LIFE, NO FEAR IN DEATH-	
+228	1	223	You Are A Chosen Generation		You are a chosen generation, a royal priesthood,
+A holy nation, a peculiar people,
+That should show forth the praises of him.
+For He has called you out of darkness,
+Out of darkness, out of darkness,
+Into his marvellous light
+Into his marvellous light
+
+So come and sing Hallelujah,
+Praise to the King
+So come and sing Hallelujah,
+And bring forth the praises of him
+Who has called you out of darkness
+Out of darkness, out of darkness, 
+Into his marvelous light
+Into his marvelous light.	2009-04-19T18:45:58	YOU ARE A CHOSEN GENERATION YOU ARE A CHOSEN GENERATION, A ROYAL PRIESTHOOD,
+SO COME AND SING HALLELUJAH,	
+229	1	224	on the wings of a snow white dove		When troubles surround us, and they will come
+the body grows weak and the spirit grows numb 
+when these things beset us 
+He doesn't forget us
+He sends down His love 
+on the wings of a dove. 
+
+On the wings of a snow white dove
+God sends his pure sweet love
+a sign from above,
+on the wings of a dove.
+
+Noah had drifted, on the flood many days
+He searched for land in various ways;
+troubles he had some,
+but not from above 
+God gave him His sign , 
+on the wings of a dove. 
+
+On the wings of a snow white dove
+God sends his pure sweet love
+a sign from above,
+on the wings of a dove.
+
+Jesus our saviour, came to earth one day; 
+He was born in a stable in a manger of hay 
+though here rejected
+but not from above 
+God gave us his sign, 
+on the wings of a dove. 
+
+On the wings of a snow white dove
+God sends his pure sweet love
+a sign from above,
+on the wings of a dove.
+
+When Jesus went down 
+to the waters that day
+he was baptised, in the usual way 
+when it was done, God blessed his son, 
+He sent Him His love 
+on the wings of a dove. 
+
+On the wings of a snow white dove
+God sends his pure sweet love
+a sign from above,
+on the wings of a dove.	2009-11-18T12:01:36	ON THE WINGS OF A SNOW WHITE DOVE WHEN TROUBLES SURROUND US, AND THEY WILL COME
+ON THE WINGS OF A SNOW WHITE DOVE
+NOAH HAD DRIFTED, ON THE FLOOD MANY DAYS
+ON THE WINGS OF A SNOW WHITE DOVE
+JESUS OUR SAVIOUR, CAME TO EARTH ONE DAY;
+ON THE WINGS OF A SNOW WHITE DOVE
+WHEN JESUS WENT DOWN
+ON THE WINGS OF A SNOW WHITE DOVE	
+230	1	225	Tell me the story of Jesus		Tell me the story of Jesus
+write on my hear every word
+tell me the story so precious 
+sweetest that ever was heard 
+
+tell how the angels in chorus 
+sang as they welcomed his birth
+glory to God in the highest
+peace and good tidings to earth
+
+tell of the cross where they nailed him 
+writing in anguish and pain 
+tell of the grave where they laid him 
+tell how he liveth again 
+
+love in that story so tender
+clearer than ever i see
+stay let me weep while you whisper
+love paid the ransom for me
+
+tell me the story of Jesus 
+write on my heart every word 
+tell me the story so precious 
+sweetest that ever was heard
+
+i love to tell the story 
+twill be the theme in glory
+to tell the old old story 
+of Jesus and his love 
+of Jesus and his love	2009-11-18T12:10:39	TELL ME THE STORY OF JESUS TELL ME THE STORY OF JESUS
+TELL HOW THE ANGELS IN CHORUS
+TELL OF THE CROSS WHERE THEY NAILED HIM
+LOVE IN THAT STORY SO TENDER
+TELL ME THE STORY OF JESUS
+I LOVE TO TELL THE STORY	
+231	1	226	Jesus is the sweetest name i know		Jesus is the sweetest name i know
+and he's just the same 
+as his lovely name
+and thats the reason why i love him so 
+for Jesus is the sweetest name i know.	2009-11-18T12:11:47	JESUS IS THE SWEETEST NAME I KNOW JESUS IS THE SWEETEST NAME I KNOW	
+232	1	227	Sweet hour of prayer		Sweet hour of prayer sweet hour of prayer 
+that calls me from a world of care
+and bids me at my fathers throne 
+makes all my wants and wishes known 
+in seasons of distress and grief
+my soul has often found relief
+and oft escaped the tempters snare
+by thy return sweet hour of prayer.
+
+sweet hour of prayer sweet hour of prayer 
+the joy i feel the bliss i share
+of thise whise anxious spirits burn 
+with strong desires for thy return
+with such i hasten to the place 
+where God myn saviour shows his face 
+and gladly take my station there 
+and wait for thee sweet hour of prayer
+
+sweet hour of prayer sweet hour of prayer 
+thy wings shall my petition bear 
+to him whose truth and faithfulness 
+engage the waiting soul to bless 
+and since he bids me seek his face 
+believe his words and trust his grace 
+i'll cast on him my every care
+and wait for thee sweet hour of prayer.	2009-11-18T12:16:42	SWEET HOUR OF PRAYER SWEET HOUR OF PRAYER SWEET HOUR OF PRAYER
+SWEET HOUR OF PRAYER SWEET HOUR OF PRAYER
+SWEET HOUR OF PRAYER SWEET HOUR OF PRAYER	
+233	1	228	Open our eyes Lord		Open our eyes Lord we want to see Jesus
+to reach out and touch him 
+and say that we love him 
+open our ears Lord
+and help us to listen 
+open our eyes Lord, we want to see Jesus	2009-11-18T12:18:16	OPEN OUR EYES LORD OPEN OUR EYES LORD WE WANT TO SEE JESUS	
+234	1	229	This world is not my home		This world is not my home
+i'm just passing through 
+my treasures are laid out 
+somewhere beyond the blue 
+the angels beckon me 
+from heavens open doors 
+and i can't feel at home 
+in this world anymore. 
+
+Oh Lord you know 
+i have no friend like you 
+if heavens not my home 
+then Lord what would i do? 
+the angels beckon me 
+from heavens open door
+and i can't feel at home 
+in this world anymore. 
+
+Theyre all expecting me 
+and thats one thing i know 
+i fixed it up with Jesus 
+many years ago. 
+I know He'll see me through
+though i am weak and poor 
+and i can't feel at home 
+in this world anymore. 
+
+Oh Lord you know 
+i have no friend like you 
+if heavens not my home 
+then Lord what would i do? 
+the angels beckon me 
+from heavens open door
+and i can't feel at home 
+in this world anymore. 
+
+Just over in glory land 
+we'll live eternally 
+the saints on every hand 
+are shouting victory 
+the songs of sweetest praise 
+drift back from heavens shore 
+and i can't feel at home
+in this world anymore. 
+
+Oh Lord you know 
+i have no friend like you 
+if heavens not my home 
+then Lord what would i do? 
+the angels beckon me 
+from heavens open door
+and i can't feel at home 
+in this world anymore.	2009-11-18T12:22:31	THIS WORLD IS NOT MY HOME THIS WORLD IS NOT MY HOME
+OH LORD YOU KNOW
+THEYRE ALL EXPECTING ME
+OH LORD YOU KNOW
+JUST OVER IN GLORY LAND
+OH LORD YOU KNOW	
+235	1	230	From the rising of the sun		From the rising of the sun
+to the going down of the same
+the name of the Lord is to be praised
+from the rising of the sun 
+to the going down of the same 
+the name of the Lord is to be praised 
+
+praise ye the Lord 
+praise ye the Lord 
+from the rising of the sun 
+to the going down of the same 
+the name of the Lord is to be praised.	2009-11-18T12:24:35	FROM THE RISING OF THE SUN FROM THE RISING OF THE SUN
+PRAISE YE THE LORD	
+236	1	231	Its bubbling		Its bubbling bubbling bubbling 
+bubbling deep within 
+since i met my Jesus 
+he took away my sin
+he filled me with the Holy Ghost 
+put a river in my soul
+its bubbling bubbling bubbling 
+sometimes it overflows	2009-11-18T12:27:00	ITS BUBBLING ITS BUBBLING BUBBLING BUBBLING	
+237	1	232	Humble yourself in the sight of the Lord		Humble yourself in the sight of the Lord 
+Humble yourself in the sight of the Lord
+And He will lift you up (Higher and Higher) 
+And he will lift you up.	2009-11-18T12:28:44	HUMBLE YOURSELF IN THE SIGHT OF THE LORD HUMBLE YOURSELF IN THE SIGHT OF THE LORD	
+238	1	233	There is power in the blood of the Lamb		Would you be free from your burden of sin? 
+there's power in the blood power in the blood.
+would you o'er evil a victory win? 
+there's wonderful power in the blood 
+
+There is power, power, wonder working power 
+in the blood of the Lamb
+there is power, power, wonder working power 
+in the precious blood of the Lamb. 
+
+Would you be free from your passion and pride?
+Theres power in the blood power in the blood 
+come for a cleansing to Calvary's tide 
+theres wonderful power in the blood. 
+
+There is power, power, wonder working power 
+in the blood of the Lamb
+there is power, power, wonder working power 
+in the precious blood of the Lamb. 
+
+Would you be whiter much whiter than snow? 
+theres power in the blood, power in the blood 
+sin's stains are lost in its life giving flow 
+theres wonderful power in the blood 
+
+There is power, power, wonder working power 
+in the blood of the Lamb
+there is power, power, wonder working power 
+in the precious blood of the Lamb. 
+
+Would you do service for Jesus your King? 
+Theres power in the blood, power in the blood 
+Would you live daily his praises to sing? 
+There's wonderful power in the blood.
+
+There is power, power, wonder working power 
+in the blood of the Lamb
+there is power, power, wonder working power 
+in the precious blood of the Lamb.	2009-11-18T12:33:39	THERE IS POWER IN THE BLOOD OF THE LAMB WOULD YOU BE FREE FROM YOUR BURDEN OF SIN?
+THERE IS POWER, POWER, WONDER WORKING POWER
+WOULD YOU BE FREE FROM YOUR PASSION AND PRIDE?
+THERE IS POWER, POWER, WONDER WORKING POWER
+WOULD YOU BE WHITER MUCH WHITER THAN SNOW?
+THERE IS POWER, POWER, WONDER WORKING POWER
+WOULD YOU DO SERVICE FOR JESUS YOUR KING?
+THERE IS POWER, POWER, WONDER WORKING POWER	
+239	1	234	I Have Returned		I have returned 
+to the God of my childhood,
+To the same simple faith
+as a child I once knew;
+Like the prodigal son
+I have longed 
+for my loved ones,
+For the comforts of home
+and the God I outgrew.
+
+I have returned
+to the God of my childhood,
+Bethlehem's Babe,
+the prophet's Messiah;
+He's Jesus to me, 
+Eternal Deity;
+Praise His name, 
+I have returned.
+
+I have returned
+to the God of my mother,
+With unfailing faith
+for the child of her heart;
+She said bring them up
+the way that you want them, 
+Thank God when they're grown,
+they'll never depart.
+
+I have returned
+to the God of my mother,
+I learned at her knee
+He's the lily of the valley; 
+He's Jesus to me,
+Eternal Deity;
+Praise His name, 
+I have returned.
+
+I have returned
+to the God of my father,
+The most God-like man
+a child could know;
+I just heard a shout
+from the angels in glory,
+Praising the Lord 
+a child has come home.
+
+I have returned 
+to the God of my father,
+Creator of heaven and earth, 
+God of the universe;
+He's Jesus to me, 
+Eternal Deity;
+Praise His name, 
+I have returned.
+
+I have returned 
+to the Yahweh of Judah,
+On my knees I did fall 
+where the wall now stands;
+This lesson I learned 
+as I've worked my way homeward,
+The Saviour of all 
+is a comfort to man. 
+
+I have returned 
+to the Father of Abraham, 
+The shepherd of Moses 
+who called Him the great I am; 
+He's Jesus to me, 
+Eternal Deity; 
+Praise His name, 
+I have returned.	2009-12-06T12:08:54	I HAVE RETURNED I HAVE RETURNED
+I HAVE RETURNED
+I HAVE RETURNED
+I HAVE RETURNED
+I HAVE RETURNED
+I HAVE RETURNED
+I HAVE RETURNED
+I HAVE RETURNED	
+240	1	235	I was in His Mind		I was in His mind 
+before the worlds were made
+I was in His mind 
+before earths frame was laid
+Because He knew me
+Because he loved me
+
+I was in his heart 
+when Calvary's hill he climbed
+I was in His heart 
+when he died for all mankind
+Because He sought me 
+Because he loved me
+
+I was in his thoughts 
+the night he prayed for me
+I was in his thoughts 
+before Gethsemane
+Because He saw me
+Because He loved me
+
+I was in his heart 
+when Calvary's hill he climbed
+I was in His heart 
+when he died for all mankind
+Because He sought me 
+Because he loved me
+
+I am in His mind 
+and he is here for me
+I am in his mind; 
+I Am's unveiling to me
+Because He wants me 
+Because he loves me
+
+I am in His heart 
+and he's revealed to me
+I am in His heart 
+and He's revealed to me
+Because he knows me
+Because he loves me	2009-12-06T12:12:25	I WAS IN HIS MIND I WAS IN HIS MIND
+I WAS IN HIS HEART
+I WAS IN HIS THOUGHTS
+I WAS IN HIS HEART
+I AM IN HIS MIND
+I AM IN HIS HEART	
+241	1	236	Now Unto the King		Now unto the King eternal,
+Immortal, invisible,
+The only wise God
+Be honour and glory forever and ever
+Amen, Amen
+Be honour and glory forever and ever
+Amen, Amen	2009-11-29T18:53:05	NOW UNTO THE KING NOW UNTO THE KING ETERNAL,	
+242	1	237	Jesus the Light of the World		All ye saints of light proclaim
+Jesus the light of the world
+Life and mercy in his name
+Jesus the light of the world
+
+CHORUS
+We'll walk in the light,
+the beautiful light
+Come where the dewdrops 
+of mercy are bright
+Shine all around us 
+by day and by night
+Jesus the light of the world
+
+Hear the Saviour's earnest call
+Jesus the light of the world
+Send the gospel truth to all
+Jesus the light of the world
+
+Why not seek Him then today
+Jesus the light of the world
+Go with truth the narrow way
+Jesus the light of the world	2009-12-06T12:13:55	JESUS THE LIGHT OF THE WORLD ALL YE SAINTS OF LIGHT PROCLAIM
+WE'LL WALK IN THE LIGHT,
+HEAR THE SAVIOUR'S EARNEST CALL
+WHY NOT SEEK HIM THEN TODAY	
+243	1	238	Fear Not Little Flock		Fear not little flock
+From the cross 
+to the throne
+From death unto life 
+he went for his own
+All power on earth, 
+all power above
+Is given to him 
+for the flock of his love
+
+CHORUS
+Only Believe, only believe
+All things are possible, only believe
+Only Believe, only believe
+All things are possible, only believe
+
+Fear not little flock
+He goeth ahead
+Your shepherd selecteth 
+the path you must tread
+The waters of Marah 
+He'll sweaten for thee
+He drank all the bitter 
+in Gethsemane
+
+Fear not little flock
+Whatever your lot
+He enters all rooms, 
+the doors being shut
+He never forsakes, 
+He never is gone
+So count on his presence
+In darkness and dawn	2009-12-06T12:15:42	FEAR NOT LITTLE FLOCK FEAR NOT LITTLE FLOCK
+ONLY BELIEVE, ONLY BELIEVE
+FEAR NOT LITTLE FLOCK
+FEAR NOT LITTLE FLOCK	
+244	1	239	I'd rather have Jesus		I'd rather have Jesus than silver or gold, 
+I'd rather be his than have riches untold:
+I'd rather have Jesus than houses or lands, 
+I'd rather be lead by his nail pierced hand.
+
+CHORUS
+Than to be a king of a vast domain, 
+or be held in sins dread sway. 
+I'd rather have Jesus than anything 
+this world affords today.
+
+I'd rather have Jesus than men's applause, 
+I'd rather be faithful to his dear cause; 
+I'd rather have Jesus than worldwide fame, 
+I'd rather be true to his holy name.
+
+He's fairer than lilies of rarest bloom;
+He's sweeter than honey from out of the comb;
+He's all that my hungering spirit needs,
+I'd rather have Jesus and let Him lead.	2010-01-10T11:48:46	I'D RATHER HAVE JESUS I'D RATHER HAVE JESUS THAN SILVER OR GOLD,
+THAN TO BE A KING OF A VAST DOMAIN,
+I'D RATHER HAVE JESUS THAN MEN'S APPLAUSE,
+HE'S FAIRER THAN LILIES OF RAREST BLOOM;	
+245	1	240	It is well with my soul		When peace like a river attendeth my way
+when sorrows like sea billows roll
+whatever my lot thou has taught me to say
+It is well, it is well with my soul. 
+
+CHORUS
+It is well, (it is well)
+with my soul (with my soul)
+it is well, it is well with my soul.
+
+my sin oh the joy of this glorious thought
+my sin not in part but the whole
+is nailed to the cross and i bear it no more
+praise the lord praise the lord oh my soul!
+
+And Lord haste the day when my faith 
+shall be sight, 
+the clouds rolled back as a scroll
+the trump shall resound 
+and the lord shall decend
+even so it is well with my soul.	2010-01-03T12:45:15	IT IS WELL WITH MY SOUL WHEN PEACE LIKE A RIVER ATTENDETH MY WAY
+IT IS WELL, (IT IS WELL)
+MY SIN OH THE JOY OF THIS GLORIOUS THOUGHT
+AND LORD HASTE THE DAY WHEN MY FAITH	
+246	1	241	When I Survey the Wonderous Cross		When I survey the wondrous cross
+On which the Prince of glory died,
+My richest gain I count but loss,
+And pour contempt on all my pride.
+
+Forbid it, Lord, that I should boast,
+Save in the death of Christ my God!
+All the vain things that charm me most,
+I sacrifice them to His blood.
+
+See from His head, His hands, His feet,
+Sorrow and love flow mingled down!
+Did e'er such love and sorrow meet,
+Or thorns compose so rich a crown?
+
+His dying crimson, like a robe,
+Spreads o'er His body on the tree;
+Then I am dead to all the globe,
+And all the globe is dead to me.
+
+Were the whole realm of nature mine,
+That were a present far too small;
+Love so amazing, so divine,
+Demands my soul, my life, my all.	2010-01-07T11:52:38	WHEN I SURVEY THE WONDEROUS CROSS WHEN I SURVEY THE WONDROUS CROSS
+FORBID IT, LORD, THAT I SHOULD BOAST,
+SEE FROM HIS HEAD, HIS HANDS, HIS FEET,
+HIS DYING CRIMSON, LIKE A ROBE,
+WERE THE WHOLE REALM OF NATURE MINE,	Isaac Watts
+247	1	242	Be Thou My Vision		Be Thou my Vision, O Lord of my heart;
+Naught be all else to me, save that Thou art.
+Thou my best Thought, by day or by night,
+Waking or sleeping, Thy presence my light.
+
+Be Thou my Wisdom, and Thou my true Word;
+I ever with Thee and Thou with me, Lord;
+Thou my great Father, I Thy true son;
+Thou in me dwelling, and I with Thee one.
+
+Be Thou my battle Shield, Sword for the fight;
+Be Thou my Dignity, Thou my Delight;
+Thou my soul's Shelter, Thou my high Tower:
+Raise Thou me heavenward, O Power of my power.
+
+Riches I heed not, nor man's empty praise,
+Thou mine Inheritance, now and always:
+Thou and Thou only, first in my heart,
+High King of Heaven, my Treasure Thou art.
+
+High King of Heaven, my victory won,
+May I reach Heaven's joys, O bright Heaven's Sun!
+Heart of my own heart, whatever befall,
+Still be my Vision, O Ruler of all.	2010-02-20T12:53:07	BE THOU MY VISION BE THOU MY VISION, O LORD OF MY HEART;
+BE THOU MY WISDOM, AND THOU MY TRUE WORD;
+BE THOU MY BATTLE SHIELD, SWORD FOR THE FIGHT;
+RICHES I HEED NOT, NOR MAN'S EMPTY PRAISE,
+HIGH KING OF HEAVEN, MY VICTORY WON,	
+248	1	243	Are You Washed? Key of G / Ab		Do you know what it is 
+not to have one guilty feeling, 
+Not to wonder where you're
+going when you die;
+Not condemned of the past, 
+Not afraid of what 
+tomorrow holds in store
+And know the reason why?
+
+Yes, that's just how it is 
+when you go down in the water
+'Cause by faith you believe in 
+what you heard,
+It's no impossible dream,
+you can start over clean
+When you're washed
+by the water of the Word.
+
+Are you washed by the water,
+Washed by the water of the Word?
+Are you washed by the water,
+Washed by the water of the Word?
+
+It's like being born again 
+with a whole new life to live,
+Never having to look back 
+to what you've been,
+'Cause according to the Lord,
+You've just started your existence,
+And where He's concerned 
+there never was no sin;
+
+For when God looks your way
+He no longer sees a sinner
+But a saint who's been washed
+white as snow;
+Not by any thing we've done
+But by the blood of God's own Son.
+Are you washed by the 
+water of the Word?
+
+Are you washed by the water,
+Washed by the water of the Word?
+Are you washed by the water,
+Washed by the water of the Word?
+
+Yes, I'm washed by the water,
+Washed by the water of the Word.
+Yes, I'm washed by the water,
+Washed by the water of the Word.	2010-04-11T18:05:26	ARE YOU WASHED? KEY OF G / AB DO YOU KNOW WHAT IT IS
+YES, THAT'S JUST HOW IT IS
+ARE YOU WASHED BY THE WATER,
+IT'S LIKE BEING BORN AGAIN
+FOR WHEN GOD LOOKS YOUR WAY
+ARE YOU WASHED BY THE WATER,
+YES, I'M WASHED BY THE WATER,	
+47	1	45	Take the Name of Jesus With you		Take the name of Jesus with you,
+Child of sorrow and of woe;
+It will joy and comfort give you,
+Take it, everywhere you go.
+
+CHORUS
+Precious name, O how sweet!
+Hope of earth and joy of heaven;
+Precious name, O how sweet!
+Hope of earth and joy of heaven.
+
+Take the name of Jesus ever,
+As a shield from every snare;
+When temptations round you gather,
+Breathe that holy name in prayer.
+
+Oh the precious name of Jesus!
+How it thrills our souls with joy,
+When His loving arms receive us,
+And His songs our tongues employ.
+
+At the name of Jesus bowing,
+Falling prostrate at His feet,
+King of kings in heaven we'll crown Him
+When our journey is complete.	2005-03-27T13:29:38	TAKE THE NAME OF JESUS WITH YOU TAKE THE NAME OF JESUS WITH YOU,
+PRECIOUS NAME, O HOW SWEET!
+TAKE THE NAME OF JESUS EVER,
+OH THE PRECIOUS NAME OF JESUS!
+AT THE NAME OF JESUS BOWING,	
+48	1	46	How Great is Our God		How great is our God.
+How great is His Word.
+He's the greatest One,
+That ever was heard.
+He rolled back the waters,
+Of the mighty Red Sea.
+And He said I'm going to lead you,
+Won't you follow me.
+
+How great is our God.
+How great is His Word.
+He's the greatest One,
+That ever was heard.
+He's unveiling His treasures
+For those who will see
+And He said I'm going to give you
+Anointed ministry.	2005-03-13T10:09:52	HOW GREAT IS OUR GOD HOW GREAT IS OUR GOD.
+HOW GREAT IS OUR GOD.	
+49	1	47	Just as I am Without One Plea		Just as I am, without one plea,
+But that Thy blood was shed for me,
+And that Thou bidd'st me come to Thee,
+Oh Lamb of God, I come! I come!
+
+Just as I am, and waiting not,
+To rid my soul of one dark blot,
+To Thee whose blood can cleanse
+Each spot,
+Oh Lamb of God, I come! I come!
+
+Just as I am, tho' tossed about
+With many a conflict, many a doubt,
+Fightings and fears within, without,
+Oh Lamb of God, I come! I come!
+
+Just as I am, poor, wretched, blind;
+Sight, riches, healing of the mind,
+Yea, all I need, in Thee to find,
+Oh Lamb of God, I come! I come!
+
+Just as I am, Thou wilt receive,
+Wilt welcome, pardon, cleanse, relieve;
+Because Thy promise I believe,
+Oh Lamb of God, I come! I come!	2005-03-13T10:13:07	JUST AS I AM WITHOUT ONE PLEA JUST AS I AM, WITHOUT ONE PLEA,
+JUST AS I AM, AND WAITING NOT,
+JUST AS I AM, THO' TOSSED ABOUT
+JUST AS I AM, POOR, WRETCHED, BLIND;
+JUST AS I AM, THOU WILT RECEIVE,	
+50	1	48	On Jordan's stormy banks I stand,		On Jordan's stormy banks I stand,
+And cast a wishful eye,
+Toward Caanan's fair and happy land,
+Where my possessions lie.
+
+CHORUS
+I am bound for the promised land,
+I am bound for the promised land;
+Oh who will come and go with me?
+I am bound for the promised land.
+
+O'er all those wide extended plains
+Shines one eternal day;
+There God's own son forever reigns,
+And scatters night away.
+
+No chilling winds, nor pois'nous breath,
+Can reach that healthful shore;
+Sickness and sorrow, pain and death,
+Are feared and felt no more.
+
+When shall I reach that happy place, 
+And be forever blest!
+When shall I see my Father's face,
+And in His bosom rest?	2005-05-29T12:18:44	ON JORDAN'S STORMY BANKS I STAND, ON JORDAN'S STORMY BANKS I STAND,
+I AM BOUND FOR THE PROMISED LAND,
+O'ER ALL THOSE WIDE EXTENDED PLAINS
+NO CHILLING WINDS, NOR POIS'NOUS BREATH,
+WHEN SHALL I REACH THAT HAPPY PLACE,	
+51	1	49	Yesterday,Today, Forever		Yesterday, today, forever, 
+Jesus is the same,
+All may change, but Jesus never! 
+Glory to His name,
+Glory to His name, Glory to his name;
+All may change but Jesus never! 
+Glory to His name.	2005-03-13T10:18:33	YESTERDAY,TODAY, FOREVER YESTERDAY, TODAY, FOREVER,	
+52	1	50	Living Below in This old Sinful World		Living below in this old sinful world,
+Hardly a comfort can afford;
+Striving alone to face temptations sore,
+Where could I go but to the Lord?
+
+CHORUS
+Where could I go, O where could I go?
+Seeking a refuge for my soul?
+Needing a friend to help me in the end,
+Where could I go but to the Lord?
+
+Neighbors are kind, I love them every one,
+We get along in sweet accord;
+But when my soul needs manna from above,
+Where could I go but to the Lord?
+
+Life here is grand, 
+With friends I love so dear,
+Comfort I get from gods own word;
+Yet when I face the chilling hand of death,
+Where could I go but to the Lord?	2005-03-13T10:13:37	LIVING BELOW IN THIS OLD SINFUL WORLD LIVING BELOW IN THIS OLD SINFUL WORLD,
+WHERE COULD I GO, O WHERE COULD I GO?
+NEIGHBORS ARE KIND, I LOVE THEM EVERY ONE,
+LIFE HERE IS GRAND,	
+53	1	51	My Lord Knows the Way		My Lord knows the way
+Through the wilderness;
+All I have to do is follow.
+My Lord knows the way
+Through the wilderness;
+All I have to do is follow.
+
+Faith for today is mine all the way,
+And all that I need for tomorrow;
+My Lord knows the way
+Through the wilderness;
+All I have to do is follow.	2005-03-13T10:14:10	MY LORD KNOWS THE WAY MY LORD KNOWS THE WAY
+FAITH FOR TODAY IS MINE ALL THE WAY,	
+54	1	52	Burdens now are Lighter		Burdens now are lighter
+Brighter is my way
+It is such a joy to walk with Him
+When this journey here is o'er
+I'll set my feet on heaven's shore
+Eternity all joy will just begin.
+
+Oh glory, glory hallelujah
+Praise the Lord today I know I'm free
+He is with me and if I stay close to Him
+Safe from harm and danger I will be.
+
+Once my Jesus saved me, 
+Took my sins away,
+Cast them in the bottom of the sea.
+Picked me up and turned me round,
+Set my feet on higher ground,
+Now I'm walking happy glad and free.	2005-03-13T10:07:19	BURDENS NOW ARE LIGHTER BURDENS NOW ARE LIGHTER
+OH GLORY, GLORY HALLELUJAH
+ONCE MY JESUS SAVED ME,	
+55	1	53	When your Cup Runneth Over with Joy,		When your cup runneth over with joy,
+When your cup runneth over with joy,
+You'll find it easy to pray,
+And to sing all the day,
+When your cup runneth over with joy.
+
+CHORUS
+I've got joybells in my heart,
+I've got joybells in my heart,
+I'll sing his praises, through all the ages, 
+I've got joybells in my heart.
+
+When you're feeling so empty and dry,
+And you feel you could sit down and cry,
+If the Lord you would please,
+Then get down on your knees,
+Till your cup runneth over with joy,	2005-03-13T10:18:14	WHEN YOUR CUP RUNNETH OVER WITH JOY, WHEN YOUR CUP RUNNETH OVER WITH JOY,
+I'VE GOT JOYBELLS IN MY HEART,
+WHEN YOU'RE FEELING SO EMPTY AND DRY,	
+56	1	54	Our God is an Awesome God		Our God is an awesome God, 
+He reigns from heaven above,
+With wisdom power and love,
+Our God is an awesome God.
+
+Our God is an awesome God, 
+He reigns all heaven and earth,
+With wisdom power and love,
+Our God is an awesome God.
+Our God is an awesome God.	2005-03-13T10:15:15	OUR GOD IS AN AWESOME GOD OUR GOD IS AN AWESOME GOD,
+OUR GOD IS AN AWESOME GOD,	
+57	1	55	I Come to the Garden Alone		I come to the garden alone,
+While the dew is still on the roses,
+And the voice I hear,
+Falling on my ear,
+The Son of God discloses
+
+CHORUS
+And he walks with me,
+And he talks with me,
+And he tells me that I am his own,
+And the joy we share,
+As we tarry there,
+None other has ever known.
+
+He speaks and the sound of his voice,
+Is so sweet, 
+The birds hush their singing
+And the melody that he gave to me,
+Within my heart is ringing.
+
+I'd stay in the garden with him,
+Tho the night around me be falling,
+But he bids me go,
+Through the voice of woe,
+His voice to me is calling.	2005-03-13T10:10:34	I COME TO THE GARDEN ALONE I COME TO THE GARDEN ALONE,
+AND HE WALKS WITH ME,
+HE SPEAKS AND THE SOUND OF HIS VOICE,
+I'D STAY IN THE GARDEN WITH HIM,	
+58	1	56	I'm so Happy and Here's the Reason why		I'm so happy and here's the reason why,
+Jesus took my burdens all away.
+Now I'm singing as the days go by,
+Jesus took my burdens all away.
+
+Once my heart was heavy with a load of care;
+Jesus took my burdens,
+Gave me peace within my heat.
+And now I'm singing as the days go by,
+Jesus took my burdens all away.	2005-03-13T10:12:05	I'M SO HAPPY AND HERE'S THE REASON WHY I'M SO HAPPY AND HERE'S THE REASON WHY,
+ONCE MY HEART WAS HEAVY WITH A LOAD OF CARE;	
+59	1	57	Tis so Sweet to Trust in Jesus		'Tis so sweet to trust in Jesus
+Just to take Him at His Word;
+Just to rest upon His promise;
+Just to know, "Thus saith the Lord."
+
+CHORUS
+Jesus, Jesus, how I trust Him!
+How I've proved Him o'er and o'er!
+Jesus, Jesus, precious Jesus!
+Oh, for grace to trust Him more!
+
+Oh, how sweet to trust in Jesus
+Just to trust His cleansing blood;
+Just in simple faith to plunge me
+'Neath the healing, cleansing flood.
+
+Yes, 'tis sweet to trust in Jesus
+Just from sin and self to cease;
+Just from Jesus simply taking
+Life and rest, and joy and peace.
+
+I'm so glad I learned to trust Thee!
+Precious Jesus, Savior, Friend;
+And I know that Thou art with me,
+Wilt be with me to the end.	2005-03-13T10:17:16	TIS SO SWEET TO TRUST IN JESUS 'TIS SO SWEET TO TRUST IN JESUS
+JESUS, JESUS, HOW I TRUST HIM!
+OH, HOW SWEET TO TRUST IN JESUS
+YES, 'TIS SWEET TO TRUST IN JESUS
+I'M SO GLAD I LEARNED TO TRUST THEE!	
+60	1	58	Let the Lord Have his way		Let the Lord have His way,
+In your heart every day;
+There's no rest, there's no peace,
+Until the Lord has His way.
+Place your life in His hands,
+Rest secure in His plans,
+Let the Lord, let the Lord 
+Have His way.	2005-03-13T10:13:22	LET THE LORD HAVE HIS WAY LET THE LORD HAVE HIS WAY,	
+61	1	59	Every day With Jesus		Every day with Jesus
+Is sweeter than the day before.
+Every passing moment,
+I love Him more and more.
+Jesus saves and keeps me
+And He's the One I'm waiting for.
+Every day with Jesus
+Is sweeter than the day before.
+
+Follow,
+I will Follow thee my Lord,
+Follow every passing day,
+My tomorrows are all known to thee,
+I will serve and Follow thee.	2005-08-07T17:00:22	EVERY DAY WITH JESUS EVERY DAY WITH JESUS
+FOLLOW,	
+62	1	60	What a Fellowship, What a Joy Divine,		What a fellowship, what a joy divine,
+Leaning on the everlasting arms;
+What a blessedness, what a peace is mine,
+Leaning on the everlasting arms.
+
+CHORUS
+Leaning, leaning, 
+Safe and secure from all alarms;
+Leaning, leaning, 
+Leaning on the everlasting arms.
+
+Oh how sweet to walk in this pilgrim way,
+Leaning on the everlasting arms;
+Oh how bright the path grows from day to day,
+Leaning on the everlasting arms.
+
+What have I to dread, what have I to fear,
+Leaning on the everlasting arms;
+I have blessed peace with my Lord so near,
+Leaning on the everlasting arms.	2005-03-13T10:17:54	WHAT A FELLOWSHIP, WHAT A JOY DIVINE, WHAT A FELLOWSHIP, WHAT A JOY DIVINE,
+LEANING, LEANING,
+OH HOW SWEET TO WALK IN THIS PILGRIM WAY,
+WHAT HAVE I TO DREAD, WHAT HAVE I TO FEAR,	
+63	1	61	It was Early in the Morning,		It was early in the morning,
+By an ancient wayside well;
+Eleazer stopped to rest his camel train,
+He had found a bride for Isaac,
+He had found Rebecca fair,
+And his weary journey had not been in vain.
+
+CHORUS
+So get ready evening shadows fall,
+Can't you hear the Eleazer call?
+There is going to be a wedding,
+Our joy will soon begin.
+In the evening when,
+The camel train comes in.
+
+Now the blessed Holy Spirit
+From the Father God above,
+Has come down to earth
+To claim His worthy bride.
+And our Isaac over yonder
+Has prepared his tents of love,
+And he wants his fair Rebecca by his side.
+
+We have left our kin folks gladly,
+We have bid the world good-bye,
+We are going to our home beyond the sky.
+We shall soon behold our Isaac,
+In our home beyond the sky,
+What a happy, happy wedding that will be.
+
+That will be a joyful meeting, 
+When the camel train comes in,
+Where our Isaac waits 
+To meet his happy bride;
+What a holy consummation,
+What a glorious jubilee,
+When we see the fair Rebecca by his side.	2005-03-13T10:12:24	IT WAS EARLY IN THE MORNING, IT WAS EARLY IN THE MORNING,
+SO GET READY EVENING SHADOWS FALL,
+NOW THE BLESSED HOLY SPIRIT
+WE HAVE LEFT OUR KIN FOLKS GLADLY,
+THAT WILL BE A JOYFUL MEETING,	
+64	1	62	Jesus has a Table Spread,		Jesus has a table spread,
+Where the saints of God are fed
+He invites His chosen people,
+Come and dine.
+With His manna He doth feed,
+And supplies our every need
+O 'tis sweet to sup with Jesus
+All the time.
+
+CHORUS
+Come and dine the master calleth,
+Come and dine,
+You may feast at Jesus' table 
+All the time.
+He who fed the multitude,
+Turned the water into wine,
+To the hungry calleth now,
+Come and dine. 
+
+The disciples came to land,
+Thus obeying Christ's command,
+For the master called to them 
+Come and dine.
+There they found their hearts desire,
+Bread and fish upon the fire
+Thus He satisfies the hungry every time.
+
+Soon the Lamb will take His bride,
+To be ever at his side
+All the host of Heaven
+Will assembled be
+O 'twill be a glorious sight, 
+All the saints in spotless white 
+And with Jesus they shall feast eternally.	2005-03-13T10:12:42	JESUS HAS A TABLE SPREAD, JESUS HAS A TABLE SPREAD,
+COME AND DINE THE MASTER CALLETH,
+THE DISCIPLES CAME TO LAND,
+SOON THE LAMB WILL TAKE HIS BRIDE,	
+65	1	63	He walked in Galilee,		He walked in Galilee,
+He prayed for you and me,
+Yes, he came to set us free.
+He took the blame, 
+And with no shame,
+Yes, he died for you and me.
+
+CHORUS
+But he rose again, he rose again,
+The lamb was slain,
+But he rose again. 
+The people cried,
+To see Christ crucified,
+But he rose, he rose again.
+
+He healed the lame,
+He healed the blind,
+Yes he turned the water into wine.
+He opened prison doors,
+To set the captives free,
+Yes he died for you and me.
+
+The Pharisees were lost, 
+They sent Christ to the cross, 
+Yes they pierced him in the side.
+But he said, "I'll come again".
+And the world won't be the same,
+Yes, he died for you and me.	2005-03-13T10:09:25	HE WALKED IN GALILEE, HE WALKED IN GALILEE,
+BUT HE ROSE AGAIN, HE ROSE AGAIN,
+HE HEALED THE LAME,
+THE PHARISEES WERE LOST,	
+66	1	64	Turn your Eyes upon Jesus		Turn your eyes upon Jesus,
+Look full in His wonderful face;
+And the things of earth
+Will grow strangely dim
+In the light of His glory and grace.	2005-03-13T10:17:29	TURN YOUR EYES UPON JESUS TURN YOUR EYES UPON JESUS,	
+67	1	65	Holy is the Lord		Holy is the Lord
+And mighty is His name.
+King of Heaven
+Yet down to earth He came.
+Angels sing His praise
+All earth shall do the same.
+Holy is the Lord 
+And mighty is His name.	2005-03-13T10:09:57	HOLY IS THE LORD HOLY IS THE LORD	
+68	1	66	We are Able to go up and Take the Country,		We are able to go up and take the country,
+To posses the land from Jordan to the sea.
+Though the giants maybe there,
+Our way to hinder
+God will surely give the victory.
+
+Sons of God, march forward, 
+In the power of the saviors name.
+Sons of God, march forward, 
+for Jesus is ever the same
+Sons of God, march forward, 
+We are more than conquerors in His name.
+Sons of God, march forward, 
+In the power of the saviors name.	2005-03-13T10:17:27	WE ARE ABLE TO GO UP AND TAKE THE COUNTRY, WE ARE ABLE TO GO UP AND TAKE THE COUNTRY,
+SONS OF GOD, MARCH FORWARD,	
+69	1	67	Isn't He Wonderful		Isn't He wonderful, wonderful, wonderful
+Isn't Jesus my Lord wonderful.
+Eyes have seen, ears have heard,
+It's recorded in God's Word
+Isn't Jesus my Lord wonderful.	2005-03-13T10:12:20	ISN'T HE WONDERFUL ISN'T HE WONDERFUL, WONDERFUL, WONDERFUL	
+70	1	68	There's a river of life		There's a river of life,
+Flowing out from me.
+Makes the lame to walk,
+And the blind to see.
+Opens prison doors,
+Sets the captives free.
+There's a river of life,
+Flowing out from me.
+
+Spring up O well,
+Within my soul;
+Spring up O well,
+And make me whole;
+Spring up O well,
+And give to me;
+That life abundantly.	2005-03-13T10:16:49	THERE'S A RIVER OF LIFE THERE'S A RIVER OF LIFE,
+SPRING UP O WELL,	
+71	1	69	I am Blessed.		I am blessed, I am blessed,
+Every day that I live I am blessed.
+When I wake up in the morning,
+When I lay my head to rest,
+I am blesssed, I am blessed.	2005-03-13T10:10:04	I AM BLESSED. I AM BLESSED, I AM BLESSED,	
+72	1	70	Just a little longer		Just a little longer 
+And the trumpet of God shall sound
+Just a little longer 
+And we'll all be glory bound;
+Look away to Heaven
+Your redemption draweth nigh
+Just a little longer 
+And we'll meet him in the sky.
+
+Just across the bridge,
+They'll be no sorrow,
+Just across the bridge,
+They'll be no pain,
+God's Son is going to shine,
+Across the river,
+And we'll never be unhappy again.
+
+Ten thousand years,
+we'll just be started,
+Ten thousand years,
+We've just begun,
+When the battle is over,
+Sweet victory is won,
+Ten thousand years,
+And we've just begun,	2005-03-13T10:13:04	JUST A LITTLE LONGER JUST A LITTLE LONGER
+JUST ACROSS THE BRIDGE,
+TEN THOUSAND YEARS,	
+73	1	71	Wondrous love of God		Wondrous love of God to me
+Love that led to Calvary
+Love that paid sins penalty
+God's wondrous love
+Like a mighty ocean tide
+From the cross where Jesus died
+Flows to sinners far and wide
+God's wondrous love.	2005-03-13T10:18:25	WONDROUS LOVE OF GOD WONDROUS LOVE OF GOD TO ME	
+74	1	72	Sweep over my soul		Sweep over my soul, sweep over my soul
+Sweet Spirit, sweep over my soul
+My rest is complete, as I set at His feet,
+Sweet Spirit, sweep over my soul	2005-03-13T10:15:25	SWEEP OVER MY SOUL SWEEP OVER MY SOUL, SWEEP OVER MY SOUL	
+75	1	73	He Gave me Beauty for Ashes		He gave me beauty for ashes,
+The oil of joy for mourning
+The garment of praise
+For the spirit of heaviness
+That we might be trees of righteousness
+The planting of the lord
+That He might be glorified.	2005-03-13T10:09:04	HE GAVE ME BEAUTY FOR ASHES HE GAVE ME BEAUTY FOR ASHES,	
+76	1	74	We live because of you Lord		We live because of you Lord,
+We live because of you 
+Everything you have is ours Lord
+We live because of you 
+
+I'll exchange my life for yours Lord
+I'll exchange my life for yours
+Your love, your faith, your triumph
+I'll exchange my life for yours.	2005-03-13T10:17:46	WE LIVE BECAUSE OF YOU LORD WE LIVE BECAUSE OF YOU LORD,
+I'LL EXCHANGE MY LIFE FOR YOURS LORD	
+77	1	75	Years I Spent in Vanity and Pride,		Years I spent in vanity and pride,
+Caring not my Lord was crucified,
+Knowing not it was for me He died,
+On Calvary.
+
+CHORUS
+Mercy there was great, and grace was free,
+Pardon there was multiplied to me, 
+There my burdened soul found liberty,
+At Calvary.
+
+By God's Word at last my sin I learned,
+Then I trembled at the law I'd spurned,
+Till my guilty soul, imploring turned
+To Calvary.
+
+Now I've given to Jesus everything,
+Now I gladly own Him as my King, 
+Now my raptured soul can only sing,
+Of Calvary.
+
+Oh, the love that drew salvation's plan,
+Oh, the grace that brought it down to man,
+Oh, the mighty gulf that God did span,
+At Calvary.	2005-05-08T18:14:10	YEARS I SPENT IN VANITY AND PRIDE, YEARS I SPENT IN VANITY AND PRIDE,
+MERCY THERE WAS GREAT, AND GRACE WAS FREE,
+BY GOD'S WORD AT LAST MY SIN I LEARNED,
+NOW I'VE GIVEN TO JESUS EVERYTHING,
+OH, THE LOVE THAT DREW SALVATION'S PLAN,	
+78	1	76	Is everybody happy		Is everybody happy
+Is everybody glad
+I don't want to see you looking weary
+And I don't want to see you looking sad.
+I just want to see you keep on smiling 
+For Jesus is at the door
+So keep on shouting hallelujah
+Till we meet on the golden shore.	2005-03-13T10:12:17	IS EVERYBODY HAPPY IS EVERYBODY HAPPY	
+79	1	77	Lets talk about Jesus		Let's talk about Jesus;
+Let all the world proclaim,
+The power and majesty,
+Of such a wondrous name;
+The babe of Bethlehem,
+The Bright and Morning Star
+Lets sing His praises near and far.
+
+CHORUS
+Let's talk about Jesus,
+The King of Kings is He;
+ The Lord of Lords supreme,
+Throughout eternity.
+The great I Am, the Way,
+The Truth, the Life, the Door;
+Let's talk about Jesus more and more.
+
+Let's talk about Jesus, 
+The bread of Life is He,
+The Saviour of the world, 
+That man of Galilee.
+The Prophet, Priest and King,
+The Mighty God is He,
+The well of Living Water free.
+
+Let's talk about Jesus,
+The Prince of Peace is He,
+The great Physician too,
+Down thro' all history;
+The Lily pure and white,
+The Rose of Sharon fair,
+The Shepherd of such tender care.	2005-03-13T10:13:29	LETS TALK ABOUT JESUS LET'S TALK ABOUT JESUS;
+LET'S TALK ABOUT JESUS,
+LET'S TALK ABOUT JESUS,
+LET'S TALK ABOUT JESUS,	
+80	1	78	The well is deep		The well is deep and I require
+A draught of the water of life,
+But none can quench my hearts desire
+For a draught of the water of life.
+Till one draws near who the cry will heed,
+Helper of men in their time of need.
+And  I believing find indeed 
+That Christ is the water of life.	2005-03-13T10:16:25	THE WELL IS DEEP THE WELL IS DEEP AND I REQUIRE	
+81	1	79	Because He Lives		Because He lives, I can face tomorrow,
+Because He lives, all fear is gone,
+Because I know, yes I know,
+He holds my future,
+This life is worth the living,
+Just because He lives.	2005-03-13T10:07:09	BECAUSE HE LIVES BECAUSE HE LIVES, I CAN FACE TOMORROW,	
+82	1	80	Oh predestinated Bride		Oh predestinated Bride,
+Come and stand by my side;
+You've run the race,
+You've kept the faith, come home;
+Can't you hear the prophet say,
+"Stay in line; don't stray away".
+Little Bride it's evening time, come home.	2005-03-13T10:14:39	OH PREDESTINATED BRIDE OH PREDESTINATED BRIDE,	
+83	1	81	Into the chamber		Into the chamber, be free Holy Spirit,
+Speak to me gently, as I close the door.
+Heavenly lover let thy presence cover,
+Shekinah unending, Is all I long for.	2005-03-13T10:12:12	INTO THE CHAMBER INTO THE CHAMBER, BE FREE HOLY SPIRIT,	
+84	1	82	There is Coming a Day,		There is coming a day 
+When no heartaches shall come,
+No more clouds in the sky, 
+No more tears to dim the eye;
+All is peace forevermore 
+On that happy golden shore,
+What a day, glorious day 
+That will be
+
+CHORUS
+What a day that will be
+When my Jesus I shall see,
+When I look upon His face, 
+The One who saved me by His grace;
+When He takes me by the hand,
+And leads me through 
+The Promised Land,
+What a day, glorious day 
+That will be.
+
+There'll be no sorrow there, 
+No more burdens to bear,
+No more sickness, no pain, 
+No more parting over there;
+And forever I will be 
+With the One who died for me,
+What a day, glorious day 
+That will be.	2005-03-13T10:16:40	THERE IS COMING A DAY, THERE IS COMING A DAY
+WHAT A DAY THAT WILL BE
+THERE'LL BE NO SORROW THERE,	
+85	1	83	Oh I Love to Hear His Voice		Oh I love to hear his voice,
+Saying: "you belong to me, 
+You are not your own,
+With a price you're bought,
+And you're mine eternally."
+And I love to hear him say:
+"I have saved you by my grace,"
+And when I get to glory, 
+It will then be grander still,
+For I will see his face.	2005-03-13T10:14:30	OH I LOVE TO HEAR HIS VOICE OH I LOVE TO HEAR HIS VOICE,	
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
+DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%	DEMO 50%
