@@ -22,55 +22,30 @@ namespace ModelAndDataTesting
             int songCount = elemList.Count;
             Console.WriteLine(songCount);
 
+            //Creating instance of songbook
+            SongBook songBook1 = new SongBook(songCount);
 
+            //Setting the first node (first song in the XML file)
             XmlNode currNode = document.DocumentElement.FirstChild;
 
             for (var i = 0; i < songCount; i++)
             {
                 XmlElement songElement = (XmlElement)currNode;
-
-                var currentSong = new Song(Int32.Parse(songElement["SongID"].InnerText), Int32.Parse(songElement["BookID"].InnerText), Int32.Parse(songElement["SongNum"].InnerText), songElement["Title"].InnerText, songElement["Key"].InnerText, songElement["Body"].InnerText);
-                //Console.WriteLine("Song # {0}:", i);
-                //Console.WriteLine(currNode.OuterXml);
-                //Console.WriteLine("\r\n");
-
-               
-                
-                currNode = currNode.NextSibling;
+                songBook1.AddSong(i, Int32.Parse(songElement["SongID"].InnerText), Int32.Parse(songElement["BookID"].InnerText), Int32.Parse(songElement["SongNum"].InnerText), songElement["Title"].InnerText, songElement["Key"].InnerText, songElement["Body"].InnerText);
+                currNode = currNode.NextSibling; //Going to next song in the XML file
             }
 
+
+            //Testing below here
+
+
+            Console.WriteLine(songBook1.GetCount());
+            Console.WriteLine(songBook1.GetTitles());
             
 
             //XmlNode currNode = document.DocumentElement.FirstChild;
             //Console.WriteLine("First song...");
             //Console.WriteLine(currNode.OuterXml);
-
-
-           // XmlElement songElement = (XmlElement)currNode;
-
-            //string songId = songElement["SongID"].InnerText;
-
-
-           // Console.WriteLine(songId);
-
-
-
-            //XmlNode nextNode = currNode.NextSibling;
-            //Console.WriteLine("\r\nSecond song...");
-            //Console.WriteLine(nextNode.OuterXml);
-
-
-
-            //var filename = "PurchaseOrder.xml";
-            //var currentDirectory = Directory.GetCurrentDirectory();
-            //var purchaseOrderFilepath = Path.Combine(currentDirectory, filename);
-
-
-
-
-
-            //var test1 = new Song();
-
 
 
             Console.ReadKey();

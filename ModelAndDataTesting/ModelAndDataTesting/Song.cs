@@ -8,12 +8,12 @@ namespace ModelAndDataTesting
 {
     public class Song
     {
-        private int songId;
-        private int bookId;
-        private int songNum;
-        private string title;
-        private string key;
-        private string body;
+        public int songId;
+        public int bookId;
+        public int songNum;
+        public string title;
+        public string key;
+        public string body;
 
         public Song(int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody)
         {
@@ -25,5 +25,12 @@ namespace ModelAndDataTesting
             body = newBody;
         }
 
+        //This method will return the body of the song split into paragraphs
+        public string[] GetSongBody()
+        {
+            string[] result = new string[5];
+
+            return result;
+        }
     }
 }
