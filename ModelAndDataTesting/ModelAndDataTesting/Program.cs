@@ -40,7 +40,7 @@ namespace ModelAndDataTesting
 
 
             Console.WriteLine(songBook1.GetCount());
-            Console.WriteLine(songBook1.GetTitles());
+            Console.WriteLine(songBook1.GetAllTitles());
             
 
             //XmlNode currNode = document.DocumentElement.FirstChild;

@@ -30,7 +30,7 @@ namespace ModelAndDataTesting
         }
 
         //This needs to be changed, just returning string for testing
-        public string GetTitles()
+        public string GetAllTitles()
         {
             string result = "";
 
@@ -40,6 +40,12 @@ namespace ModelAndDataTesting
             }
 
             return result;
+        }
+
+        //Sorts songs alphabetically
+        public void SortSongs()
+        {
+            //allMySongs.OrderBy()
         }
     }
 }
