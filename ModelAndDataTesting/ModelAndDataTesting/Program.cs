@@ -28,6 +28,7 @@ namespace ModelAndDataTesting
             //Setting the first node (first song in the XML file)
             XmlNode currNode = document.DocumentElement.FirstChild;
 
+            //Adding all songs into the model
             for (var i = 0; i < songCount; i++)
             {
                 XmlElement songElement = (XmlElement)currNode;
@@ -36,7 +37,7 @@ namespace ModelAndDataTesting
             }
 
 
-            //Testing below here
+            //Testing below here ->
 
 
             Console.WriteLine(songBook1.GetCount());

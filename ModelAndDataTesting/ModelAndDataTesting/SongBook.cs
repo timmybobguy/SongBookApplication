@@ -30,14 +30,38 @@ namespace ModelAndDataTesting
         }
 
         //This needs to be changed, just returning string for testing
-        public string GetAllTitles()
+        public string[] GetAllTitles()
         {
-            string result = "";
+            string[] result = new string[songCount];
 
             for (var i = 0; i < songCount; i++)
             {
-                result += ((Song)allMySongs[i]).title + "\n";
+                result[i] = ((Song)allMySongs[i]).title;
             }
+
+            return result;
+        }
+
+        public object[] SearchByName(string query)
+        {
+            /*
+            if (query is in the name of a song)
+            {
+
+            }
+            else if (query is in body of song)
+            {
+
+            }
+            else
+            {
+                no results were found
+            }
+            
+
+            */
+            object[] result = new object[1];
+
 
             return result;
         }
