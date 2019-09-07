@@ -29,7 +29,45 @@ namespace ModelAndDataTesting
             return songCount;
         }
 
-        //This needs to be changed, just returning string for testing
+        //This method will return the body of the song split into paragraphs
+        public string[] GetSongBody(int id)
+        {
+            string[] lines = ((Song)allMySongs[id]).body.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
+
+            bool isChorus = false;
+            int numOfParagraphs = 1;
+            
+            //Getting the number of paragraphs
+            for (var i = 0; i < lines.Length; i++)
+            {
+                if (lines[i] == "CHORUS")
+                {
+                    isChorus = true;
+                }
+                else if (lines[i] == "")
+                {
+                    numOfParagraphs += 1;
+                }
+            }
+
+            if (isChorus == true)
+            {
+                numOfParagraphs += (numOfParagraphs-2); // This is the extra choruses inbetween verses
+            }
+
+            
+            string[] paragraphs = new string[2];
+
+            
+
+            string[] result = new string[numOfParagraphs];
+
+
+
+            return result;
+        }
+
+        //This needs to be changed, just returning string for testing --changed to string array--
         public string[] GetAllTitles()
         {
             string[] result = new string[songCount];

@@ -40,9 +40,16 @@ namespace ModelAndDataTesting
             //Testing below here ->
 
 
+            //This is for printing string arrays to the console
+            Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
+
+            Array.ForEach(songBook1.GetAllTitles(), Console.WriteLine);
+
+
+
+
             Console.WriteLine(songBook1.GetCount());
-            Console.WriteLine(songBook1.GetAllTitles());
-            
+            //Console.WriteLine(songBook1.allMySongs[0]);
 
             //XmlNode currNode = document.DocumentElement.FirstChild;
             //Console.WriteLine("First song...");

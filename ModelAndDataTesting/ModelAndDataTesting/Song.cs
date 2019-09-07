@@ -23,14 +23,6 @@ namespace ModelAndDataTesting
             title = newTitle;
             key = newKey;
             body = newBody;
-        }
-
-        //This method will return the body of the song split into paragraphs
-        public string[] GetSongBody()
-        {
-            string[] result = new string[5];
-
-            return result;
-        }
+        } 
     }
 }
