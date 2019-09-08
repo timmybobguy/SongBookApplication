@@ -8,6 +8,7 @@ namespace ModelAndDataTesting
 {
     public class Song
     {
+        public int id;
         public int songId;
         public int bookId;
         public int songNum;
@@ -16,7 +17,7 @@ namespace ModelAndDataTesting
         public string body;
         public bool isChorus;
 
-        public Song(int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus = false)
+        public Song(int newId, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus = false)
         {
             songId = newSongID;
             bookId = newBookID;
@@ -25,6 +26,7 @@ namespace ModelAndDataTesting
             key = newKey;
             body = newBody;
             isChorus = newIsChorus;
+            id = newId;
         } 
     }
 }

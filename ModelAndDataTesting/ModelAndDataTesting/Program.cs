@@ -41,7 +41,7 @@ namespace ModelAndDataTesting
 
 
             //This is for printing string arrays to the console
-            //Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
+            Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
 
             Array.ForEach(songBook1.GetAllTitles(), Console.WriteLine);
 

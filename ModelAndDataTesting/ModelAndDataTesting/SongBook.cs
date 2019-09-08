@@ -19,9 +19,8 @@ namespace ModelAndDataTesting
 
         public void AddSong(int id, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody)
         {
-            object newSong = new Song(newSongID, newBookID, newSongNum, newTitle, newKey, newBody);
+            object newSong = new Song(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody);
             allMySongs[id] = newSong;
-            //Setting if song is chorus or not
             if (((Song)allMySongs[id]).body.Contains("CHORUS"))
             {
                 ((Song)allMySongs[id]).isChorus = true;
@@ -54,13 +53,33 @@ namespace ModelAndDataTesting
                 numOfParagraphs += (numOfParagraphs-2); // This is the extra choruses inbetween verses
             }
 
-            
+            //Now there is array with the correct number of paragraphs
             string[] paragraphs = new string[numOfParagraphs];
 
-            
+            //Adding paragraphs to final array
+            int currentLine = 0;
 
-            
+            for (var x = 0; x < paragraphs.Length; x++)
+            {
+                string currentParagraph = "";
 
+                for (var i = currentLine; i < lines.Length; i++)
+                {
+                    if (lines[i] == "")
+                    {
+                        currentLine++;
+                        break;
+                    }
+                    else
+                    {
+                        currentParagraph += lines[i] + "\n";
+                        currentLine++;
+                    }
+                }
+
+                paragraphs[x] = currentParagraph;
+            
+            }
 
 
             return paragraphs;
