@@ -36,53 +36,20 @@ namespace ModelAndDataTesting
         //This method will return the body of the song split into paragraphs
         public string[] GetSongBody(int id)
         {
+            List<string> paragraphs = new List<string>();
+            //paragraphs.Add(paragraphstring);
+
             string[] lines = ((Song)allMySongs[id]).body.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
-            int numOfParagraphs = 1;
-            
-            //Getting the number of paragraphs
+
+            string currentParagraph = "";
+
             for (var i = 0; i < lines.Length; i++)
-            {
-                if (lines[i] == "")
-                {
-                    numOfParagraphs += 1;
-                }
+            { 
+               //Reworking with list currently 
             }
 
-            if (((Song)allMySongs[id]).isChorus == true)
-            {
-                numOfParagraphs += (numOfParagraphs-2); // This is the extra choruses inbetween verses
-            }
-
-            //Now there is array with the correct number of paragraphs
-            string[] paragraphs = new string[numOfParagraphs];
-
-            //Adding paragraphs to final array
-            int currentLine = 0;
-
-            for (var x = 0; x < paragraphs.Length; x++)
-            {
-                string currentParagraph = "";
-
-                for (var i = currentLine; i < lines.Length; i++)
-                {
-                    if (lines[i] == "")
-                    {
-                        currentLine++;
-                        break;
-                    }
-                    else
-                    {
-                        currentParagraph += lines[i] + "\n";
-                        currentLine++;
-                    }
-                }
-
-                paragraphs[x] = currentParagraph;
-            
-            }
-
-
-            return paragraphs;
+            string[] result = paragraphs.ToArray();
+            return result;
         }
 
         //This needs to be changed, just returning string for testing --changed to string array--
