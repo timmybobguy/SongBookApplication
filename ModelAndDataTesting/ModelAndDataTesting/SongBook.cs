@@ -98,8 +98,16 @@ namespace ModelAndDataTesting
             return result;
         }
 
-        public object[] SearchByName(string query)
+        public object[] SearchSongs(string query)
         {
+            for (var i = 0; i < allMySongs.Length; i++)
+            {
+                string test = ((Song)allMySongs[i]).body;
+                if ()
+                {
+
+                }
+            }
             /*
             if (query is in the name of a song)
             {
