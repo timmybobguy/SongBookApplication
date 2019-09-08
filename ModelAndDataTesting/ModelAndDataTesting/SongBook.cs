@@ -98,42 +98,25 @@ namespace ModelAndDataTesting
             return result;
         }
 
-        public object[] SearchSongs(string query)
+        public object[] SearchSongs(string query, int type)
         {
+            StringComparison stringComparison = StringComparison.CurrentCultureIgnoreCase;
+
+            List<object> results = new List<object>();
+
             for (var i = 0; i < allMySongs.Length; i++)
             {
-                if (query.IndexOf(((Song)allMySongs[i]).body, 0, StringComparison.CurrentCultureIgnoreCase) != -1)
+                if (((Song)allMySongs[i]).body.IndexOf(query, stringComparison) >= 0 && (type == 1 || type == 3))
                 {
-                    // contains 
+                    results.Add(((Song)allMySongs[i]));
                 }
-                else if (query.IndexOf(((Song)allMySongs[i]).title, 0, StringComparison.CurrentCultureIgnoreCase) != -1)
+                if (((Song)allMySongs[i]).title.IndexOf(query, stringComparison) >= 0 && (type == 0 || type == 3))
                 {
-
-                }
-                else
-                {
-
+                    results.Add(((Song)allMySongs[i]));
                 }
             }
-            /*
-            if (query is in the name of a song)
-            {
 
-            }
-            else if (query is in body of song)
-            {
-
-            }
-            else
-            {
-                no results were found
-            }
-            
-
-            */
-            object[] result = new object[1];
-
-
+            object[] result = results.ToArray();
             return result;
         }
 

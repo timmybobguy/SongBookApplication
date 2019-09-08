@@ -41,14 +41,15 @@ namespace ModelAndDataTesting
 
 
             //This is for printing string arrays to the console
-            Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
 
-            Array.ForEach(songBook1.GetAllTitles(), Console.WriteLine);
+            //Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
 
+            //Array.ForEach(songBook1.GetAllTitles(), Console.WriteLine);
 
+            // Search song takes a code, 0 for titles, 1 for body text and 2 for both
+            Array.ForEach(songBook1.SearchSongs("The", 0), Console.WriteLine);
 
-
-            Console.WriteLine(songBook1.GetCount());
+            //Console.WriteLine(songBook1.GetCount());
             //Console.WriteLine(songBook1.allMySongs[0]);
 
             //XmlNode currNode = document.DocumentElement.FirstChild;
