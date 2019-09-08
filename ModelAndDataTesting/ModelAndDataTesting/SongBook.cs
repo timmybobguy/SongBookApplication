@@ -102,8 +102,15 @@ namespace ModelAndDataTesting
         {
             for (var i = 0; i < allMySongs.Length; i++)
             {
-                string test = ((Song)allMySongs[i]).body;
-                if ()
+                if (query.IndexOf(((Song)allMySongs[i]).body, 0, StringComparison.CurrentCultureIgnoreCase) != -1)
+                {
+                    // contains 
+                }
+                else if (query.IndexOf(((Song)allMySongs[i]).title, 0, StringComparison.CurrentCultureIgnoreCase) != -1)
+                {
+
+                }
+                else
                 {
 
                 }
