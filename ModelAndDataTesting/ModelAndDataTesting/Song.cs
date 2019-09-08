@@ -14,8 +14,9 @@ namespace ModelAndDataTesting
         public string title;
         public string key;
         public string body;
+        public bool isChorus;
 
-        public Song(int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody)
+        public Song(int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus = false)
         {
             songId = newSongID;
             bookId = newBookID;
@@ -23,6 +24,7 @@ namespace ModelAndDataTesting
             title = newTitle;
             key = newKey;
             body = newBody;
+            isChorus = newIsChorus;
         } 
     }
 }

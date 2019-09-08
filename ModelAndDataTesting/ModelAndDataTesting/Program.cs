@@ -32,7 +32,7 @@ namespace ModelAndDataTesting
             for (var i = 0; i < songCount; i++)
             {
                 XmlElement songElement = (XmlElement)currNode;
-                songBook1.AddSong(i, Int32.Parse(songElement["SongID"].InnerText), Int32.Parse(songElement["BookID"].InnerText), Int32.Parse(songElement["SongNum"].InnerText), songElement["Title"].InnerText, songElement["Key"].InnerText, songElement["Body"].InnerText);
+                songBook1.AddSong(i, int.Parse(songElement["SongID"].InnerText), int.Parse(songElement["BookID"].InnerText), int.Parse(songElement["SongNum"].InnerText), songElement["Title"].InnerText, songElement["Key"].InnerText, songElement["Body"].InnerText);
                 currNode = currNode.NextSibling; //Going to next song in the XML file
             }
 
@@ -41,7 +41,7 @@ namespace ModelAndDataTesting
 
 
             //This is for printing string arrays to the console
-            Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
+            //Array.ForEach(songBook1.GetSongBody(0), Console.WriteLine);
 
             Array.ForEach(songBook1.GetAllTitles(), Console.WriteLine);
 

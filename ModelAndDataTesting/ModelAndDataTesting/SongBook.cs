@@ -21,6 +21,11 @@ namespace ModelAndDataTesting
         {
             object newSong = new Song(newSongID, newBookID, newSongNum, newTitle, newKey, newBody);
             allMySongs[id] = newSong;
+            //Setting if song is chorus or not
+            if (((Song)allMySongs[id]).body.Contains("CHORUS"))
+            {
+                ((Song)allMySongs[id]).isChorus = true;
+            }
             songCount++;
         }
 
@@ -33,38 +38,32 @@ namespace ModelAndDataTesting
         public string[] GetSongBody(int id)
         {
             string[] lines = ((Song)allMySongs[id]).body.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
-
-            bool isChorus = false;
             int numOfParagraphs = 1;
             
             //Getting the number of paragraphs
             for (var i = 0; i < lines.Length; i++)
             {
-                if (lines[i] == "CHORUS")
-                {
-                    isChorus = true;
-                }
-                else if (lines[i] == "")
+                if (lines[i] == "")
                 {
                     numOfParagraphs += 1;
                 }
             }
 
-            if (isChorus == true)
+            if (((Song)allMySongs[id]).isChorus == true)
             {
                 numOfParagraphs += (numOfParagraphs-2); // This is the extra choruses inbetween verses
             }
 
             
-            string[] paragraphs = new string[2];
+            string[] paragraphs = new string[numOfParagraphs];
 
             
 
-            string[] result = new string[numOfParagraphs];
+            
 
 
 
-            return result;
+            return paragraphs;
         }
 
         //This needs to be changed, just returning string for testing --changed to string array--
