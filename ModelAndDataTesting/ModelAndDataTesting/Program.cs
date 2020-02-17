@@ -11,9 +11,12 @@ namespace ModelAndDataTesting
     {
         static void Main(string[] args)
         {
+
+            string filePath = "C:\\Users\\TimDesk\\Source\\Repos\\SongBookApplication\\ModelAndDataTesting\\ModelAndDataTesting\\songs.xml";
+
             //Loading the file
             XmlDocument document = new XmlDocument();
-            document.Load("C:\\Users\\TimDesk\\Source\\Repos\\SongBookApplication\\ModelAndDataTesting\\ModelAndDataTesting\\songs.xml");
+            document.Load(filePath);
 
 
             //Getting count of songs for loop
@@ -22,8 +25,11 @@ namespace ModelAndDataTesting
             int songCount = elemList.Count;
             Console.WriteLine(songCount);
 
+            //For testing purposes rerouting the save file to a testing one instead of the actual file
+            filePath = "C:\\Users\\TimDesk\\Source\\Repos\\SongBookApplication\\ModelAndDataTesting\\ModelAndDataTesting\\testingOutput.xml";
+
             //Creating instance of songbook
-            SongBook songBook1 = new SongBook(songCount);
+            SongBook songBook1 = new SongBook(songCount, filePath);
 
             //Setting the first node (first song in the XML file)
             XmlNode currNode = document.DocumentElement.FirstChild;

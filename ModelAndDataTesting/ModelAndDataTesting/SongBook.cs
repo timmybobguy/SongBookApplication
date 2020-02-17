@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace ModelAndDataTesting
 {
@@ -10,11 +11,13 @@ namespace ModelAndDataTesting
     {
         private int songCount;
         private object[] allMySongs;
+        private string savePath;
 
-        public SongBook(int numberOfSongs)
+        public SongBook(int numberOfSongs, string newSavePath)
         {
             songCount = 0;
             allMySongs = new object[numberOfSongs];
+            savePath = newSavePath;
         }
 
         public void AddSong(int id, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody)
@@ -28,10 +31,27 @@ namespace ModelAndDataTesting
             songCount++;
         }
 
+        public void ToXML()
+        {
+            //for each song etc 
+
+            // Creating xml string and then put string to file 
+            //string output = '<?xml version="1.0" encoding="UTF - 8"?>< dataroot >';
+            XmlDocument doc = new XmlDocument();
+
+            
+
+            for (var i = 0; i < songCount; i++)
+            {
+                //output += '<Songs>';
+            }
+        }
+
         public int GetCount()
         {
             return songCount;
         }
+
 
         //This method will return the body of the song split into paragraphs
         public string[] GetSongBody(int id)
@@ -52,7 +72,7 @@ namespace ModelAndDataTesting
             return result;
         }
 
-        //This needs to be changed, just returning string for testing --changed to string array--
+        //This needs to be changed, just returning string for testing --changed to string array-- NEEDS TO BE PASSING BACK SONG OBJECTS???
         public string[] GetAllTitles()
         {
             string[] result = new string[songCount];
