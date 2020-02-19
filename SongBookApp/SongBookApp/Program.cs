@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,11 +15,19 @@ namespace SongBookApp
         [STAThread]
         static void Main()
         {
+            // Load file 
+
+            
+
+            // Load songs into songbook
+
+            // Then load the visual interface
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new StartScreen());
 
-            //Song test1 = new Song("Song1", 1, "This is a song, bla bla bla");
+            
 
             
         }
