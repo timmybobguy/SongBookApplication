@@ -4,28 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SongBookApp
+namespace ModelAndDataTesting
 {
-    class Song
+    public class Song
     {
-        private string songTitle;
-        private int songNumber;
-        private string songText;
+        public int id;
+        public int songId;
+        public int bookId;
+        public int songNum;
+        public string title;
+        public string key;
+        public string body;
+        public bool isChorus;
 
-
-        public Song(string newSongTitle, int newSongNumber, string newSongText)
+        public Song(int newId, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus = false)
         {
-            songTitle = newSongTitle;
-            songNumber = newSongNumber;
-            songText = newSongText;
-        }
-
-
-            
-            
-            
-
-            
-        
+            songId = newSongID;
+            bookId = newBookID;
+            songNum = newSongNum;
+            title = newTitle;
+            key = newKey;
+            body = newBody;
+            isChorus = newIsChorus;
+            id = newId;
+        } 
     }
 }
