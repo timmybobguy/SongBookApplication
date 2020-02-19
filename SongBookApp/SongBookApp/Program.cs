@@ -18,7 +18,7 @@ namespace SongBookApp
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new StartScreen());
 
-            Song test1 = new Song("Song1", 1, "This is a song, bla bla bla");
+            //Song test1 = new Song("Song1", 1, "This is a song, bla bla bla");
 
             
         }
