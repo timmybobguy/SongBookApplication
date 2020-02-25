@@ -9,3 +9,6 @@
 
 -copy/download song list
 -update songlist
+
+- Not sure if you have done this or not, but for the Song book program could you make the mouse invisible when it’s presenting the song
+Not now, just when ever. Thanks
