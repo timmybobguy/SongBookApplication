@@ -12,9 +12,23 @@ namespace SongBookApp
 {
     public partial class ProjectSong : Form
     {
-        public ProjectSong()
+        private Song currentSong;
+        private string[] songParagraphs;
+
+        public ProjectSong(Song newCurrentSong)
         {
+            currentSong = newCurrentSong;
+            GenerateParagraphs();
             InitializeComponent();
         }
+
+        //Gets the song object from the main program to display it
+
+        public void GenerateParagraphs()
+        {
+            
+        }
+
+
     }
 }

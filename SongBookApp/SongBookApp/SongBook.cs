@@ -10,7 +10,7 @@ namespace SongBookApp
     public class SongBook
     {
         private int songCount;
-        private object[] allMySongs;
+        public object[] allMySongs; // TEMPORARY CHANGE THIS 
         private string savePath;
 
         public SongBook(int numberOfSongs, string newSavePath)
@@ -52,25 +52,6 @@ namespace SongBookApp
             return songCount;
         }
 
-
-        //This method will return the body of the song split into paragraphs
-        public string[] GetSongBody(int id)
-        {
-            List<string> paragraphs = new List<string>();
-            //paragraphs.Add(paragraphstring);
-
-            string[] lines = ((Song)allMySongs[id]).body.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
-
-            string currentParagraph = "";
-
-            for (var i = 0; i < lines.Length; i++)
-            { 
-               //Reworking with list currently 
-            }
-
-            string[] result = paragraphs.ToArray();
-            return result;
-        }
 
         //This needs to be changed, just returning string for testing --changed to string array-- NEEDS TO BE PASSING BACK SONG OBJECTS???
         public string[] GetAllTitles()

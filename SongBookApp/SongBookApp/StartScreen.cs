@@ -55,5 +55,16 @@ namespace SongBookApp
 
             listBoxTesting.EndUpdate();
         }
+
+        private void testProject_Click(object sender, EventArgs e)
+        {
+            Song testsong = ((Song)songBook.allMySongs[0]);
+
+            testsong.GetSongBody();
+
+            ProjectSong test = new ProjectSong(testsong);
+
+            test.ShowDialog();
+        }
     }
 }

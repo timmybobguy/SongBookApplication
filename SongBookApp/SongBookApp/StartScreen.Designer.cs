@@ -34,6 +34,7 @@
             this.listBoxTesting = new System.Windows.Forms.ListBox();
             this.searchBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
+            this.testProject = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -87,11 +88,22 @@
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
+            // testProject
+            // 
+            this.testProject.Location = new System.Drawing.Point(71, 317);
+            this.testProject.Name = "testProject";
+            this.testProject.Size = new System.Drawing.Size(75, 23);
+            this.testProject.TabIndex = 5;
+            this.testProject.Text = "testProject";
+            this.testProject.UseVisualStyleBackColor = true;
+            this.testProject.Click += new System.EventHandler(this.testProject_Click);
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.testProject);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.listBoxTesting);
@@ -115,5 +127,6 @@
         private System.Windows.Forms.ListBox listBoxTesting;
         private System.Windows.Forms.TextBox searchBox;
         private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.Button testProject;
     }
 }
