@@ -31,7 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testTextBox = new System.Windows.Forms.TextBox();
+            this.listBoxTesting = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,20 +60,20 @@
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
-            // testTextBox
+            // listBoxTesting
             // 
-            this.testTextBox.Location = new System.Drawing.Point(200, 119);
-            this.testTextBox.Multiline = true;
-            this.testTextBox.Name = "testTextBox";
-            this.testTextBox.Size = new System.Drawing.Size(229, 151);
-            this.testTextBox.TabIndex = 1;
+            this.listBoxTesting.FormattingEnabled = true;
+            this.listBoxTesting.Location = new System.Drawing.Point(179, 110);
+            this.listBoxTesting.Name = "listBoxTesting";
+            this.listBoxTesting.Size = new System.Drawing.Size(310, 186);
+            this.listBoxTesting.TabIndex = 2;
             // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.testTextBox);
+            this.Controls.Add(this.listBoxTesting);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "StartScreen";
@@ -91,6 +91,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
-        private System.Windows.Forms.TextBox testTextBox;
+        private System.Windows.Forms.ListBox listBoxTesting;
     }
 }

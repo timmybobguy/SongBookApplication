@@ -30,7 +30,14 @@ namespace SongBookApp
 
         private void StartScreen_Load(object sender, EventArgs e)
         {
-            testTextBox.Text = "hi";
+            string[] titles = songBook.GetAllTitles();
+
+            for (var i = 0; i < fileFunctions.songCount; i++)
+            {
+                listBoxTesting.Items.Add(titles[i]);
+            }
+
+             
         }
     }
 }
