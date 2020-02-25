@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SongBookApp
 {
-    public partial class AddSong : Form
+    public partial class ProjectSong : Form
     {
-        public AddSong()
+        public ProjectSong()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
