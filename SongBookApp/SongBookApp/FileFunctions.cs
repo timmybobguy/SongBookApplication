@@ -8,9 +8,10 @@ using System.Xml;
 
 namespace SongBookApp
 {
-    class FileFunctions
+    public class FileFunctions
     {
         public string filePath;
+        public string savePath;
         public XmlDocument document;
         public int songCount;
 
@@ -24,6 +25,8 @@ namespace SongBookApp
                 string finalPath = Path.Combine(directory, "..\\..\\songFiles\\original.xml");
                 Console.WriteLine(finalPath);
                 filePath = finalPath;
+
+                savePath = Path.Combine(directory, "..\\..\\songFiles\\saveversion.xml"); //For testing right now
             }
             catch (Exception e)
             {

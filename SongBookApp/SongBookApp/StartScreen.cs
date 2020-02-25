@@ -12,9 +12,14 @@ namespace SongBookApp
 {
     public partial class StartScreen : Form
     {
-        public StartScreen()
+        private SongBook songBook;
+        private FileFunctions fileFunctions;
+
+        public StartScreen(SongBook newSongBook, FileFunctions newFileFunctions)
         {
             InitializeComponent();
+            songBook = newSongBook;
+            fileFunctions = newFileFunctions;
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)

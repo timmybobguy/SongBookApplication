@@ -7,7 +7,7 @@ using System.Xml;
 
 namespace SongBookApp
 {
-    class SongBook
+    public class SongBook
     {
         private int songCount;
         private object[] allMySongs;
