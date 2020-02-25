@@ -15,11 +15,19 @@ namespace SongBookApp
         [STAThread]
         static void Main()
         {
+
+
+            FileFunctions file = new FileFunctions();
+
             // Load file 
+
+            file.SetWorkingDirectory();
 
             
 
             // Load songs into songbook
+
+
 
             // Then load the visual interface
 
