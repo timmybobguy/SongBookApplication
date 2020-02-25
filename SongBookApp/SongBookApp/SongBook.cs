@@ -85,6 +85,26 @@ namespace SongBookApp
             return result;
         }
 
+        public string[] GetSearchedTitles(string searchString)
+        {
+
+            string[] wholeList = GetAllTitles();
+            List<string> resultList = new List<string>();
+
+            for (var i = 0; i < wholeList.Length; i++)
+            {
+                
+                if (wholeList[i].ToUpper().Contains(searchString.ToUpper()))
+                {
+                    resultList.Add(wholeList[i]);
+                }
+
+            }
+
+            string[] result = resultList.ToArray();
+            return result;
+        }
+
         public object[] SearchSongs(string query, int type)
         {
             StringComparison stringComparison = StringComparison.CurrentCultureIgnoreCase;

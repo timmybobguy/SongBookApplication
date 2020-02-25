@@ -30,14 +30,30 @@ namespace SongBookApp
 
         private void StartScreen_Load(object sender, EventArgs e)
         {
-            string[] titles = songBook.GetAllTitles();
 
-            for (var i = 0; i < fileFunctions.songCount; i++)
-            {
-                listBoxTesting.Items.Add(titles[i]);
-            }
+            //This is just for testing
+            //string[] titles = songBook.GetAllTitles();
+
+            //for (var i = 0; i < fileFunctions.songCount; i++)
+            //{
+            //    listBoxTesting.Items.Add(titles[i]);
+            //}
 
              
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            listBoxTesting.BeginUpdate();
+            listBoxTesting.Items.Clear();
+            
+            string[] results = songBook.GetSearchedTitles(searchBox.Text);
+            for (var i = 0; i < results.Length; i++)
+            {
+                listBoxTesting.Items.Add(results[i]);
+            }
+
+            listBoxTesting.EndUpdate();
         }
     }
 }

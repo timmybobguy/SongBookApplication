@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSong.Designer.cs">
+      <DependentUpon>AddSong.cs</DependentUpon>
+    </Compile>
     <Compile Include="FileFunctions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,6 +62,9 @@
     <Compile Include="StartScreen.Designer.cs">
       <DependentUpon>StartScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddSong.resx">
+      <DependentUpon>AddSong.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
