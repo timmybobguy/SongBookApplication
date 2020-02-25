@@ -58,7 +58,7 @@ namespace SongBookApp
 
         private void testProject_Click(object sender, EventArgs e)
         {
-            Song testsong = ((Song)songBook.allMySongs[0]);
+            Song testsong = ((Song)songBook.allMySongs[11]);
 
             testsong.GetSongBody();
 

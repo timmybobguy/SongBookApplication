@@ -33,8 +33,6 @@ namespace SongBookApp
         public string[] GetSongBody()
         {
             List<string> paragraphs = new List<string>();
-            //paragraphs.Add(paragraphstring);
-
             string[] lines = body.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
 
             int currentLine = 0;
