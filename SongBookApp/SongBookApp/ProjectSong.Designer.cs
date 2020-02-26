@@ -28,36 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.textLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // textLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(351, 186);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "paragraphText";
+            this.textLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textLabel.Location = new System.Drawing.Point(0, 0);
+            this.textLabel.Name = "textLabel";
+            this.textLabel.Size = new System.Drawing.Size(800, 450);
+            this.textLabel.TabIndex = 0;
+            this.textLabel.Text = "paragraphText";
+            this.textLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ProjectSong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textLabel);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "ProjectSong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ProjectSong";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ProjectSong_KeyPress);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.Label textLabel;
     }
 }
