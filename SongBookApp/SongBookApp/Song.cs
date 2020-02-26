@@ -79,6 +79,7 @@ namespace SongBookApp
                 paragraphs.Add(chorus);
             }
 
+            
             return paragraphs.ToArray();
         }
     }

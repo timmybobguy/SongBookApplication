@@ -64,6 +64,8 @@ namespace SongBookApp
 
             ProjectSong test = new ProjectSong(testsong);
 
+            Cursor.Hide();
+
             test.ShowDialog();
         }
     }
