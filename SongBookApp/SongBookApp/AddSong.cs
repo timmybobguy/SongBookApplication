@@ -12,14 +12,35 @@ namespace SongBookApp
 {
     public partial class AddSong : Form
     {
-        public AddSong()
+        Song songBeingEdited;
+        bool isNewSong;
+
+        public AddSong(bool isNew, Song existingSong)
         {
             InitializeComponent();
+            isNewSong = isNew;
+
+            if (!isNew)
+            {
+                songBeingEdited = existingSong;
+                textBoxTitle.Text = existingSong.title;
+                songBody.Text = existingSong.body;
+            }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void saveButton_Click(object sender, EventArgs e)
         {
+            if (isNewSong) // If a new song is being added
+            {
 
+            }
+            else // IF a song is being edited
+            {
+                songBeingEdited.body = songBody.Text;
+                songBeingEdited.title = textBoxTitle.Text;
+                Close();
+            }
+            
         }
     }
 }

@@ -25,7 +25,7 @@ namespace SongBookApp
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("quit command recieved");
+            //MessageBox.Show("quit command recieved");
             Application.Exit();
         }
 
@@ -151,6 +151,29 @@ namespace SongBookApp
 
                 
             }
+        }
+
+        private void editButton_Click(object sender, EventArgs e)
+        {
+
+            if (listBoxTesting.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select a song before trying to edit", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+
+                AddSong test = new AddSong(false, (Song)listBoxTesting.SelectedItem);
+                test.ShowDialog();
+                titleLabel.Text = "";
+                songBody.Text = "";
+            }
+        }
+
+        private void newSongToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddSong test = new AddSong(true, null);
+            test.ShowDialog();
         }
     }
 }
