@@ -33,8 +33,10 @@
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listBoxTesting = new System.Windows.Forms.ListBox();
             this.searchBox = new System.Windows.Forms.TextBox();
-            this.searchButton = new System.Windows.Forms.Button();
             this.testProject = new System.Windows.Forms.Button();
+            this.titleLabel = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.checkBoxSearch = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,31 +68,22 @@
             // listBoxTesting
             // 
             this.listBoxTesting.FormattingEnabled = true;
-            this.listBoxTesting.Location = new System.Drawing.Point(179, 110);
+            this.listBoxTesting.Location = new System.Drawing.Point(12, 148);
             this.listBoxTesting.Name = "listBoxTesting";
-            this.listBoxTesting.Size = new System.Drawing.Size(310, 186);
+            this.listBoxTesting.Size = new System.Drawing.Size(237, 290);
             this.listBoxTesting.TabIndex = 2;
             // 
             // searchBox
             // 
-            this.searchBox.Location = new System.Drawing.Point(234, 68);
+            this.searchBox.Location = new System.Drawing.Point(12, 76);
             this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(100, 20);
+            this.searchBox.Size = new System.Drawing.Size(237, 20);
             this.searchBox.TabIndex = 3;
-            // 
-            // searchButton
-            // 
-            this.searchButton.Location = new System.Drawing.Point(354, 64);
-            this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(75, 23);
-            this.searchButton.TabIndex = 4;
-            this.searchButton.Text = "search";
-            this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            this.searchBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.searchBox_KeyPress);
             // 
             // testProject
             // 
-            this.testProject.Location = new System.Drawing.Point(71, 317);
+            this.testProject.Location = new System.Drawing.Point(547, 383);
             this.testProject.Name = "testProject";
             this.testProject.Size = new System.Drawing.Size(75, 23);
             this.testProject.TabIndex = 5;
@@ -98,13 +91,42 @@
             this.testProject.UseVisualStyleBackColor = true;
             this.testProject.Click += new System.EventHandler(this.testProject_Click);
             // 
+            // titleLabel
+            // 
+            this.titleLabel.AutoSize = true;
+            this.titleLabel.Location = new System.Drawing.Point(508, 83);
+            this.titleLabel.Name = "titleLabel";
+            this.titleLabel.Size = new System.Drawing.Size(64, 13);
+            this.titleLabel.TabIndex = 6;
+            this.titleLabel.Text = "titleAndNum";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(421, 137);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(226, 193);
+            this.richTextBox1.TabIndex = 7;
+            this.richTextBox1.Text = "";
+            // 
+            // checkBoxSearch
+            // 
+            this.checkBoxSearch.AutoSize = true;
+            this.checkBoxSearch.Location = new System.Drawing.Point(61, 111);
+            this.checkBoxSearch.Name = "checkBoxSearch";
+            this.checkBoxSearch.Size = new System.Drawing.Size(127, 17);
+            this.checkBoxSearch.TabIndex = 8;
+            this.checkBoxSearch.Text = "Search alphabetically";
+            this.checkBoxSearch.UseVisualStyleBackColor = true;
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkBoxSearch);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.testProject);
-            this.Controls.Add(this.searchButton);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.listBoxTesting);
             this.Controls.Add(this.menuStrip1);
@@ -126,7 +148,9 @@
         private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
         private System.Windows.Forms.ListBox listBoxTesting;
         private System.Windows.Forms.TextBox searchBox;
-        private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.Button testProject;
+        private System.Windows.Forms.Label titleLabel;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.CheckBox checkBoxSearch;
     }
 }

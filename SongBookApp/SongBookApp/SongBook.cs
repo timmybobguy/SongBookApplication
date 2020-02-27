@@ -66,7 +66,7 @@ namespace SongBookApp
             return result;
         }
 
-        public string[] GetSearchedTitles(string searchString)
+        public string[] GetSearchedTitles(string searchString, bool firstLetter)
         {
 
             string[] wholeList = GetAllTitles();
@@ -75,11 +75,20 @@ namespace SongBookApp
             for (var i = 0; i < wholeList.Length; i++)
             {
                 
-                if (wholeList[i].ToUpper().Contains(searchString.ToUpper()))
+                if (firstLetter)
                 {
-                    resultList.Add(wholeList[i]);
+                    if (char.ToUpper(wholeList[i][0]) == char.ToUpper(searchString[0]))
+                    {
+                        resultList.Add(wholeList[i]);
+                    }
                 }
-
+                else
+                {
+                    if (wholeList[i].ToUpper().Contains(searchString.ToUpper()))
+                    {
+                        resultList.Add(wholeList[i]);
+                    }
+                } 
             }
 
             string[] result = resultList.ToArray();
