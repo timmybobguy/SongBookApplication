@@ -42,6 +42,7 @@
             this.checkBoxSearch = new System.Windows.Forms.CheckBox();
             this.editButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
+            this.checkBoxInSong = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -139,7 +140,7 @@
             // checkBoxSearch
             // 
             this.checkBoxSearch.AutoSize = true;
-            this.checkBoxSearch.Location = new System.Drawing.Point(61, 80);
+            this.checkBoxSearch.Location = new System.Drawing.Point(12, 80);
             this.checkBoxSearch.Name = "checkBoxSearch";
             this.checkBoxSearch.Size = new System.Drawing.Size(127, 17);
             this.checkBoxSearch.TabIndex = 8;
@@ -166,11 +167,22 @@
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
+            // checkBoxInSong
+            // 
+            this.checkBoxInSong.AutoSize = true;
+            this.checkBoxInSong.Location = new System.Drawing.Point(152, 80);
+            this.checkBoxInSong.Name = "checkBoxInSong";
+            this.checkBoxInSong.Size = new System.Drawing.Size(97, 17);
+            this.checkBoxInSong.TabIndex = 12;
+            this.checkBoxInSong.Text = "Search in song";
+            this.checkBoxInSong.UseVisualStyleBackColor = true;
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 491);
+            this.Controls.Add(this.checkBoxInSong);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.checkBoxSearch);
@@ -207,5 +219,6 @@
         private System.Windows.Forms.ToolStripMenuItem importSongDatabaseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportSongDatabaseToolStripMenuItem;
         private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.CheckBox checkBoxInSong;
     }
 }

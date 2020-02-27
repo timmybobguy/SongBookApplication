@@ -84,6 +84,7 @@ namespace SongBookApp
             }
 
             object[] result = resultList.ToArray();
+            Array.Sort((result, delegate (Song x, Song y) { return x.title.CompareTo(y.title); });
             return result;
         }
 
@@ -106,13 +107,8 @@ namespace SongBookApp
             }
 
             object[] result = results.ToArray();
+            Array.Sort(result);
             return result;
-        }
-
-        //Sorts songs alphabetically
-        public void SortSongs()
-        {
-            //Array.Sort(allMySongs);
         }
     }
 }

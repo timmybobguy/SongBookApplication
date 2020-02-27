@@ -45,7 +45,7 @@ namespace SongBookApp
                 Cursor.Show();
                 Close();
             }
-            else if (e.KeyChar == ' ')
+            else if (e.KeyChar == ' ' || e.KeyChar == 39)
             {
                 if (currentParagraph+1 == songParagraphs.Length) // This loops back to the first paragraph, may need to be changed. Could be to close the presentation once space is clicked again.
                 {

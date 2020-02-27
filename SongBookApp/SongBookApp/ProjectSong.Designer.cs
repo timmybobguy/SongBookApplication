@@ -35,6 +35,8 @@
             // textLabel
             // 
             this.textLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textLabel.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textLabel.ForeColor = System.Drawing.Color.White;
             this.textLabel.Location = new System.Drawing.Point(0, 0);
             this.textLabel.Name = "textLabel";
             this.textLabel.Size = new System.Drawing.Size(800, 450);

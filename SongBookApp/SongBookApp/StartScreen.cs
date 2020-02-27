@@ -98,12 +98,23 @@ namespace SongBookApp
                     case CheckState.Unchecked:
                         // Code for unchecked state. 
 
-
-                        object[] results = songBook.GetSearchedTitles(searchBox.Text, false);
-                        for (var i = 0; i < results.Length; i++)
+                        if (checkBoxInSong.CheckState == CheckState.Checked)
                         {
-                            listBoxTesting.Items.Add((Song)results[i]);
+                            object[] results = songBook.SearchSongs(searchBox.Text, 3);
+                            for (var i = 0; i < results.Length; i++)
+                            {
+                                listBoxTesting.Items.Add((Song)results[i]);
+                            }
                         }
+                        else
+                        {
+                            object[] results = songBook.GetSearchedTitles(searchBox.Text, false);
+                            for (var i = 0; i < results.Length; i++)
+                            {
+                                listBoxTesting.Items.Add((Song)results[i]);
+                            }
+                        }
+                        
 
 
 
