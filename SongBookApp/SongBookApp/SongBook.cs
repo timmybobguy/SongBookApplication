@@ -54,44 +54,33 @@ namespace SongBookApp
 
 
         //This needs to be changed, just returning string for testing --changed to string array-- NEEDS TO BE PASSING BACK SONG OBJECTS???
-        public string[] GetAllTitles()
-        {
-            string[] result = new string[songCount];
+        
 
-            for (var i = 0; i < songCount; i++)
-            {
-                result[i] = ((Song)allMySongs[i]).title;
-            }
-
-            return result;
-        }
-
-        public string[] GetSearchedTitles(string searchString, bool firstLetter)
+        public object[] GetSearchedTitles(string searchString, bool firstLetter)
         {
 
-            string[] wholeList = GetAllTitles();
-            List<string> resultList = new List<string>();
+            List<object> resultList = new List<object>();
 
-            for (var i = 0; i < wholeList.Length; i++)
+            for (var i = 0; i < allMySongs.Length; i++)
             {
                 
                 if (firstLetter)
                 {
-                    if (char.ToUpper(wholeList[i][0]) == char.ToUpper(searchString[0]))
+                    if (char.ToUpper(((Song)allMySongs[i]).title[0]) == char.ToUpper(searchString[0]))
                     {
-                        resultList.Add(wholeList[i]);
+                        resultList.Add(((Song)allMySongs[i]));
                     }
                 }
                 else
                 {
-                    if (wholeList[i].ToUpper().Contains(searchString.ToUpper()))
+                    if (((Song)allMySongs[i]).title.ToUpper().Contains(searchString.ToUpper()))
                     {
-                        resultList.Add(wholeList[i]);
+                        resultList.Add(((Song)allMySongs[i]));
                     }
                 } 
             }
 
-            string[] result = resultList.ToArray();
+            object[] result = resultList.ToArray();
             return result;
         }
 

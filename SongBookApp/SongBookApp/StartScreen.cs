@@ -45,15 +45,23 @@ namespace SongBookApp
 
         private void testProject_Click(object sender, EventArgs e)
         {
-            Song testsong = ((Song)songBook.allMySongs[11]);
+            if (listBoxTesting.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select a song before trying to project", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                Song testsong = (Song)listBoxTesting.SelectedItem;
 
-            testsong.GetSongBody();
+                testsong.GetSongBody();
 
-            ProjectSong test = new ProjectSong(testsong);
+                ProjectSong test = new ProjectSong(testsong);
 
-            Cursor.Hide();
+                Cursor.Hide();
 
-            test.ShowDialog();
+                test.ShowDialog();
+            }
+            
         }
 
         private void searchBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -64,6 +72,8 @@ namespace SongBookApp
                 listBoxTesting.BeginUpdate();
                 listBoxTesting.Items.Clear();
 
+                titleLabel.Text = "";
+                songBody.Text = "";
 
                 switch (checkBoxSearch.CheckState)
                 {
@@ -72,10 +82,10 @@ namespace SongBookApp
 
                         if (searchBox.Text.Length == 1 && Regex.IsMatch(searchBox.Text, @"^[a-zA-Z]+$"))
                         {
-                            string[] resultsFirstLetter = songBook.GetSearchedTitles(searchBox.Text, true);
+                            object[] resultsFirstLetter = songBook.GetSearchedTitles(searchBox.Text, true);
                             for (var i = 0; i < resultsFirstLetter.Length; i++)
                             {
-                                listBoxTesting.Items.Add(resultsFirstLetter[i]);
+                                listBoxTesting.Items.Add((Song)resultsFirstLetter[i]);
                             }
                         }
                         else
@@ -89,10 +99,10 @@ namespace SongBookApp
                         // Code for unchecked state. 
 
 
-                        string[] results = songBook.GetSearchedTitles(searchBox.Text, false);
+                        object[] results = songBook.GetSearchedTitles(searchBox.Text, false);
                         for (var i = 0; i < results.Length; i++)
                         {
-                            listBoxTesting.Items.Add(results[i]);
+                            listBoxTesting.Items.Add((Song)results[i]);
                         }
 
 
@@ -106,7 +116,40 @@ namespace SongBookApp
                         break;
                 }
 
+                listBoxTesting.SelectedValueChanged += new EventHandler(ListboxTesting_SelectedValueChanged);
+
                 listBoxTesting.EndUpdate();
+            }
+        }
+
+        private void ListboxTesting_SelectedValueChanged(object sender, EventArgs e) // Trigger for when a song is selected 
+        {
+            ListBox listbox = (ListBox)sender;
+
+            //MessageBox.Show(listbox.SelectedItem.ToString());
+
+            //Displaying the selected song
+
+            Song selected = (Song)listbox.SelectedItem;
+
+            titleLabel.Text = selected.title +  " #" + selected.songNum;
+            songBody.Text = selected.body;
+        }
+
+        private void importSongDatabaseToolStripMenuItem_Click(object sender, EventArgs e) // This will replace the song database with a new one and then close the application
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            {
+                Title = "Select song database",
+                Filter = "XML files (*.xml)|*.xml"
+            };
+
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                //textBox1.Text = openFileDialog1.FileName;
+
+                
             }
         }
     }

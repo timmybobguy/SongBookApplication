@@ -18,8 +18,10 @@ namespace SongBookApp
 
         public ProjectSong(Song newCurrentSong)
         {
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer,true);
             currentSong = newCurrentSong;
             InitializeComponent();
+            textLabel.BackColor = Color.Transparent;
             GenerateParagraphs();
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;

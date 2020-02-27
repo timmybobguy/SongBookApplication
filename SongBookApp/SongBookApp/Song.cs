@@ -17,6 +17,11 @@ namespace SongBookApp
         public string body;
         public bool isChorus;
 
+        public override string ToString()
+        {
+            return title;
+        }
+
         public Song(int newId, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus = false)
         {
             songId = newSongID;
