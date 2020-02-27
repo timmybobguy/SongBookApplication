@@ -9,25 +9,28 @@ namespace SongBookApp
 {
     public class SongBook
     {
-        private int songCount;
-        public object[] allMySongs; // TEMPORARY CHANGE THIS 
+        public int songCount;
+        public List<object> allMySongs = new List<object>();
         private string savePath;
 
         public SongBook(int numberOfSongs, string newSavePath)
         {
             songCount = 0;
-            allMySongs = new object[numberOfSongs];
             savePath = newSavePath;
         }
 
         public void AddSong(int id, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody)
         {
-            object newSong = new Song(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody);
-            allMySongs[id] = newSong;
-            if (((Song)allMySongs[id]).body.Contains("CHORUS"))
+            object newSong = new Object();
+            if (newBody.Contains("CHORUS"))
             {
-                ((Song)allMySongs[id]).isChorus = true;
+                newSong = new Song(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody, true);
             }
+            else
+            {
+                newSong = new Song(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody);
+            }
+            allMySongs.Add(newSong);
             songCount++;
         }
 
@@ -61,7 +64,7 @@ namespace SongBookApp
 
             List<object> resultList = new List<object>();
 
-            for (var i = 0; i < allMySongs.Length; i++)
+            for (var i = 0; i < allMySongs.Count; i++)
             {
                 
                 if (firstLetter)
@@ -90,7 +93,7 @@ namespace SongBookApp
 
             List<object> results = new List<object>();
 
-            for (var i = 0; i < allMySongs.Length; i++)
+            for (var i = 0; i < allMySongs.Count; i++)
             {
                 if (((Song)allMySongs[i]).body.IndexOf(query, stringComparison) >= 0 && (type == 1 || type == 3))
                 {

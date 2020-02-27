@@ -12,13 +12,15 @@ namespace SongBookApp
 {
     public partial class AddSong : Form
     {
+        SongBook songBook;
         Song songBeingEdited;
         bool isNewSong;
 
-        public AddSong(bool isNew, Song existingSong)
+        public AddSong(bool isNew, Song existingSong, SongBook newSongBook)
         {
             InitializeComponent();
             isNewSong = isNew;
+            songBook = newSongBook;
 
             if (!isNew)
             {
@@ -32,7 +34,9 @@ namespace SongBookApp
         {
             if (isNewSong) // If a new song is being added
             {
-
+                int num = songBook.songCount;
+                songBook.AddSong(num - 1, num - 1, 0, num, textBoxTitle.Text, null, songBody.Text);
+                Close();
             }
             else // IF a song is being edited
             {

@@ -41,6 +41,7 @@
             this.songBody = new System.Windows.Forms.RichTextBox();
             this.checkBoxSearch = new System.Windows.Forms.CheckBox();
             this.editButton = new System.Windows.Forms.Button();
+            this.deleteButton = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -155,11 +156,22 @@
             this.editButton.UseVisualStyleBackColor = true;
             this.editButton.Click += new System.EventHandler(this.editButton_Click);
             // 
+            // deleteButton
+            // 
+            this.deleteButton.Location = new System.Drawing.Point(12, 430);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(75, 23);
+            this.deleteButton.TabIndex = 11;
+            this.deleteButton.Text = "Delete song";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 491);
+            this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.checkBoxSearch);
             this.Controls.Add(this.songBody);
@@ -194,5 +206,6 @@
         private System.Windows.Forms.ToolStripMenuItem newSongToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importSongDatabaseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportSongDatabaseToolStripMenuItem;
+        private System.Windows.Forms.Button deleteButton;
     }
 }

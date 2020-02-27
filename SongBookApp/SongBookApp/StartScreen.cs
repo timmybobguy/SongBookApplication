@@ -163,7 +163,7 @@ namespace SongBookApp
             else
             {
 
-                AddSong test = new AddSong(false, (Song)listBoxTesting.SelectedItem);
+                AddSong test = new AddSong(false, (Song)listBoxTesting.SelectedItem, songBook);
                 test.ShowDialog();
                 titleLabel.Text = "";
                 songBody.Text = "";
@@ -172,8 +172,24 @@ namespace SongBookApp
 
         private void newSongToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddSong test = new AddSong(true, null);
+            AddSong test = new AddSong(true, null, songBook);
             test.ShowDialog();
+        }
+
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            if (listBoxTesting.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please select a song before trying to delete it", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                songBook.allMySongs.Remove((Song)listBoxTesting.SelectedItem);
+                listBoxTesting.Items.Clear();
+                titleLabel.Text = "";
+                songBody.Text = "";
+            }
+
         }
     }
 }
