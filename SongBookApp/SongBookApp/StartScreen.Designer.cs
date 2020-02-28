@@ -43,6 +43,7 @@
             this.editButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
             this.checkBoxInSong = new System.Windows.Forms.CheckBox();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,7 +63,8 @@
             this.newSongToolStripMenuItem,
             this.quitToolStripMenuItem,
             this.importSongDatabaseToolStripMenuItem,
-            this.exportSongDatabaseToolStripMenuItem});
+            this.exportSongDatabaseToolStripMenuItem,
+            this.settingsToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -177,6 +179,13 @@
             this.checkBoxInSong.Text = "Search in song";
             this.checkBoxInSong.UseVisualStyleBackColor = true;
             // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -220,5 +229,6 @@
         private System.Windows.Forms.ToolStripMenuItem exportSongDatabaseToolStripMenuItem;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.CheckBox checkBoxInSong;
+        private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
     }
 }

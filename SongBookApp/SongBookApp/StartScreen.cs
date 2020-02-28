@@ -202,5 +202,12 @@ namespace SongBookApp
             }
 
         }
+
+        private void settingsToolStripMenuItem_Click(object sender, EventArgs e) //Settings menu
+        {
+            SettingsMenu test = new SettingsMenu();
+
+            test.ShowDialog();
+        }
     }
 }
