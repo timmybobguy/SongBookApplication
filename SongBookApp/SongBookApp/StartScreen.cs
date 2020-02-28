@@ -55,7 +55,7 @@ namespace SongBookApp
 
                 testsong.GetSongBody();
 
-                ProjectSong test = new ProjectSong(testsong);
+                ProjectSong test = new ProjectSong(testsong, songBook.fontSize);
 
                 Cursor.Hide();
 
@@ -205,7 +205,7 @@ namespace SongBookApp
 
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e) //Settings menu
         {
-            SettingsMenu test = new SettingsMenu();
+            SettingsMenu test = new SettingsMenu(songBook);
 
             test.ShowDialog();
         }

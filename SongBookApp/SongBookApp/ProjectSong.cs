@@ -15,13 +15,16 @@ namespace SongBookApp
         private Song currentSong;
         private string[] songParagraphs;
         private int currentParagraph;
+        private int fontSize;
 
-        public ProjectSong(Song newCurrentSong)
+        public ProjectSong(Song newCurrentSong, int newFontSize)
         {
+            fontSize = newFontSize;
             SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer,true);
             currentSong = newCurrentSong;
             InitializeComponent();
             textLabel.BackColor = Color.Transparent;
+            textLabel.Font = new Font("Arial", fontSize);
             GenerateParagraphs();
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
@@ -38,6 +41,51 @@ namespace SongBookApp
 
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            //capture up arrow key
+            if (keyData == Keys.Up)
+            {
+                if (currentParagraph != 0)
+                {
+                    currentParagraph = currentParagraph - 1;
+                    textLabel.Text = songParagraphs[currentParagraph];
+                }
+                return true;
+            }
+            //capture down arrow key
+            if (keyData == Keys.Down)
+            {
+                if (currentParagraph + 1 != songParagraphs.Length)
+                {
+                    currentParagraph++;
+                    textLabel.Text = songParagraphs[currentParagraph];
+                }
+                return true;
+            }
+            //capture left arrow key
+            if (keyData == Keys.Left)
+            {
+                if(currentParagraph != 0)
+                {
+                    currentParagraph = currentParagraph - 1;
+                    textLabel.Text = songParagraphs[currentParagraph];
+                }
+                return true;
+            }
+            //capture right arrow key
+            if (keyData == Keys.Right)
+            {
+                if(currentParagraph + 1 != songParagraphs.Length)
+                {
+                    currentParagraph++;
+                    textLabel.Text = songParagraphs[currentParagraph];
+                }
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         private void ProjectSong_KeyPress(object sender, KeyPressEventArgs e) // Keypress handler
         {
             if (e.KeyChar == 27)
@@ -45,21 +93,13 @@ namespace SongBookApp
                 Cursor.Show();
                 Close();
             }
-            else if (e.KeyChar == ' ' || e.KeyChar == 39)
+            else if (e.KeyChar == ' ')
             {
-                if (currentParagraph+1 == songParagraphs.Length) // This loops back to the first paragraph, may need to be changed. Could be to close the presentation once space is clicked again.
-                {
-                    Cursor.Show();
-                    Close();
-                    //currentParagraph = 1;
-                    //textLabel.Text = songParagraphs[0];
-                }
-                else
+                if (currentParagraph + 1 != songParagraphs.Length)
                 {
                     currentParagraph++;
                     textLabel.Text = songParagraphs[currentParagraph];
-                }
-                
+                }    
             }
         }
     }

@@ -19,10 +19,10 @@ THINGS TO DO
 
 -Make main screen extent vertically
 -Do song list thingy
--Do controls for presentation (left,right,up,down)
+-Do controls for presentation (left,right,up,down) DONE
 
--Font adjustment
+-Font adjustment DONE
 
--DONT EXIT on end of song, only escape for exit. Just keep on last paragraph if pressed again.
+-DONT EXIT on end of song, only escape for exit. Just keep on last paragraph if pressed again. DONE
 
 -DO SEARCH ALPHABETIALLLY

@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
+using System.Configuration;
+using System.Collections.Specialized;
 
 namespace SongBookApp
 {
@@ -17,6 +19,12 @@ namespace SongBookApp
         static void Main()
         {
 
+            //Loading in initial font size setting
+            string sAttr;
+            sAttr = ConfigurationManager.AppSettings.Get("fontSize");
+
+            
+            
             // In this main program the file is loaded in and everything is set up, then the visual interface is initiated.
 
             FileFunctions file = new FileFunctions();
@@ -29,7 +37,7 @@ namespace SongBookApp
 
             // Load songs into songbook
 
-            SongBook songBook = new SongBook(file.songCount, file.savePath);
+            SongBook songBook = new SongBook(file.songCount, file.savePath, Int32.Parse(sAttr));
 
             XmlNode currNode = file.document.DocumentElement.FirstChild;
 
