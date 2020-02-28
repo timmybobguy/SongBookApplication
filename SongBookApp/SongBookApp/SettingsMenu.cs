@@ -31,6 +31,7 @@ namespace SongBookApp
 
             //THIS COULD BE CHANGED
 
+            //Settings.Default.SettingsKey.
             //Settings.Default. = MyNewValue;
             //Settings.Default.Save();
             //ConfigurationManager.AppSettings.Remove("fontSize");

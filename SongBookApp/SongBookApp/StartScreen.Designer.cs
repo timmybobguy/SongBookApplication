@@ -44,7 +44,9 @@
             this.deleteButton = new System.Windows.Forms.Button();
             this.checkBoxInSong = new System.Windows.Forms.CheckBox();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -53,7 +55,7 @@
             this.fileToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(575, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(585, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -99,7 +101,7 @@
             // listBoxTesting
             // 
             this.listBoxTesting.FormattingEnabled = true;
-            this.listBoxTesting.Location = new System.Drawing.Point(12, 117);
+            this.listBoxTesting.Location = new System.Drawing.Point(6, 19);
             this.listBoxTesting.Name = "listBoxTesting";
             this.listBoxTesting.Size = new System.Drawing.Size(237, 290);
             this.listBoxTesting.TabIndex = 2;
@@ -114,7 +116,7 @@
             // 
             // testProject
             // 
-            this.testProject.Location = new System.Drawing.Point(471, 430);
+            this.testProject.Location = new System.Drawing.Point(479, 326);
             this.testProject.Name = "testProject";
             this.testProject.Size = new System.Drawing.Size(75, 23);
             this.testProject.TabIndex = 5;
@@ -133,9 +135,9 @@
             // 
             // songBody
             // 
-            this.songBody.Location = new System.Drawing.Point(320, 117);
+            this.songBody.Location = new System.Drawing.Point(308, 19);
             this.songBody.Name = "songBody";
-            this.songBody.Size = new System.Drawing.Size(226, 290);
+            this.songBody.Size = new System.Drawing.Size(246, 290);
             this.songBody.TabIndex = 7;
             this.songBody.Text = "";
             // 
@@ -151,7 +153,7 @@
             // 
             // editButton
             // 
-            this.editButton.Location = new System.Drawing.Point(320, 430);
+            this.editButton.Location = new System.Drawing.Point(308, 326);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(75, 23);
             this.editButton.TabIndex = 10;
@@ -161,7 +163,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(12, 430);
+            this.deleteButton.Location = new System.Drawing.Point(19, 326);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 11;
@@ -186,20 +188,32 @@
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.AutoSize = true;
+            this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.groupBox1.Controls.Add(this.songBody);
+            this.groupBox1.Controls.Add(this.listBoxTesting);
+            this.groupBox1.Controls.Add(this.editButton);
+            this.groupBox1.Controls.Add(this.deleteButton);
+            this.groupBox1.Controls.Add(this.testProject);
+            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupBox1.Location = new System.Drawing.Point(0, 123);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(585, 368);
+            this.groupBox1.TabIndex = 13;
+            this.groupBox1.TabStop = false;
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(575, 491);
+            this.ClientSize = new System.Drawing.Size(585, 491);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkBoxInSong);
-            this.Controls.Add(this.deleteButton);
-            this.Controls.Add(this.editButton);
             this.Controls.Add(this.checkBoxSearch);
-            this.Controls.Add(this.songBody);
             this.Controls.Add(this.titleLabel);
-            this.Controls.Add(this.testProject);
             this.Controls.Add(this.searchBox);
-            this.Controls.Add(this.listBoxTesting);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "StartScreen";
@@ -207,6 +221,7 @@
             this.Load += new System.EventHandler(this.StartScreen_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,5 +245,6 @@
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.CheckBox checkBoxInSong;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
