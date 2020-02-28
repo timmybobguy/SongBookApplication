@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -208,6 +209,25 @@ namespace SongBookApp
             SettingsMenu test = new SettingsMenu(songBook);
 
             test.ShowDialog();
+        }
+
+        private void loadSongListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string path = Path.Combine(songBook.fileFunctions.filePath, "..\\songLists");
+            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            {
+                Title = "Select song list",
+                Filter = "XML files (*.xml)|*.xml",
+                InitialDirectory = path
+            };
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                //textBox1.Text = openFileDialog1.FileName;
+
+
+            }
+
         }
     }
 }

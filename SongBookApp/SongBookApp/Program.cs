@@ -37,7 +37,7 @@ namespace SongBookApp
 
             // Load songs into songbook
 
-            SongBook songBook = new SongBook(file.songCount, file.savePath, Int32.Parse(sAttr));
+            SongBook songBook = new SongBook(file.songCount, file.savePath, Int32.Parse(sAttr), file);
 
             XmlNode currNode = file.document.DocumentElement.FirstChild;
 

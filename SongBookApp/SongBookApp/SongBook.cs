@@ -13,9 +13,11 @@ namespace SongBookApp
         public List<object> allMySongs = new List<object>();
         private string savePath;
         public int fontSize;
+        public FileFunctions fileFunctions;
 
-        public SongBook(int numberOfSongs, string newSavePath, int newFontSize)
+        public SongBook(int numberOfSongs, string newSavePath, int newFontSize, FileFunctions newFileFunctions)
         {
+            fileFunctions = newFileFunctions;
             fontSize = newFontSize;
             songCount = 0;
             savePath = newSavePath;
