@@ -25,6 +25,6 @@ THINGS TO DO
 
 -DONT EXIT on end of song, only escape for exit. Just keep on last paragraph if pressed again. DONE
 
--DO SEARCH ALPHABETIALLLY
+-DO SEARCH ALPHABETIALLLY DONE
 
 - DO SAVE TO FILE DONE
