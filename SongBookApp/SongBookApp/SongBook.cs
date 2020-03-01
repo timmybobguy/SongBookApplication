@@ -93,10 +93,15 @@ namespace SongBookApp
                     }
                 } 
             }
-            resultList.Sort();
-            object[] result = resultList.ToArray();
-            //Array.Sort((result, delegate (Song x, Song y) { return x.title.CompareTo(y.title); });
+
             
+            Song[] result = resultList.ToArray();
+            //Array.Sort((result, delegate (Song x, Song y) { return x.title.CompareTo(y.title); });
+
+            Array.Sort(result, delegate (Song user1, Song user2) {
+                return user1.title.CompareTo(user2.title);
+            });
+
             return result;
         }
 
@@ -104,7 +109,7 @@ namespace SongBookApp
         {
             StringComparison stringComparison = StringComparison.CurrentCultureIgnoreCase;
 
-            List<object> results = new List<object>();
+            List<Song> results = new List<Song>();
 
             for (var i = 0; i < allMySongs.Count; i++)
             {
@@ -117,9 +122,13 @@ namespace SongBookApp
                     results.Add(((Song)allMySongs[i]));
                 }
             }
-            results.Sort();
-            object[] result = results.ToArray();
-            
+
+            Song[] result = results.ToArray();
+
+            Array.Sort(result, delegate (Song user1, Song user2) {
+                return user1.title.CompareTo(user2.title);
+            });
+
             return result;
         }
     }
