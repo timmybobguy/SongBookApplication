@@ -70,6 +70,8 @@
     </Compile>
     <Compile Include="Song.cs" />
     <Compile Include="SongBook.cs" />
+    <Compile Include="Songlist.cs" />
+    <Compile Include="SongListManager.cs" />
     <Compile Include="StartScreen.cs">
       <SubType>Form</SubType>
     </Compile>

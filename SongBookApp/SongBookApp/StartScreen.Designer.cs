@@ -113,8 +113,8 @@
             // songListToolStripMenuItem
             // 
             this.songListToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loadSongListToolStripMenuItem,
             this.createNewListToolStripMenuItem,
+            this.loadSongListToolStripMenuItem,
             this.editSongListToolStripMenuItem});
             this.songListToolStripMenuItem.Name = "songListToolStripMenuItem";
             this.songListToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
@@ -123,20 +123,20 @@
             // loadSongListToolStripMenuItem
             // 
             this.loadSongListToolStripMenuItem.Name = "loadSongListToolStripMenuItem";
-            this.loadSongListToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.loadSongListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadSongListToolStripMenuItem.Text = "Load song list";
             this.loadSongListToolStripMenuItem.Click += new System.EventHandler(this.loadSongListToolStripMenuItem_Click);
             // 
             // createNewListToolStripMenuItem
             // 
             this.createNewListToolStripMenuItem.Name = "createNewListToolStripMenuItem";
-            this.createNewListToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.createNewListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.createNewListToolStripMenuItem.Text = "Create new list";
             // 
             // editSongListToolStripMenuItem
             // 
             this.editSongListToolStripMenuItem.Name = "editSongListToolStripMenuItem";
-            this.editSongListToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.editSongListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editSongListToolStripMenuItem.Text = "Edit song list";
             // 
             // listBoxTesting
@@ -178,7 +178,7 @@
             // 
             this.songBody.Dock = System.Windows.Forms.DockStyle.Right;
             this.songBody.Location = new System.Drawing.Point(584, 16);
-            this.songBody.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.songBody.Margin = new System.Windows.Forms.Padding(0);
             this.songBody.Name = "songBody";
             this.songBody.Size = new System.Drawing.Size(224, 172);
             this.songBody.TabIndex = 7;

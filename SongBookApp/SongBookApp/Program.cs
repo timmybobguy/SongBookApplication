@@ -28,6 +28,8 @@ namespace SongBookApp
             // In this main program the file is loaded in and everything is set up, then the visual interface is initiated.
 
             SongBook songBook = new SongBook();
+            SongListManager listManager = new SongListManager();
+
 
             FileFunctions file = new FileFunctions();
             file.AddFileFunctions(songBook);
@@ -42,6 +44,7 @@ namespace SongBookApp
 
             
             songBook.AddSongBook(file.songCount, file.savePath, int.Parse(sAttr), file);
+            // Load song lists into songlistmanager
 
             XmlNode currNode = file.document.DocumentElement.FirstChild.FirstChild;
 
@@ -52,6 +55,7 @@ namespace SongBookApp
                 currNode = currNode.NextSibling; //Going to next song in the XML file
             }
 
+           
 
             // Then load the visual interface
 

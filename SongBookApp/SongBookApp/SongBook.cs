@@ -73,7 +73,7 @@ namespace SongBookApp
         public object[] GetSearchedTitles(string searchString, bool firstLetter)
         {
 
-            List<object> resultList = new List<object>();
+            List<Song> resultList = new List<Song>();
 
             for (var i = 0; i < allMySongs.Count; i++)
             {
@@ -93,9 +93,10 @@ namespace SongBookApp
                     }
                 } 
             }
-
+            resultList.Sort();
             object[] result = resultList.ToArray();
             //Array.Sort((result, delegate (Song x, Song y) { return x.title.CompareTo(y.title); });
+            
             return result;
         }
 
@@ -116,9 +117,9 @@ namespace SongBookApp
                     results.Add(((Song)allMySongs[i]));
                 }
             }
-
+            results.Sort();
             object[] result = results.ToArray();
-            //Array.Sort(result);
+            
             return result;
         }
     }

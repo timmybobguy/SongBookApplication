@@ -91,7 +91,7 @@ namespace SongBookApp
                         }
                         else
                         {
-                            MessageBox.Show("When searching alphabetically use only a single character, such as 'a' or 'A'", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                            MessageBox.Show("When searching by first letter of title use only a single character, such as 'a' or 'A'", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                         }
 
 
