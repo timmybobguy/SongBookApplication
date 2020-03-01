@@ -14,11 +14,13 @@ namespace SongBookApp
     {
         SongBook songBook;
         Song songBeingEdited;
+        FileFunctions fileFunctions;
         bool isNewSong;
 
-        public AddSong(bool isNew, Song existingSong, SongBook newSongBook)
+        public AddSong(bool isNew, Song existingSong, SongBook newSongBook, FileFunctions newFileFunctions)
         {
             InitializeComponent();
+            fileFunctions = newFileFunctions;
             isNewSong = isNew;
             songBook = newSongBook;
 
@@ -36,12 +38,14 @@ namespace SongBookApp
             {
                 int num = songBook.songCount;
                 songBook.AddSong(num - 1, num - 1, 0, num, textBoxTitle.Text, null, songBody.Text);
+                fileFunctions.ToXML();
                 Close();
             }
             else // IF a song is being edited
             {
                 songBeingEdited.body = songBody.Text;
                 songBeingEdited.title = textBoxTitle.Text;
+                fileFunctions.ToXML();
                 Close();
             }
             

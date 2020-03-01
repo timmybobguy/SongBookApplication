@@ -4,35 +4,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace SongBookApp
 {
     public class SongBook
     {
+        [XmlIgnore]
         public int songCount;
-        public List<object> allMySongs = new List<object>();
+        public List<Song> allMySongs = new List<Song>();
+        [XmlIgnore]
         private string savePath;
+        [XmlIgnore]
         public int fontSize;
+        [XmlIgnore]
         public FileFunctions fileFunctions;
 
-        public SongBook(int numberOfSongs, string newSavePath, int newFontSize, FileFunctions newFileFunctions)
+        public void AddSongBook(int numberOfSongs, string newSavePath, int newFontSize, FileFunctions newFileFunctions)
         {
-            fileFunctions = newFileFunctions;
-            fontSize = newFontSize;
-            songCount = 0;
+            songCount = numberOfSongs;
             savePath = newSavePath;
+            fontSize = newFontSize;
+            fileFunctions = newFileFunctions;
         }
 
         public void AddSong(int id, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody)
         {
-            object newSong = new Object();
+            Song newSong = new Song();
             if (newBody.Contains("CHORUS"))
             {
-                newSong = new Song(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody, true);
+                newSong.AddSong(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody, true);
             }
             else
             {
-                newSong = new Song(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody);
+                newSong.AddSong(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody, false);
             }
             allMySongs.Add(newSong);
             songCount++;
@@ -44,14 +50,15 @@ namespace SongBookApp
 
             // Creating xml string and then put string to file 
             //string output = '<?xml version="1.0" encoding="UTF - 8"?>< dataroot >';
-            XmlDocument doc = new XmlDocument();
+            //XmlDocument doc = new XmlDocument();
+
+
+
+            //Employee bs = new Employee();
 
             
-
-            for (var i = 0; i < songCount; i++)
-            {
-                //output += '<Songs>';
-            }
+            //TextWriter txtWriter = new StreamWriter(@fileFunctions.savePath);
+            
         }
 
         public int GetCount()

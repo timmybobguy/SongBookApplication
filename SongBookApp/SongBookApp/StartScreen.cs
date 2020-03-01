@@ -175,7 +175,7 @@ namespace SongBookApp
             else
             {
 
-                AddSong test = new AddSong(false, (Song)listBoxTesting.SelectedItem, songBook);
+                AddSong test = new AddSong(false, (Song)listBoxTesting.SelectedItem, songBook, fileFunctions);
                 test.ShowDialog();
                 titleLabel.Text = "";
                 songBody.Text = "";
@@ -184,7 +184,7 @@ namespace SongBookApp
 
         private void newSongToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddSong test = new AddSong(true, null, songBook);
+            AddSong test = new AddSong(true, null, songBook, fileFunctions);
             test.ShowDialog();
         }
 
@@ -213,7 +213,7 @@ namespace SongBookApp
 
         private void loadSongListToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string path = Path.Combine(songBook.fileFunctions.filePath, "..\\songLists");
+            string path = Path.Combine(songBook.fileFunctions.filePath, "..\\..\\songLists");
             OpenFileDialog openFileDialog1 = new OpenFileDialog
             {
                 Title = "Select song list",

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Xml.Serialization;
 
 namespace SongBookApp
 {
@@ -14,7 +15,12 @@ namespace SongBookApp
         public string savePath;
         public XmlDocument document;
         public int songCount;
+        public SongBook songBook;
 
+        public void AddFileFunctions(SongBook newSongBook)
+        {
+            songBook = newSongBook;
+        }
 
         public void SetWorkingDirectory()
         {
@@ -42,11 +48,26 @@ namespace SongBookApp
             // Getting number of songs in file
 
             XmlElement root = document.DocumentElement;
-            XmlNodeList elemList = root.GetElementsByTagName("Songs");
+            XmlNodeList elemList = root.GetElementsByTagName("Song");
             songCount = elemList.Count;
             //Console.WriteLine(songCount);
         }
-        
 
+        public void ToXML()
+        {
+
+            XmlSerializer xs = new XmlSerializer(typeof(SongBook));
+            FileStream file = File.Create(savePath);
+
+            //XmlIncludeAttribute(Song)
+
+
+            xs.Serialize(file, songBook);
+            
+
+
+
+            file.Close();
+        }
     }
 }

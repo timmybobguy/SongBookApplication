@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace SongBookApp
 {
@@ -21,8 +22,8 @@ namespace SongBookApp
         {
             return title;
         }
-
-        public Song(int newId, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus = false)
+   
+        public void AddSong(int newId, int newSongID, int newBookID, int newSongNum, string newTitle, string newKey, string newBody, bool newIsChorus)
         {
             songId = newSongID;
             bookId = newBookID;
@@ -33,7 +34,7 @@ namespace SongBookApp
             isChorus = newIsChorus;
             id = newId;
         }
-
+        
         //This method will return the body of the song split into paragraphs
         public string[] GetSongBody()
         {

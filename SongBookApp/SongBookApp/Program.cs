@@ -23,11 +23,14 @@ namespace SongBookApp
             string sAttr;
             sAttr = ConfigurationManager.AppSettings.Get("fontSize");
 
-            
-            
+
+
             // In this main program the file is loaded in and everything is set up, then the visual interface is initiated.
 
+            SongBook songBook = new SongBook();
+
             FileFunctions file = new FileFunctions();
+            file.AddFileFunctions(songBook);
 
             // Load file 
 
@@ -37,14 +40,15 @@ namespace SongBookApp
 
             // Load songs into songbook
 
-            SongBook songBook = new SongBook(file.songCount, file.savePath, Int32.Parse(sAttr), file);
+            
+            songBook.AddSongBook(file.songCount, file.savePath, int.Parse(sAttr), file);
 
-            XmlNode currNode = file.document.DocumentElement.FirstChild;
+            XmlNode currNode = file.document.DocumentElement.FirstChild.FirstChild;
 
             for (var i = 0; i < file.songCount; i++)
             {
                 XmlElement songElement = (XmlElement)currNode;
-                songBook.AddSong(i, int.Parse(songElement["SongID"].InnerText), int.Parse(songElement["BookID"].InnerText), int.Parse(songElement["SongNum"].InnerText), songElement["Title"].InnerText, songElement["Key"].InnerText, songElement["Body"].InnerText);
+                songBook.AddSong(i, int.Parse(songElement["songId"].InnerText), int.Parse(songElement["bookId"].InnerText), int.Parse(songElement["songNum"].InnerText), songElement["title"].InnerText, songElement["key"].InnerText, songElement["body"].InnerText);
                 currNode = currNode.NextSibling; //Going to next song in the XML file
             }
 
