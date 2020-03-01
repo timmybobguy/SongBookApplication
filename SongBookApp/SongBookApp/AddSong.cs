@@ -34,19 +34,26 @@ namespace SongBookApp
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            if (isNewSong) // If a new song is being added
+            if (textBoxTitle.Text != "" && songBody.Text != "")
             {
-                int num = songBook.songCount;
-                songBook.AddSong(num - 1, num - 1, 0, num, textBoxTitle.Text, null, songBody.Text);
-                fileFunctions.ToXML();
-                Close();
+                if (isNewSong) // If a new song is being added
+                {
+                    int num = songBook.songCount;
+                    songBook.AddSong(num - 1, num - 1, 0, num, textBoxTitle.Text, "", songBody.Text);
+                    fileFunctions.ToXML();
+                    Close();
+                }
+                else // IF a song is being edited
+                {
+                    songBeingEdited.body = songBody.Text;
+                    songBeingEdited.title = textBoxTitle.Text;
+                    fileFunctions.ToXML();
+                    Close();
+                }
             }
-            else // IF a song is being edited
+            else
             {
-                songBeingEdited.body = songBody.Text;
-                songBeingEdited.title = textBoxTitle.Text;
-                fileFunctions.ToXML();
-                Close();
+                MessageBox.Show("Please enter a title and song body", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             
         }

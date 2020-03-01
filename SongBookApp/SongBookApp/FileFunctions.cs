@@ -32,7 +32,7 @@ namespace SongBookApp
                 Console.WriteLine(finalPath);
                 filePath = finalPath;
 
-                savePath = Path.Combine(directory, "..\\..\\songFiles\\saveversion.xml"); //For testing right now
+                savePath = Path.Combine(directory, "..\\..\\songFiles\\original.xml"); //For testing right now
             }
             catch (Exception e)
             {

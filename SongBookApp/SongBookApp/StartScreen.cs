@@ -136,16 +136,21 @@ namespace SongBookApp
 
         private void ListboxTesting_SelectedValueChanged(object sender, EventArgs e) // Trigger for when a song is selected 
         {
+            
             ListBox listbox = (ListBox)sender;
 
+            if (listbox.SelectedItem != null)
+            {
+                Song selected = (Song)listbox.SelectedItem;
+
+                titleLabel.Text = selected.title + " #" + selected.songNum;
+                songBody.Text = selected.body;
+            }
             //MessageBox.Show(listbox.SelectedItem.ToString());
 
             //Displaying the selected song
 
-            Song selected = (Song)listbox.SelectedItem;
-
-            titleLabel.Text = selected.title +  " #" + selected.songNum;
-            songBody.Text = selected.body;
+            
         }
 
         private void importSongDatabaseToolStripMenuItem_Click(object sender, EventArgs e) // This will replace the song database with a new one and then close the application
@@ -197,6 +202,7 @@ namespace SongBookApp
             else
             {
                 songBook.allMySongs.Remove((Song)listBoxTesting.SelectedItem);
+                fileFunctions.ToXML();
                 listBoxTesting.Items.Clear();
                 titleLabel.Text = "";
                 songBody.Text = "";
