@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<SongBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <allMySongs>
+    <Song>
+      <id>-1</id>
+      <songId>-1</songId>
+      <bookId>0</bookId>
+      <songNum>0</songNum>
+      <title />
+      <body />
+      <isChorus>false</isChorus>
+    </Song>
+  </allMySongs>
+</SongBook>
