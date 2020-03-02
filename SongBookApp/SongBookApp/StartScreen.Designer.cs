@@ -32,12 +32,11 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newSongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importSongDatabaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportSongDatabaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.songListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loadSongListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.createNewListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadSongListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editSongListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listBoxTesting = new System.Windows.Forms.ListBox();
             this.searchBox = new System.Windows.Forms.TextBox();
@@ -69,7 +68,6 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newSongToolStripMenuItem,
             this.importSongDatabaseToolStripMenuItem,
-            this.exportSongDatabaseToolStripMenuItem,
             this.settingsToolStripMenuItem,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -79,34 +77,28 @@
             // newSongToolStripMenuItem
             // 
             this.newSongToolStripMenuItem.Name = "newSongToolStripMenuItem";
-            this.newSongToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.newSongToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.newSongToolStripMenuItem.Text = "Create new song";
             this.newSongToolStripMenuItem.Click += new System.EventHandler(this.newSongToolStripMenuItem_Click);
             // 
             // importSongDatabaseToolStripMenuItem
             // 
             this.importSongDatabaseToolStripMenuItem.Name = "importSongDatabaseToolStripMenuItem";
-            this.importSongDatabaseToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.importSongDatabaseToolStripMenuItem.Text = "Import song database";
+            this.importSongDatabaseToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
+            this.importSongDatabaseToolStripMenuItem.Text = "Import/export song database";
             this.importSongDatabaseToolStripMenuItem.Click += new System.EventHandler(this.importSongDatabaseToolStripMenuItem_Click);
-            // 
-            // exportSongDatabaseToolStripMenuItem
-            // 
-            this.exportSongDatabaseToolStripMenuItem.Name = "exportSongDatabaseToolStripMenuItem";
-            this.exportSongDatabaseToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.exportSongDatabaseToolStripMenuItem.Text = "Export song database";
             // 
             // settingsToolStripMenuItem
             // 
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.settingsToolStripMenuItem.Text = "Settings";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(228, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
@@ -120,18 +112,18 @@
             this.songListToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.songListToolStripMenuItem.Text = "Song list";
             // 
+            // createNewListToolStripMenuItem
+            // 
+            this.createNewListToolStripMenuItem.Name = "createNewListToolStripMenuItem";
+            this.createNewListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.createNewListToolStripMenuItem.Text = "Create new list";
+            // 
             // loadSongListToolStripMenuItem
             // 
             this.loadSongListToolStripMenuItem.Name = "loadSongListToolStripMenuItem";
             this.loadSongListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.loadSongListToolStripMenuItem.Text = "Load song list";
             this.loadSongListToolStripMenuItem.Click += new System.EventHandler(this.loadSongListToolStripMenuItem_Click);
-            // 
-            // createNewListToolStripMenuItem
-            // 
-            this.createNewListToolStripMenuItem.Name = "createNewListToolStripMenuItem";
-            this.createNewListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.createNewListToolStripMenuItem.Text = "Create new list";
             // 
             // editSongListToolStripMenuItem
             // 
@@ -276,7 +268,6 @@
         private System.Windows.Forms.Button editButton;
         private System.Windows.Forms.ToolStripMenuItem newSongToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importSongDatabaseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exportSongDatabaseToolStripMenuItem;
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.CheckBox checkBoxInSong;
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;

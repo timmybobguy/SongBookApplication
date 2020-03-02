@@ -43,33 +43,12 @@ namespace SongBookApp
             allMySongs.Add(newSong);
             songCount++;
         }
-
-        public void ToXML()
-        {
-            //for each song etc 
-
-            // Creating xml string and then put string to file 
-            //string output = '<?xml version="1.0" encoding="UTF - 8"?>< dataroot >';
-            //XmlDocument doc = new XmlDocument();
-
-
-
-            //Employee bs = new Employee();
-
-            
-            //TextWriter txtWriter = new StreamWriter(@fileFunctions.savePath);
-            
-        }
-
+      
         public int GetCount()
         {
             return songCount;
         }
-
-
-        //This needs to be changed, just returning string for testing --changed to string array-- NEEDS TO BE PASSING BACK SONG OBJECTS???
         
-
         public object[] GetSearchedTitles(string searchString, bool firstLetter)
         {
 
@@ -96,8 +75,6 @@ namespace SongBookApp
 
             
             Song[] result = resultList.ToArray();
-            //Array.Sort((result, delegate (Song x, Song y) { return x.title.CompareTo(y.title); });
-
             Array.Sort(result, delegate (Song user1, Song user2) {
                 return user1.title.CompareTo(user2.title);
             });

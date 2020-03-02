@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -115,10 +116,7 @@ namespace SongBookApp
                                 listBoxTesting.Items.Add((Song)results[i]);
                             }
                         }
-                        
-
-
-
+         
                         break;
                     case CheckState.Indeterminate:
                         // Code for indeterminate state. 
@@ -155,19 +153,27 @@ namespace SongBookApp
 
         private void importSongDatabaseToolStripMenuItem_Click(object sender, EventArgs e) // This will replace the song database with a new one and then close the application
         {
-            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            try
             {
-                Title = "Select song database",
-                Filter = "XML files (*.xml)|*.xml"
-            };
-
-
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-                //textBox1.Text = openFileDialog1.FileName;
-
-                
+                string x = Path.Combine(fileFunctions.savePath, "..\\");
+                Process.Start(@x);
             }
+            catch (Win32Exception win32Exception)
+            {
+                //The system cannot find the file specified...
+                Console.WriteLine(win32Exception.Message);
+            }
+            //OpenFileDialog openFileDialog1 = new OpenFileDialog
+            //{
+            //    Title = "Select song database",
+            //    Filter = "XML files (*.xml)|*.xml"
+            //};
+
+
+            //if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            //{
+            //textBox1.Text = openFileDialog1.FileName;
+            //}
         }
 
         private void editButton_Click(object sender, EventArgs e)
