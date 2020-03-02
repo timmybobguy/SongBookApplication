@@ -13,9 +13,11 @@ namespace SongBookApp
     public partial class LoadList : Form
     {
         private Songlist[] listArray;
+        public SongBook songBook;
 
-        public LoadList(Songlist[] newListArray)
+        public LoadList(Songlist[] newListArray, SongBook newSongBook)
         {
+            songBook = newSongBook;
             listArray = newListArray;
             InitializeComponent();
 
@@ -29,6 +31,16 @@ namespace SongBookApp
         private void selectButton_Click(object sender, EventArgs e)
         {
             // Load the list into projector
+        }
+
+        private void ProjectList()
+        {
+
+            //songLists.SelectedItem
+               // int[] songs = listArray[i].songListArray;
+
+           
+
         }
     }
 }

@@ -231,7 +231,7 @@ namespace SongBookApp
                 x[i] = fileFunctions.songListManger.allMySongLists[i];
             }
 
-            LoadList test = new LoadList(x);
+            LoadList test = new LoadList(x, songBook);
 
             test.ShowDialog();
 
