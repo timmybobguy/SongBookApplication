@@ -11,6 +11,11 @@ namespace SongBookApp
         public int[] songListArray;
         public string listName;
 
+        public override string ToString()
+        {
+            return listName;
+        }
+
         public void AddSongList(int[] newSongListArray, string newListName)
         {
             songListArray = newSongListArray;

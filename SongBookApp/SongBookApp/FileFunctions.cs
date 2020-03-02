@@ -14,12 +14,16 @@ namespace SongBookApp
         public string filePath;
         public string savePath;
         public XmlDocument document;
+        public XmlDocument listDocument;
         public int songCount;
         public SongBook songBook;
+        public SongListManager songListManger;
+        public int songListCount;
 
-        public void AddFileFunctions(SongBook newSongBook)
+        public void AddFileFunctions(SongBook newSongBook, SongListManager newSongListManager)
         {
             songBook = newSongBook;
+            songListManger = newSongListManager;
         }
 
         public void SetWorkingDirectory()
@@ -53,11 +57,23 @@ namespace SongBookApp
             //Console.WriteLine(songCount);
         }
 
+        public void LoadSongLists()
+        {
+            listDocument = new XmlDocument();
+            listDocument.Load(Path.Combine(filePath, "..\\..\\songLists\\test.xml"));
+
+            // Getting number of songs in file
+
+            XmlElement root = listDocument.DocumentElement;
+            XmlNodeList elemList = root.GetElementsByTagName("SongList");
+            songListCount = elemList.Count;
+        }
+
         public void ToXML()
         {
 
             XmlSerializer xs = new XmlSerializer(typeof(SongBook));
-            FileStream file = File.Create(savePath);
+            FileStream file = File.Create(Path.Combine(filePath, "..\\..\\songLists\\test.xml"));
 
             //XmlIncludeAttribute(Song)
 
@@ -68,6 +84,23 @@ namespace SongBookApp
 
 
             file.Close();
+        }
+
+        public void ListsToXML()
+        {
+            XmlSerializer xs = new XmlSerializer(typeof(SongListManager));
+            FileStream file = File.Create(savePath);
+
+            //XmlIncludeAttribute(Song)
+
+
+            xs.Serialize(file, songListManger);
+
+
+
+
+            file.Close();
+
         }
     }
 }

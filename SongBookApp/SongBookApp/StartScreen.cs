@@ -225,20 +225,15 @@ namespace SongBookApp
 
         private void loadSongListToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string path = Path.Combine(songBook.fileFunctions.filePath, "..\\..\\songLists");
-            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            Songlist[] x = new Songlist[fileFunctions.songListManger.allMySongLists.Count];
+            for (var i = 0; i < fileFunctions.songListManger.allMySongLists.Count; i++)
             {
-                Title = "Select song list",
-                Filter = "XML files (*.xml)|*.xml",
-                InitialDirectory = path
-            };
-
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-                //textBox1.Text = openFileDialog1.FileName;
-
-
+                x[i] = fileFunctions.songListManger.allMySongLists[i];
             }
+
+            LoadList test = new LoadList(x);
+
+            test.ShowDialog();
 
         }
     }
