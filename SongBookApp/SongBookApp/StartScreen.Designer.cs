@@ -47,9 +47,7 @@
             this.editButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
             this.checkBoxInSong = new System.Windows.Forms.CheckBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -59,7 +57,7 @@
             this.songListToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(811, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(600, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -117,6 +115,7 @@
             this.createNewListToolStripMenuItem.Name = "createNewListToolStripMenuItem";
             this.createNewListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.createNewListToolStripMenuItem.Text = "Create new list";
+            this.createNewListToolStripMenuItem.Click += new System.EventHandler(this.createNewListToolStripMenuItem_Click);
             // 
             // loadSongListToolStripMenuItem
             // 
@@ -130,6 +129,7 @@
             this.editSongListToolStripMenuItem.Name = "editSongListToolStripMenuItem";
             this.editSongListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editSongListToolStripMenuItem.Text = "Edit song list";
+            this.editSongListToolStripMenuItem.Click += new System.EventHandler(this.editSongListToolStripMenuItem_Click);
             // 
             // listBoxTesting
             // 
@@ -149,7 +149,7 @@
             // 
             // testProject
             // 
-            this.testProject.Location = new System.Drawing.Point(686, 74);
+            this.testProject.Location = new System.Drawing.Point(174, 399);
             this.testProject.Name = "testProject";
             this.testProject.Size = new System.Drawing.Size(75, 23);
             this.testProject.TabIndex = 5;
@@ -168,11 +168,10 @@
             // 
             // songBody
             // 
-            this.songBody.Dock = System.Windows.Forms.DockStyle.Right;
-            this.songBody.Location = new System.Drawing.Point(584, 16);
+            this.songBody.Location = new System.Drawing.Point(319, 103);
             this.songBody.Margin = new System.Windows.Forms.Padding(0);
             this.songBody.Name = "songBody";
-            this.songBody.Size = new System.Drawing.Size(224, 172);
+            this.songBody.Size = new System.Drawing.Size(233, 290);
             this.songBody.TabIndex = 7;
             this.songBody.Text = "";
             // 
@@ -188,7 +187,7 @@
             // 
             // editButton
             // 
-            this.editButton.Location = new System.Drawing.Point(605, 74);
+            this.editButton.Location = new System.Drawing.Point(93, 399);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(75, 23);
             this.editButton.TabIndex = 10;
@@ -198,7 +197,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(524, 74);
+            this.deleteButton.Location = new System.Drawing.Point(12, 399);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 11;
@@ -216,23 +215,12 @@
             this.checkBoxInSong.Text = "Search in song";
             this.checkBoxInSong.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
-            // 
-            this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.groupBox1.Controls.Add(this.songBody);
-            this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Location = new System.Drawing.Point(0, 399);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(811, 191);
-            this.groupBox1.TabIndex = 13;
-            this.groupBox1.TabStop = false;
-            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(811, 590);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(600, 431);
+            this.Controls.Add(this.songBody);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.listBoxTesting);
@@ -242,13 +230,16 @@
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(600, 460);
             this.Name = "StartScreen";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "SongBook";
             this.Load += new System.EventHandler(this.StartScreen_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,6 +266,5 @@
         private System.Windows.Forms.ToolStripMenuItem loadSongListToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem createNewListToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editSongListToolStripMenuItem;
-        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

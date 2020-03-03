@@ -14,9 +14,12 @@ namespace SongBookApp
     {
         private Songlist[] listArray;
         public SongBook songBook;
+        private bool project;
+        public Songlist listToEdit;
 
-        public LoadList(Songlist[] newListArray, SongBook newSongBook)
+        public LoadList(Songlist[] newListArray, SongBook newSongBook, bool doProject)
         {
+            project = doProject;
             songBook = newSongBook;
             listArray = newListArray;
             InitializeComponent();
@@ -30,22 +33,12 @@ namespace SongBookApp
 
         private void selectButton_Click(object sender, EventArgs e)
         {
-            // Load the list into projector
-            //songLists.SelectedItem
-            // int[] songs = listArray[i].songListArray;
-
             if (songLists.SelectedIndex == -1)
             {
                 MessageBox.Show("Please select a song list before trying to project", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else
+            else if (project)
             {
-                //Song testsong = (Song)listBoxTesting.SelectedItem;
-                //testsong.GetSongBody();
-                //ProjectSong test = new ProjectSong(testsong, songBook.fontSize);
-                //Cursor.Hide()
-                //test.ShowDialog();
-
                 Songlist currSongList = (Songlist)songLists.SelectedItem;
 
                 int[] songs = currSongList.songListArray;
@@ -61,6 +54,11 @@ namespace SongBookApp
                 }
 
             } 
+            else
+            {
+                listToEdit = (Songlist)songLists.SelectedItem;
+                Close();
+            }
         }
     }
 }

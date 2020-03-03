@@ -231,10 +231,182 @@ namespace SongBookApp
                 x[i] = fileFunctions.songListManger.allMySongLists[i];
             }
 
-            LoadList test = new LoadList(x, songBook);
+            LoadList test = new LoadList(x, songBook, true);
 
             test.ShowDialog();
 
+        }
+
+        private void createNewListToolStripMenuItem_Click(object sender, EventArgs e) // CREATING NEW SONG LIST
+        {
+            
+        }
+
+        private void editSongListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Songlist[] x = new Songlist[fileFunctions.songListManger.allMySongLists.Count];
+            for (var i = 0; i < fileFunctions.songListManger.allMySongLists.Count; i++)
+            {
+                x[i] = fileFunctions.songListManger.allMySongLists[i];
+            }
+
+            LoadList test = new LoadList(x, songBook, false);
+
+            test.ShowDialog();
+
+            Songlist listToEdit = test.listToEdit;
+
+            //Now hide/disable all controls that shouldnt be able to be interacted with
+
+            listLayout();
+
+
+        }
+
+        private void listLayout()
+        {
+            deleteButton.Visible = false;
+            editButton.Visible = false;
+            testProject.Visible = false;
+            fileToolStripMenuItem.Enabled = false;
+            songListToolStripMenuItem.Enabled = false;
+
+            songBody.Location = new Point(275, 103);
+
+            Size =  new Size( 900, 470 );
+
+            Button saveList = new Button
+            {
+                Name = "saveListButton",
+                Location = new Point(525, 370),
+                Text = "Save list",
+                Height = 25,
+                Width = 100,
+                BackColor = Color.White
+            };
+
+            saveList.Click += new EventHandler(btn_Click);
+
+            Controls.Add(saveList);
+
+            Button add = new Button
+            {
+                Name = "add",
+                Location = new Point(525, 150),
+                Text = "Add song",
+                Height = 25,
+                Width = 100,
+                BackColor = Color.White
+            };
+
+            add.Click += new EventHandler(btn_Click);
+
+            Controls.Add(add);
+
+            Button remove = new Button
+            {
+                Name = "remove",
+                Location = new Point(525, 175),
+                Text = "Remove song",
+                Height = 25,
+                Width = 100,
+                BackColor = Color.White
+            };
+
+            remove.Click += new EventHandler(btn_Click);
+
+            Controls.Add(remove);
+
+            Button up = new Button
+            {
+                Name = "up",
+                Location = new Point(525, 200),
+                Text = "Move song up",
+                Height = 25,
+                Width = 100,
+                BackColor = Color.White
+            };
+
+            up.Click += new EventHandler(btn_Click);
+
+            Controls.Add(up);
+
+            Button down = new Button
+            {
+                Name = "down",
+                Location = new Point(525, 225),
+                Text = "Move song down",
+                Height = 25,
+                Width = 100,
+                BackColor = Color.White
+            };
+
+            down.Click += new EventHandler(btn_Click);
+
+            Controls.Add(down);
+
+            ListBox songListBox = new ListBox
+            {
+                Name = "songListBox",
+                Location = new Point(635, 103),
+                Height = 290,
+                Width = 237
+            };
+
+            Controls.Add(songListBox);
+
+            TextBox songTitle = new TextBox
+            {
+                Name = "songTitle",
+                Location = new Point(700, 45),
+                Height = 20,
+                Width = 150
+
+            };
+
+            Controls.Add(songTitle);
+
+            Label label = new Label
+            {
+                Location = new Point(640, 47),
+                Text = "List name:",
+                Height = 20,
+                Width = 100
+            };
+
+            Controls.Add(label);
+        }
+
+        private void btn_Click(object sender, EventArgs e)
+        {
+            Button x = sender as Button;
+
+            switch (x.Name)
+            {
+                case "saveListButton":
+                    Console.WriteLine("Case 1");
+                    resetLayout();
+                    break;
+                case "add":
+                    Console.WriteLine("Case 1");
+                    break;
+                case "remove":
+                    Console.WriteLine("Case 1");
+                    break;
+                case "up":
+                    Console.WriteLine("Case 1");
+                    break;
+                case "down":
+                    Console.WriteLine("Case 1");
+                    break;
+            }
+
+        }
+
+        private void resetLayout()
+        {
+            Controls.Clear();
+            InitializeComponent();
         }
     }
 }
