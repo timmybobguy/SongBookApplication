@@ -399,7 +399,7 @@ namespace SongBookApp
                             foreach (var item in listbox.Items)
                             {
                                 Song currSong = (Song)item;
-                                songListString[count] += currSong.songNum;
+                                songListString[count] += currSong.id;
                                 count++;
                             }
 
