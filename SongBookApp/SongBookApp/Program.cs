@@ -43,7 +43,7 @@ namespace SongBookApp
             // Load songs into songbook
 
             
-            songBook.AddSongBook(file.songCount, file.savePath, int.Parse(sAttr), file);
+            songBook.AddSongBook(file.songCount, file.savePath, int.Parse(sAttr), file, listManager);
             // Load song lists into songlistmanager
 
             XmlNode currNode = file.document.DocumentElement.FirstChild.FirstChild;
@@ -65,7 +65,24 @@ namespace SongBookApp
             for (var i = 0; i < file.songListCount; i++)
             {
                 XmlElement listElement = (XmlElement)currListNode;
-                listManager.AddSongList(listElement["songListArray"].InnerText, listElement["listName"].InnerText);
+
+                XmlNode listItemNode = listElement["songListArray"];
+
+                int[] numbers = new int[listItemNode.ChildNodes.Count];
+                
+                for (var x = 0; x < listItemNode.ChildNodes.Count; x++)
+                {
+                    XmlElement number = (XmlElement)listItemNode;
+                    numbers[x] = int.Parse(number.InnerText);
+                    listItemNode = listItemNode.NextSibling;
+                }
+
+                //string test = listElement["songListArray"].InnerText;
+                
+               
+             
+
+                listManager.AddSongList(numbers, listElement["listName"].InnerText);
                 currListNode = currListNode.NextSibling;
             }
 

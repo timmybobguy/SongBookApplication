@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <SongListManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-<allMySongLists>
-
-<SongList>
-
-<listName>this is a test list</listName>
-
-<songListArray>1,2,23,56,14</songListArray>
-
-
-</SongList>
-
-</allMySongLists>
-
+  <allMySongLists>
+    <Songlist>
+      <songListArray>
+        <int>1</int>
+      </songListArray>
+      <listName>this is a test list</listName>
+    </Songlist>
+    <Songlist>
+      <songListArray>
+        <int>1</int>
+      </songListArray>
+      <listName>this is a test list123</listName>
+    </Songlist>
+  </allMySongLists>
 </SongListManager>

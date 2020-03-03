@@ -65,7 +65,7 @@ namespace SongBookApp
             // Getting number of songs in file
 
             XmlElement root = listDocument.DocumentElement;
-            XmlNodeList elemList = root.GetElementsByTagName("SongList");
+            XmlNodeList elemList = root.GetElementsByTagName("Songlist");
             songListCount = elemList.Count;
         }
 

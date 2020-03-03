@@ -20,9 +20,12 @@ namespace SongBookApp
         public int fontSize;
         [XmlIgnore]
         public FileFunctions fileFunctions;
+        [XmlIgnore]
+        public SongListManager songListManager;
 
-        public void AddSongBook(int numberOfSongs, string newSavePath, int newFontSize, FileFunctions newFileFunctions)
+        public void AddSongBook(int numberOfSongs, string newSavePath, int newFontSize, FileFunctions newFileFunctions, SongListManager newSongListManager)
         {
+            songListManager = newSongListManager;
             songCount = numberOfSongs;
             savePath = newSavePath;
             fontSize = newFontSize;

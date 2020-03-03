@@ -35,7 +35,7 @@ namespace SongBookApp
         {
             if (songLists.SelectedIndex == -1)
             {
-                MessageBox.Show("Please select a song list before trying to project", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Please select a song list", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else if (project)
             {

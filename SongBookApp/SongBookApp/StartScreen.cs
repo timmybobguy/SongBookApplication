@@ -17,6 +17,7 @@ namespace SongBookApp
     {
         private SongBook songBook;
         private FileFunctions fileFunctions;
+        private bool editingSongList;
 
         public StartScreen(SongBook newSongBook, FileFunctions newFileFunctions)
         {
@@ -244,6 +245,7 @@ namespace SongBookApp
 
         private void editSongListToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            editingSongList = true;
             Songlist[] x = new Songlist[fileFunctions.songListManger.allMySongLists.Count];
             for (var i = 0; i < fileFunctions.songListManger.allMySongLists.Count; i++)
             {
@@ -259,6 +261,20 @@ namespace SongBookApp
             //Now hide/disable all controls that shouldnt be able to be interacted with
 
             listLayout();
+
+            // Now display the songList
+
+            Control[] selected = Controls.Find("songListBox", true);
+            ListBox listbox = (ListBox)selected[0];
+            Control[] titleSelected = Controls.Find("songTitle", true);
+            TextBox titleTextBox = (TextBox)titleSelected[0];
+
+            for (var y = 0; y < listToEdit.songListArray.Length; y++)
+            {
+                listbox.Items.Add(songBook.allMySongs[listToEdit.songListArray[y]]);
+            }
+
+            titleTextBox.Text = listToEdit.listName;
 
 
         }
@@ -317,34 +333,6 @@ namespace SongBookApp
 
             Controls.Add(remove);
 
-            Button up = new Button
-            {
-                Name = "up",
-                Location = new Point(525, 200),
-                Text = "Move song up",
-                Height = 25,
-                Width = 100,
-                BackColor = Color.White
-            };
-
-            up.Click += new EventHandler(btn_Click);
-
-            Controls.Add(up);
-
-            Button down = new Button
-            {
-                Name = "down",
-                Location = new Point(525, 225),
-                Text = "Move song down",
-                Height = 25,
-                Width = 100,
-                BackColor = Color.White
-            };
-
-            down.Click += new EventHandler(btn_Click);
-
-            Controls.Add(down);
-
             ListBox songListBox = new ListBox
             {
                 Name = "songListBox",
@@ -381,32 +369,79 @@ namespace SongBookApp
         {
             Button x = sender as Button;
 
+            Control[] selected = Controls.Find("songListBox", true);
+            ListBox listbox = (ListBox)selected[0];
+
+            Control[] titleSelected = Controls.Find("songTitle", true);
+            TextBox titleTextBox = (TextBox)titleSelected[0];
+
             switch (x.Name)
             {
                 case "saveListButton":
-                    
-                    resetLayout();
+                    //Add song list to model and save to file
+
+                    if (listbox.Items.Count == 0 || titleTextBox.Text == "")
+                    {
+                        MessageBox.Show("Please have at least one song in your list and have a name", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                    else
+                    {
+                        if (editingSongList)
+                        {
+                            int[] songListString = new int[listbox.Items.Count];
+                            int count = 0;
+                            foreach (var item in listbox.Items)
+                            {
+                                Song currSong = (Song)item;
+                                songListString[count] += currSong.songNum;
+                                count++;
+                            }
+
+                            //songBook.songListManager.AddSongList(songListString, titleTextBox.Text);
+
+                            //songBook.songListManager.allMySongLists
+                        }
+                        else
+                        {
+                            int[] songListString = new int[listbox.Items.Count];
+                            int count = 0;
+                            foreach (var item in listbox.Items)
+                            {
+                                Song currSong = (Song)item;
+                                songListString[count] += currSong.songNum;
+                                count++;
+                            }
+
+                            songBook.songListManager.AddSongList(songListString, titleTextBox.Text);
+
+                        }
+
+                        fileFunctions.ListsToXML();
+                        editingSongList = false;
+
+                        //Reset form back to original state
+                        Controls.Clear();
+                        InitializeComponent();
+                    }
+
                     break;
                 case "add":
-                    Console.WriteLine("Case 1");
+
+                    if (listBoxTesting.SelectedIndex == -1)
+                    {
+                        MessageBox.Show("Please select a song before trying to add it to the list", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                    else
+                    {
+                        listbox.Items.Add(listBoxTesting.SelectedItem);
+                    }
+
                     break;
                 case "remove":
                     Console.WriteLine("Case 1");
                     break;
-                case "up":
-                    Console.WriteLine("Case 1");
-                    break;
-                case "down":
-                    Console.WriteLine("Case 1");
-                    break;
             }
 
-        }
-
-        private void resetLayout()
-        {
-            Controls.Clear();
-            InitializeComponent();
         }
     }
 }
