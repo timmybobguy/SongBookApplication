@@ -384,7 +384,7 @@ namespace SongBookApp
             switch (x.Name)
             {
                 case "saveListButton":
-                    Console.WriteLine("Case 1");
+                    
                     resetLayout();
                     break;
                 case "add":

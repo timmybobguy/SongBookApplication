@@ -73,7 +73,7 @@ namespace SongBookApp
         {
 
             XmlSerializer xs = new XmlSerializer(typeof(SongBook));
-            FileStream file = File.Create(Path.Combine(filePath, "..\\..\\songLists\\test.xml"));
+            FileStream file = File.Create(savePath);
 
             //XmlIncludeAttribute(Song)
 
@@ -89,7 +89,7 @@ namespace SongBookApp
         public void ListsToXML()
         {
             XmlSerializer xs = new XmlSerializer(typeof(SongListManager));
-            FileStream file = File.Create(savePath);
+            FileStream file = File.Create(Path.Combine(filePath, "..\\..\\songLists\\test.xml"));
 
             //XmlIncludeAttribute(Song)
 

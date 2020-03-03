@@ -40,6 +40,7 @@ namespace SongBookApp
                 {
                     int num = songBook.songCount;
                     songBook.AddSong(num - 1, num - 1, 0, num, textBoxTitle.Text, "", songBody.Text);
+                    songBook.songCount++;
                     fileFunctions.ToXML();
                     Close();
                 }
