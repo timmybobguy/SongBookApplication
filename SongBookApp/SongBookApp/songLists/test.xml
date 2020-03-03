@@ -13,5 +13,23 @@
       </songListArray>
       <listName>TEST!@#ad</listName>
     </Songlist>
+    <Songlist>
+      <songListArray>
+        <int>206</int>
+      </songListArray>
+      <listName>TESTSETSETa</listName>
+    </Songlist>
+    <Songlist>
+      <songListArray>
+        <int>193</int>
+      </songListArray>
+      <listName>new123a</listName>
+    </Songlist>
+    <Songlist>
+      <songListArray>
+        <int>97</int>
+      </songListArray>
+      <listName>A wonder</listName>
+    </Songlist>
   </allMySongLists>
 </SongListManager>

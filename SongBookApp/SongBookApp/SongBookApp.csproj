@@ -119,10 +119,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="songs.xml" />
+    <Content Include="songFiles\original.xml" />
+    <Content Include="songFiles\saveversion.xml" />
+    <Content Include="songLists\test.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
