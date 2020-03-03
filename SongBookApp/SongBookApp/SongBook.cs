@@ -41,7 +41,6 @@ namespace SongBookApp
                 newSong.AddSong(id, newSongID, newBookID, newSongNum, newTitle, newKey, newBody, false);
             }
             allMySongs.Add(newSong);
-            songCount++;
         }
       
         public int GetCount()
