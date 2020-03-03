@@ -4,12 +4,8 @@
     <Songlist>
       <songListArray>
         <int>1</int>
-      </songListArray>
-      <listName>this is a test list</listName>
-    </Songlist>
-    <Songlist>
-      <songListArray>
-        <int>1</int>
+        <int>89</int>
+        <int>89</int>
       </songListArray>
       <listName>this is a test list123</listName>
     </Songlist>

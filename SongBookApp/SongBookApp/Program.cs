@@ -65,14 +65,17 @@ namespace SongBookApp
             for (var i = 0; i < file.songListCount; i++)
             {
                 XmlElement listElement = (XmlElement)currListNode;
+                XmlNode testNode = listElement["songListArray"];
 
-                XmlNode listItemNode = listElement["songListArray"];
+                XmlNode listItemNode = testNode.FirstChild;
 
-                int[] numbers = new int[listItemNode.ChildNodes.Count];
-                
-                for (var x = 0; x < listItemNode.ChildNodes.Count; x++)
+                int[] numbers = new int[testNode.ChildNodes.Count];
+
+                for (var x = 0; x < testNode.ChildNodes.Count; x++)
                 {
                     XmlElement number = (XmlElement)listItemNode;
+                    //XmlNode numberNode = listItemNode.FirstChild;
+                    //XmlElement number = (XmlElement)numberNode;
                     numbers[x] = int.Parse(number.InnerText);
                     listItemNode = listItemNode.NextSibling;
                 }

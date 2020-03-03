@@ -56,6 +56,7 @@ namespace SongBookApp
             } 
             else
             {
+                DialogResult = DialogResult.OK;
                 listToEdit = (Songlist)songLists.SelectedItem;
                 Close();
             }

@@ -18,6 +18,7 @@ namespace SongBookApp
         private SongBook songBook;
         private FileFunctions fileFunctions;
         private bool editingSongList;
+        private Songlist listToEdit;
 
         public StartScreen(SongBook newSongBook, FileFunctions newFileFunctions)
         {
@@ -254,27 +255,32 @@ namespace SongBookApp
 
             LoadList test = new LoadList(x, songBook, false);
 
-            test.ShowDialog();
+            DialogResult loadPicker = test.ShowDialog();
 
-            Songlist listToEdit = test.listToEdit;
-
-            //Now hide/disable all controls that shouldnt be able to be interacted with
-
-            listLayout();
-
-            // Now display the songList
-
-            Control[] selected = Controls.Find("songListBox", true);
-            ListBox listbox = (ListBox)selected[0];
-            Control[] titleSelected = Controls.Find("songTitle", true);
-            TextBox titleTextBox = (TextBox)titleSelected[0];
-
-            for (var y = 0; y < listToEdit.songListArray.Length; y++)
+            if (loadPicker == DialogResult.OK)
             {
-                listbox.Items.Add(songBook.allMySongs[listToEdit.songListArray[y]]);
-            }
+                listToEdit = test.listToEdit;
 
-            titleTextBox.Text = listToEdit.listName;
+                //Now hide/disable all controls that shouldnt be able to be interacted with
+
+                listLayout();
+
+                // Now display the songList
+
+                Control[] selected = Controls.Find("songListBox", true);
+                ListBox listbox = (ListBox)selected[0];
+                Control[] titleSelected = Controls.Find("songTitle", true);
+                TextBox titleTextBox = (TextBox)titleSelected[0];
+
+                for (var y = 0; y < listToEdit.songListArray.Length; y++)
+                {
+                    int songListNum = listToEdit.songListArray[y];
+                    listbox.Items.Add(songBook.allMySongs[songListNum]);
+                }
+
+                titleTextBox.Text = listToEdit.listName;
+
+            }
 
 
         }
@@ -397,9 +403,10 @@ namespace SongBookApp
                                 count++;
                             }
 
-                            //songBook.songListManager.AddSongList(songListString, titleTextBox.Text);
+                            listToEdit.songListArray = songListString;
+                            listToEdit.listName = titleTextBox.Text;
 
-                            //songBook.songListManager.allMySongLists
+                            //songBook.songListManager.allMySongLists[x].songListString = songListString etc... 
                         }
                         else
                         {
