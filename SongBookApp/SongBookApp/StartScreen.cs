@@ -178,7 +178,7 @@ namespace SongBookApp
         {
             try
             {
-                string x = Path.Combine(fileFunctions.savePath, "..\\");
+                string x = Path.Combine(fileFunctions.savePath, "songFiles");
                 Process.Start(@x);
             }
             catch (Win32Exception win32Exception)

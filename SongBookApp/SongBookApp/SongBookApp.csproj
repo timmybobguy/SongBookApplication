@@ -120,9 +120,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="songFiles\original.xml" />
-    <Content Include="songFiles\saveversion.xml" />
-    <Content Include="songLists\test.xml" />
+    <Content Include="songFiles\songs.xml" />
+    <Content Include="songLists\lists.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

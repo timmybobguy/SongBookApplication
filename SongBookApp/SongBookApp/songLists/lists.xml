@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<SongListManager xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <allMySongLists>
+    <Songlist>
+      <songListArray>
+        <int>56</int>
+      </songListArray>
+      <listName>Example list</listName>
+    </Songlist>
+  </allMySongLists>
+</SongListManager>

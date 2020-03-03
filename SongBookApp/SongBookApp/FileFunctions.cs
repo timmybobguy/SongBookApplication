@@ -32,11 +32,11 @@ namespace SongBookApp
             {
                 string directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
                 
-                string finalPath = Path.Combine(directory, "songFiles\\original.xml");
+                string finalPath = Path.Combine(directory, "songFiles\\songs.xml");
                 Console.WriteLine(finalPath);
                 filePath = finalPath;
 
-                savePath = Path.Combine(directory, "songFiles\\original.xml"); //For testing right now
+                savePath = Path.Combine(directory, "songFiles\\songs.xml"); //For testing right now
             }
             catch (Exception e)
             {
@@ -60,7 +60,7 @@ namespace SongBookApp
         public void LoadSongLists()
         {
             listDocument = new XmlDocument();
-            listDocument.Load(Path.Combine(filePath, "..\\..\\songLists\\test.xml"));
+            listDocument.Load(Path.Combine(filePath, "..\\..\\songLists\\lists.xml"));
 
             // Getting number of songs in file
 
@@ -89,7 +89,7 @@ namespace SongBookApp
         public void ListsToXML()
         {
             XmlSerializer xs = new XmlSerializer(typeof(SongListManager));
-            FileStream file = File.Create(Path.Combine(filePath, "..\\..\\songLists\\test.xml"));
+            FileStream file = File.Create(Path.Combine(filePath, "..\\..\\songLists\\lists.xml"));
 
             //XmlIncludeAttribute(Song)
 
