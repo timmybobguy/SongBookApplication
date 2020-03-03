@@ -32,11 +32,11 @@ namespace SongBookApp
             {
                 string directory = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
                 
-                string finalPath = Path.Combine(directory, "..\\..\\songFiles\\original.xml");
+                string finalPath = Path.Combine(directory, "songFiles\\original.xml");
                 Console.WriteLine(finalPath);
                 filePath = finalPath;
 
-                savePath = Path.Combine(directory, "..\\..\\songFiles\\original.xml"); //For testing right now
+                savePath = Path.Combine(directory, "songFiles\\original.xml"); //For testing right now
             }
             catch (Exception e)
             {

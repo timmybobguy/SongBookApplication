@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CC96DAD2DF6BA3099194458C41AF54CB"
+        "OwnerKey" = "8:_7CA46CDDB9954BC2A5E95A99CB6E0D15"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7CA46CDDB9954BC2A5E95A99CB6E0D15"
+        "OwnerKey" = "8:_CC96DAD2DF6BA3099194458C41AF54CB"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -71,6 +87,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -127,7 +151,7 @@
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
             "Register" = "3:1"
-            "Exclude" = "11:TRUE"
+            "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -188,7 +212,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SongBookAppSetup"
         "ProductCode" = "8:{D6B33C8E-0631-4BF0-853F-5BCE25391890}"
-        "PackageCode" = "8:{6A34A80D-F8D3-4B97-B353-B4318BAE55A1}"
+        "PackageCode" = "8:{CFD5A823-79D4-4BF7-B10D-4460D0E1F30D}"
         "UpgradeCode" = "8:{93CFA5BD-BA45-43D0-A2D4-40E5F3254A66}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -196,7 +220,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:SongBookApp"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:SongBookAppSetup"
@@ -817,6 +841,7 @@
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
+                "ExcludeFilter" = "8:App.config"
                 }
             }
         }
