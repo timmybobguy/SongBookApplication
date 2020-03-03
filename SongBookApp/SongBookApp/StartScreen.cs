@@ -262,7 +262,9 @@ namespace SongBookApp
 
         private void createNewListToolStripMenuItem_Click(object sender, EventArgs e) // CREATING NEW SONG LIST
         {
-            
+            Songlist newSongList = new Songlist();
+            listToEdit = newSongList;
+            listLayout();
         }
 
         private void editSongListToolStripMenuItem_Click(object sender, EventArgs e)

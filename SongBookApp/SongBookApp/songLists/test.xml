@@ -3,13 +3,15 @@
   <allMySongLists>
     <Songlist>
       <songListArray>
-        <int>4</int>
         <int>56</int>
-        <int>56</int>
-        <int>198</int>
-        <int>198</int>
       </songListArray>
       <listName>this is a test list123</listName>
+    </Songlist>
+    <Songlist>
+      <songListArray>
+        <int>133</int>
+      </songListArray>
+      <listName>TEST!@#ad</listName>
     </Songlist>
   </allMySongLists>
 </SongListManager>
