@@ -11,6 +11,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace SongBookApp
 {
     public partial class StartScreen : Form
@@ -25,6 +26,26 @@ namespace SongBookApp
             InitializeComponent();
             songBook = newSongBook;
             fileFunctions = newFileFunctions;
+        }
+
+        public int[] RemoveIndices(int[] IndicesArray, int RemoveAt)
+        {
+            int[] newIndicesArray = new int[IndicesArray.Length - 1];
+
+            int i = 0;
+            int j = 0;
+            while (i < IndicesArray.Length)
+            {
+                if (i != RemoveAt)
+                {
+                    newIndicesArray[j] = IndicesArray[i];
+                    j++;
+                }
+
+                i++;
+            }
+
+            return newIndicesArray;
         }
 
         private void quitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -445,10 +466,29 @@ namespace SongBookApp
 
                     break;
                 case "remove":
-                    Console.WriteLine("Case 1");
+
+                    if (listbox.SelectedIndex == -1)
+                    {
+                        MessageBox.Show("Please select a song before trying to delete it from the list", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                    else
+                    {
+                        int toDelete = listbox.SelectedIndex;
+
+                        listbox.Items.Remove(listbox.SelectedItem);
+
+                        //Now remove the song from the model
+
+                        listToEdit.songListArray = RemoveIndices(listToEdit.songListArray, toDelete);
+                    }
+
                     break;
             }
 
+
+
         }
+
+        
     }
 }
