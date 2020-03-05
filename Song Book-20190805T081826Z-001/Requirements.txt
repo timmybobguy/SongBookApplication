@@ -17,14 +17,9 @@ Not now, just when ever. Thanks
 
 THINGS TO DO
 
--Make main screen extent vertically
--Do song list thingy
--Do controls for presentation (left,right,up,down) DONE
-
--Font adjustment DONE
-
--DONT EXIT on end of song, only escape for exit. Just keep on last paragraph if pressed again. DONE
-
--DO SEARCH ALPHABETIALLLY DONE
-
-- DO SAVE TO FILE DONE
+-- Remove sound when enter is pressed in searchbar
+-- Import / export needs to be fixed, or get it to open folder like intented 
+-- Fix bug with deleting song from songlist, this could be because its deleted from the box and another piece of code is trying to look at it
+-- Remake the load song list, have it so that the song list is displayed. Have a close button. Be able to select any song and play it.
+-- Get project song text to be centered with the left alignment
+-- Put paragraph numbers when presenting e.g. 1-4, 2-4, etc. Bottom right

@@ -224,18 +224,25 @@ namespace SongBookApp
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            if (listBoxTesting.SelectedIndex == -1)
+            DialogResult sure = MessageBox.Show("Are you sure?", "Delete confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+
+            if (sure == DialogResult.OK)
             {
-                MessageBox.Show("Please select a song before trying to delete it", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                if (listBoxTesting.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Please select a song before trying to delete it", "Incorrect input", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
+                else
+                {
+                    songBook.allMySongs.Remove((Song)listBoxTesting.SelectedItem);
+                    fileFunctions.ToXML();
+                    listBoxTesting.Items.Clear();
+                    titleLabel.Text = "";
+                    songBody.Text = "";
+                }
             }
-            else
-            {
-                songBook.allMySongs.Remove((Song)listBoxTesting.SelectedItem);
-                fileFunctions.ToXML();
-                listBoxTesting.Items.Clear();
-                titleLabel.Text = "";
-                songBody.Text = "";
-            }
+
+           
 
         }
 

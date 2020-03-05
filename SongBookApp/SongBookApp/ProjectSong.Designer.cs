@@ -42,7 +42,7 @@
             this.textLabel.Size = new System.Drawing.Size(800, 450);
             this.textLabel.TabIndex = 0;
             this.textLabel.Text = "paragraphText";
-            this.textLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.textLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ProjectSong
             // 
