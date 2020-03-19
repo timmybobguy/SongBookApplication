@@ -37,8 +37,16 @@ namespace SongBookApp
             songParagraphs = currentSong.GetSongBody();
             //Set first paragraph to display 
             textLabel.Text = songParagraphs[0];
+        }
 
-
+        public void setText()
+        {
+            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
+            textLabel.AutoSize = true;
+            textLabel.TextAlign = ContentAlignment.MiddleLeft;
+            textLabel.Dock = DockStyle.None;
+            textLabel.Location = new Point((screenWidth / 2) - (textLabel.Size.Width / 2), (screenHeight / 2) - (textLabel.Size.Height / 2));
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)

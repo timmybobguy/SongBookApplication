@@ -82,9 +82,13 @@ namespace SongBookApp
 
                 ProjectSong test = new ProjectSong(testsong, songBook.fontSize);
 
+                test.setText();
+
                 Cursor.Hide();
 
                 test.ShowDialog();
+
+                
             }
             
         }
@@ -93,7 +97,7 @@ namespace SongBookApp
         {
             if (e.KeyChar == (char)13)
             {
-
+                e.Handled = true;
                 listBoxTesting.BeginUpdate();
                 listBoxTesting.Items.Clear();
 

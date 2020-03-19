@@ -34,12 +34,12 @@
             // 
             // textLabel
             // 
-            this.textLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textLabel.AutoSize = true;
             this.textLabel.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textLabel.ForeColor = System.Drawing.Color.White;
-            this.textLabel.Location = new System.Drawing.Point(0, 0);
+            this.textLabel.Location = new System.Drawing.Point(255, 183);
             this.textLabel.Name = "textLabel";
-            this.textLabel.Size = new System.Drawing.Size(800, 450);
+            this.textLabel.Size = new System.Drawing.Size(270, 45);
             this.textLabel.TabIndex = 0;
             this.textLabel.Text = "paragraphText";
             this.textLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -59,6 +59,7 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ProjectSong_KeyPress);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
