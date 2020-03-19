@@ -23,3 +23,15 @@ THINGS TO DO
 -- Remake the load song list, have it so that the song list is displayed. Have a close button. Be able to select any song and play it.
 -- Get project song text to be centered with the left alignment
 -- Put paragraph numbers when presenting e.g. 1-4, 2-4, etc. Bottom right
+-- Put a cancel song list button to exit out of making a list without any changes
+-- Make project button be full size of song list box underneath, and make delete and edit half the size of the song text box.
+	Then make delete and edit greyed out (disabled) when no song is selected
+-- Have a gap (newline) between CHORUS and the chorus text when projecting
+
+MAYBE
+
+-- Get main form to stretch down 
+
+LONGTERM 
+
+-- Put chords of songs displayed with text

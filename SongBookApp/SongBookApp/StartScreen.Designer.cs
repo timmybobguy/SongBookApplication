@@ -149,7 +149,7 @@
             // 
             // testProject
             // 
-            this.testProject.Location = new System.Drawing.Point(174, 399);
+            this.testProject.Location = new System.Drawing.Point(85, 399);
             this.testProject.Name = "testProject";
             this.testProject.Size = new System.Drawing.Size(75, 23);
             this.testProject.TabIndex = 5;
@@ -187,7 +187,7 @@
             // 
             // editButton
             // 
-            this.editButton.Location = new System.Drawing.Point(93, 399);
+            this.editButton.Location = new System.Drawing.Point(320, 399);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(75, 23);
             this.editButton.TabIndex = 10;
@@ -197,7 +197,7 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.Location = new System.Drawing.Point(12, 399);
+            this.deleteButton.Location = new System.Drawing.Point(477, 396);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(75, 23);
             this.deleteButton.TabIndex = 11;
