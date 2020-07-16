@@ -12,3 +12,7 @@
 
 - Not sure if you have done this or not, but for the Song book program could you make the mouse invisible when it’s presenting the song
 Not now, just when ever. Thanks
+
+
+
+Malcolm has a hand held presenter device, I found they use Page Down for next slide and Page Up for previous slide, I’m trying to add these buttons to the Song Book App, can I do this by editing code or do you need to compile the code again?
