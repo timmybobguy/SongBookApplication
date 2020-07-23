@@ -91,6 +91,26 @@ namespace SongBookApp
                 }
                 return true;
             }
+            //capture pagedown
+            if (keyData == Keys.PageDown)
+            {
+                if (currentParagraph + 1 != songParagraphs.Length)
+                {
+                    currentParagraph++;
+                    textLabel.Text = songParagraphs[currentParagraph];
+                }
+                return true;
+            }
+            //capture pageup
+            if (keyData == Keys.PageUp)
+            {
+                if (currentParagraph != 0)
+                {
+                    currentParagraph = currentParagraph - 1;
+                    textLabel.Text = songParagraphs[currentParagraph];
+                }
+                return true;
+            }
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
