@@ -180,27 +180,40 @@ namespace SongBookApp
 
         private void importSongDatabaseToolStripMenuItem_Click(object sender, EventArgs e) // This will replace the song database with a new one and then close the application
         {
-            try
+            string x = fileFunctions.savePath.Substring(0, fileFunctions.savePath.Length - 10);
+            if (Directory.Exists(x))
             {
-                string x = Path.Combine(fileFunctions.savePath, "songFiles");
-                Process.Start(@x);
+                ProcessStartInfo startInfo = new ProcessStartInfo
+                {
+                    Arguments = x,
+                    FileName = "explorer.exe"
+                };
+                Process.Start(startInfo);
             }
-            catch (Win32Exception win32Exception)
+            else
             {
-                //The system cannot find the file specified...
-                Console.WriteLine(win32Exception.Message);
+                MessageBox.Show(string.Format("{0} Directory does not exist!", x));
             }
-            //OpenFileDialog openFileDialog1 = new OpenFileDialog
-            //{
-            //    Title = "Select song database",
-            //    Filter = "XML files (*.xml)|*.xml"
-            //};
 
+        }
 
-            //if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            //{
-            //textBox1.Text = openFileDialog1.FileName;
-            //}
+        private void importexportSongListsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string x = fileFunctions.savePath.Substring(0, fileFunctions.savePath.Length - 10);
+            x = Path.Combine(x, "\\songLists");
+            if (Directory.Exists(x))
+            {
+                ProcessStartInfo startInfo = new ProcessStartInfo
+                {
+                    Arguments = x,
+                    FileName = "explorer.exe"
+                };
+                Process.Start(startInfo);
+            }
+            else
+            {
+                MessageBox.Show(string.Format("{0} Directory does not exist!", x));
+            }
         }
 
         private void editButton_Click(object sender, EventArgs e)
@@ -344,6 +357,20 @@ namespace SongBookApp
             saveList.Click += new EventHandler(btn_Click);
 
             Controls.Add(saveList);
+
+            Button cancel = new Button
+            {
+                Name = "cancel",
+                Location = new Point(525, 345),
+                Text = "Cancel",
+                Height = 25,
+                Width = 100,
+                BackColor = Color.White
+            };
+
+            cancel.Click += new EventHandler(btn_Click);
+
+            Controls.Add(cancel);
 
             Button add = new Button
             {
@@ -496,12 +523,13 @@ namespace SongBookApp
                     }
 
                     break;
+                case "cancel":
+
+                    Controls.Clear();
+                    InitializeComponent();
+
+                    break;
             }
-
-
-
         }
-
-        
     }
 }

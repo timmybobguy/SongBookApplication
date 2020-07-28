@@ -61,5 +61,10 @@ namespace SongBookApp
                 Close();
             }
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

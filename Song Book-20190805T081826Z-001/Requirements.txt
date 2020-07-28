@@ -15,13 +15,13 @@ THINGS TO DO
 DONE -- Remove sound when enter is pressed in searchbar
 -- Import / export needs to be fixed, or get it to open folder like intented. copy/download song list, update songlist
 -- Fix bug with deleting song from songlist, this could be because its deleted from the box and another piece of code is trying to look at it
--- Remake the load song list, have it so that the song list is displayed. Have a close button. Be able to select any song and play it.
--- Get project song text to be centered with the left alignment
--- Put paragraph numbers when presenting e.g. 1-4, 2-4, etc. Bottom right
--- Put a cancel song list button to exit out of making a list without any changes
--- Make project button be full size of song list box underneath, and make delete and edit half the size of the song text box.
-	Then make delete and edit greyed out (disabled) when no song is selected
--- Have a gap (newline) between CHORUS and the chorus text when projecting
+DONE? -- Remake the load song list, have it so that the song list is displayed. Have a close button. Be able to select any song and play it.
+DONE -- Get project song text to be centered with the left alignment
+?-- Put paragraph numbers when presenting e.g. 1-4, 2-4, etc. Bottom right
+DONE?-- Put a cancel song list button to exit out of making a list without any changes
+DONE -- Make project button be full size of song list box underneath, and make delete and edit half the size of the song text box.
+DONE -- Then make delete and edit greyed out (disabled) when no song is selected
+DONE -- Have a gap (newline) between CHORUS and the chorus text when projecting
 DONE -- Malcolm has a hand held presenter device, I found they use Page Down for next slide and Page Up for previous slide, I’m trying to add these buttons to the Song Book App
 DONE -- For the Song book program could you make the mouse invisible when it’s presenting the song
 

@@ -20,7 +20,7 @@ namespace SongBookApp
         public ProjectSong(Song newCurrentSong, int newFontSize)
         {
             fontSize = newFontSize;
-            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer,true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.DoubleBuffer, true);
             currentSong = newCurrentSong;
             InitializeComponent();
             textLabel.BackColor = Color.Transparent;
@@ -56,8 +56,7 @@ namespace SongBookApp
             {
                 if (currentParagraph != 0)
                 {
-                    currentParagraph = currentParagraph - 1;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    PreviousParagraph();
                 }
                 return true;
             }
@@ -66,28 +65,25 @@ namespace SongBookApp
             {
                 if (currentParagraph + 1 != songParagraphs.Length)
                 {
-                    currentParagraph++;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    NextParagraph();
                 }
                 return true;
             }
             //capture left arrow key
             if (keyData == Keys.Left)
             {
-                if(currentParagraph != 0)
+                if (currentParagraph != 0)
                 {
-                    currentParagraph = currentParagraph - 1;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    PreviousParagraph();
                 }
                 return true;
             }
             //capture right arrow key
             if (keyData == Keys.Right)
             {
-                if(currentParagraph + 1 != songParagraphs.Length)
+                if (currentParagraph + 1 != songParagraphs.Length)
                 {
-                    currentParagraph++;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    NextParagraph();
                 }
                 return true;
             }
@@ -96,8 +92,7 @@ namespace SongBookApp
             {
                 if (currentParagraph + 1 != songParagraphs.Length)
                 {
-                    currentParagraph++;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    NextParagraph();
                 }
                 return true;
             }
@@ -106,12 +101,45 @@ namespace SongBookApp
             {
                 if (currentParagraph != 0)
                 {
-                    currentParagraph = currentParagraph - 1;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    PreviousParagraph();
                 }
                 return true;
             }
             return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        public void NextParagraph()
+        { 
+            currentParagraph++;
+            
+            if (songParagraphs[currentParagraph].Contains("CHORUS"))
+            {
+
+                int chorusPosition = songParagraphs[currentParagraph].IndexOf("CHORUS") + 6;
+                string chorusString = songParagraphs[currentParagraph].Insert(chorusPosition, "\n\t");
+                textLabel.Text = chorusString;
+
+            } else
+            {
+                textLabel.Text = songParagraphs[currentParagraph];
+            }  
+        }
+
+        public void PreviousParagraph()
+        {
+            currentParagraph = currentParagraph - 1;
+            if (songParagraphs[currentParagraph].Contains("CHORUS"))
+            {
+
+                int chorusPosition = songParagraphs[currentParagraph].IndexOf("CHORUS") + 6;
+                string chorusString = songParagraphs[currentParagraph].Insert(chorusPosition, "\n\t");
+                textLabel.Text = chorusString;
+
+            }
+            else
+            {
+                textLabel.Text = songParagraphs[currentParagraph];
+            }
         }
 
         private void ProjectSong_KeyPress(object sender, KeyPressEventArgs e) // Keypress handler
@@ -125,8 +153,7 @@ namespace SongBookApp
             {
                 if (currentParagraph + 1 != songParagraphs.Length)
                 {
-                    currentParagraph++;
-                    textLabel.Text = songParagraphs[currentParagraph];
+                    NextParagraph();
                 }    
             }
         }
