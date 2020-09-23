@@ -1,4 +1,4 @@
--Same functionality 
+-Same functionality
 -Password login
 -Seperate online + offline
 -PHP that writes the HTML, SQL
@@ -12,6 +12,10 @@
 
 THINGS TO DO
 
+-- Remove gap between word chorus and actual CHORUS
+-- Larger font size cap (80)
+-- Fix saving font size, this does not set each time app is opened
+
 DONE -- Remove sound when enter is pressed in searchbar
 -- Import / export needs to be fixed, or get it to open folder like intented. copy/download song list, update songlist
 -- Fix bug with deleting song from songlist, this could be because its deleted from the box and another piece of code is trying to look at it
@@ -22,13 +26,13 @@ DONE?-- Put a cancel song list button to exit out of making a list without any c
 DONE -- Make project button be full size of song list box underneath, and make delete and edit half the size of the song text box.
 DONE -- Then make delete and edit greyed out (disabled) when no song is selected
 DONE -- Have a gap (newline) between CHORUS and the chorus text when projecting
-DONE -- Malcolm has a hand held presenter device, I found they use Page Down for next slide and Page Up for previous slide, I’m trying to add these buttons to the Song Book App
-DONE -- For the Song book program could you make the mouse invisible when it’s presenting the song
+DONE -- Malcolm has a hand held presenter device, I found they use Page Down for next slide and Page Up for previous slide, Iï¿½m trying to add these buttons to the Song Book App
+DONE -- For the Song book program could you make the mouse invisible when itï¿½s presenting the song
 
 MAYBE
 
--- Get main form to stretch down 
+-- Get main form to stretch down
 
-LONGTERM 
+LONGTERM
 
 -- Put chords of songs displayed with text
