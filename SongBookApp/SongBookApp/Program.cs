@@ -1,8 +1,12 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
+using System.Configuration;
+using System.Collections.Specialized;
 
 namespace SongBookApp
 {
@@ -14,11 +18,85 @@ namespace SongBookApp
         [STAThread]
         static void Main()
         {
+
+            //Loading in initial font size setting
+            string sAttr;
+            sAttr = ConfigurationManager.AppSettings.Get("fontSize");
+
+
+
+            // In this main program the file is loaded in and everything is set up, then the visual interface is initiated.
+
+            SongBook songBook = new SongBook();
+
+            SongListManager listManager = new SongListManager();
+
+            FileFunctions file = new FileFunctions();
+            file.AddFileFunctions(songBook, listManager);
+
+            // Load file 
+
+            file.SetWorkingDirectory();
+
+            file.LoadDocument();
+
+            // Load songs into songbook
+
+
+            songBook.AddSongBook(file.songCount, file.savePath, int.Parse(sAttr), file, listManager);
+            // Load song lists into songlistmanager
+
+            XmlNode currNode = file.document.DocumentElement.FirstChild.FirstChild;
+
+            for (var i = 0; i < file.songCount; i++)
+            {
+                XmlElement songElement = (XmlElement)currNode;
+                songBook.AddSong(i, int.Parse(songElement["songId"].InnerText), int.Parse(songElement["bookId"].InnerText), int.Parse(songElement["songNum"].InnerText), songElement["title"].InnerText, songElement["key"].InnerText, songElement["body"].InnerText);
+                currNode = currNode.NextSibling; //Going to next song in the XML file
+            }
+
+            // DOING SONG LISTS
+
+            
+            file.LoadSongLists();
+
+            XmlNode currListNode = file.listDocument.DocumentElement.FirstChild.FirstChild;
+
+            for (var i = 0; i < file.songListCount; i++)
+            {
+                XmlElement listElement = (XmlElement)currListNode;
+                XmlNode testNode = listElement["songListArray"];
+
+                XmlNode listItemNode = testNode.FirstChild;
+
+                int[] numbers = new int[testNode.ChildNodes.Count];
+
+                for (var x = 0; x < testNode.ChildNodes.Count; x++)
+                {
+                    XmlElement number = (XmlElement)listItemNode;
+                    //XmlNode numberNode = listItemNode.FirstChild;
+                    //XmlElement number = (XmlElement)numberNode;
+                    numbers[x] = int.Parse(number.InnerText);
+                    listItemNode = listItemNode.NextSibling;
+                }
+
+                //string test = listElement["songListArray"].InnerText;
+                
+               
+             
+
+                listManager.AddSongList(numbers, listElement["listName"].InnerText);
+                currListNode = currListNode.NextSibling;
+            }
+
+            listManager.LoadSongLists();
+            // Then load the visual interface
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartScreen());
+            Application.Run(new StartScreen(songBook, file));
 
-            Song test1 = new Song("Song1", 1, "This is a song, bla bla bla");
+            
 
             
         }
